@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="1362InfantLouisRichards.RDConnectInternalUse" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>240</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/MainPage.xbf">
+				<Candidate type="Path">
+					<Value>MainPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="RD Connect.xr.xml" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/RD%20Connect.xr.xml">
+				<Candidate type="Path">
+					<Value>RD Connect.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="Logo.png" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Square71x71Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WideLogo.png" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/WideLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\WideLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="www">
+					<NamedResource name="favicon.ico" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/favicon.ico">
+						<Candidate type="Path">
+							<Value>Assets\www\favicon.ico</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="goindex.html" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/goindex.html">
+						<Candidate type="Path">
+							<Value>Assets\www\goindex.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="home.html" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/home.html">
+						<Candidate type="Path">
+							<Value>Assets\www\home.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="index.html" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/index.html">
+						<Candidate type="Path">
+							<Value>Assets\www\index.html</Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="assets">
+						<ResourceMapSubtree name="css">
+							<NamedResource name="font-awesome.min.css" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/css/font-awesome.min.css">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\css\font-awesome.min.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ie8.css" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/css/ie8.css">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\css\ie8.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ie9.css" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/css/ie9.css">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\css\ie9.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="main.css" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/css/main.css">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\css\main.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="noscript.css" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/css/noscript.css">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\css\noscript.css</Value>
+								</Candidate>
+							</NamedResource>
+							<ResourceMapSubtree name="images">
+								<NamedResource name="arrow-small.svg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/css/images/arrow-small.svg">
+									<Candidate type="Path">
+										<Value>Assets\www\assets\css\images\arrow-small.svg</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="arrow.svg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/css/images/arrow.svg">
+									<Candidate type="Path">
+										<Value>Assets\www\assets\css\images\arrow.svg</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="close-small-alt.svg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/css/images/close-small-alt.svg">
+									<Candidate type="Path">
+										<Value>Assets\www\assets\css\images\close-small-alt.svg</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="close-small.svg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/css/images/close-small.svg">
+									<Candidate type="Path">
+										<Value>Assets\www\assets\css\images\close-small.svg</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="close.svg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/css/images/close.svg">
+									<Candidate type="Path">
+										<Value>Assets\www\assets\css\images\close.svg</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="open-small.svg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/css/images/open-small.svg">
+									<Candidate type="Path">
+										<Value>Assets\www\assets\css\images\open-small.svg</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="open.svg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/css/images/open.svg">
+									<Candidate type="Path">
+										<Value>Assets\www\assets\css\images\open.svg</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="spinner.svg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/css/images/spinner.svg">
+									<Candidate type="Path">
+										<Value>Assets\www\assets\css\images\spinner.svg</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="fonts">
+							<NamedResource name="fontawesome-webfont.svg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/fonts/fontawesome-webfont.svg">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\fonts\fontawesome-webfont.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="fontawesome-webfont.ttf" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/fonts/fontawesome-webfont.ttf">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\fonts\fontawesome-webfont.ttf</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="FontAwesome.otf" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/fonts/FontAwesome.otf">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\fonts\FontAwesome.otf</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="js">
+							<NamedResource name="jquery.min.js" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/js/jquery.min.js">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\js\jquery.min.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="main.js" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/js/main.js">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\js\main.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="skel.min.js" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/js/skel.min.js">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\js\skel.min.js</Value>
+								</Candidate>
+							</NamedResource>
+							<ResourceMapSubtree name="ie">
+								<NamedResource name="html5shiv.js" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/js/ie/html5shiv.js">
+									<Candidate type="Path">
+										<Value>Assets\www\assets\js\ie\html5shiv.js</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="PIE.htc" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/js/ie/PIE.htc">
+									<Candidate type="Path">
+										<Value>Assets\www\assets\js\ie\PIE.htc</Value>
+									</Candidate>
+								</NamedResource>
+								<NamedResource name="respond.min.js" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/assets/js/ie/respond.min.js">
+									<Candidate type="Path">
+										<Value>Assets\www\assets\js\ie\respond.min.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="images">
+						<ResourceMapSubtree name="fulls">
+							<NamedResource name="01.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/fulls/01.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\fulls\01.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="02.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/fulls/02.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\fulls\02.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="03.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/fulls/03.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\fulls\03.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="04.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/fulls/04.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\fulls\04.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="05.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/fulls/05.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\fulls\05.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="06.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/fulls/06.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\fulls\06.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="07.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/fulls/07.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\fulls\07.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="08.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/fulls/08.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\fulls\08.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="09.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/fulls/09.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\fulls\09.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="10.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/fulls/10.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\fulls\10.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="11.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/fulls/11.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\fulls\11.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="12.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/fulls/12.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\fulls\12.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="a.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/fulls/a.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\fulls\a.jpg</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="thumbs">
+							<NamedResource name="01.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/thumbs/01.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\thumbs\01.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="02.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/thumbs/02.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\thumbs\02.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="03.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/thumbs/03.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\thumbs\03.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="04.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/thumbs/04.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\thumbs\04.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="05.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/thumbs/05.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\thumbs\05.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="06.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/thumbs/06.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\thumbs\06.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="07.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/thumbs/07.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\thumbs\07.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="08.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/thumbs/08.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\thumbs\08.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="09.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/thumbs/09.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\thumbs\09.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="10.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/thumbs/10.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\thumbs\10.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="11.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/thumbs/11.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\thumbs\11.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="12.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/thumbs/12.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\thumbs\12.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="13.jpg" uri="ms-resource://1362InfantLouisRichards.RDConnectInternalUse/Files/Assets/www/images/thumbs/13.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\thumbs\13.jpg</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

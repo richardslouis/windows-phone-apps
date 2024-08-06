@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\wp-results.xsl'?>
+<REPORT xml:lang="en-IN" OVERALL_RESULT="PASS" VERSION="10.0.14393.33" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="WindowsPhone" PUBLISHER_DISPLAY_NAME="CN=BB7B72A7-44D7-4BE4-8610-6E59E2F1146B" APP_NAME="1362InfantLouisRichards.Eptro" APP_VERSION="1.1.1003.0" OSVERSION="10.0.14393.0" OS="Microsoft Windows 10 Pro" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="16393" VALIDATION_TYPE="UI" ReportGenerationTime="19-09-2016 23:36:56" ID="604ebc43c78ea673d8d99648f8c7e9a9">
+  <REQUIREMENTS>
+    <REQUIREMENT NUMBER="12" TITLE="Package compliance test" RATIONALE="The package manifest was missing one or more required attributes.">
+      <TEST INDEX="77" NAME="Application count" DESCRIPTION="One package should not define more than one app in the manifest." EXECUTIONTIME="00h:00m:01s.77ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:01s.95ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="74" NAME="Bundle manifest" DESCRIPTION="Bundle manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:01s.85ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="75" NAME="Package size" DESCRIPTION="Package file size should not be greater than 4 gigabytes." EXECUTIONTIME="00h:00m:01s.83ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="14" TITLE="Windows security features test" RATIONALE="Applications must opt-into Windows security features.">
+      <TEST INDEX="33" NAME="Binary analyzer" DESCRIPTION="Analysis of security features enabled on binaries" EXECUTIONTIME="00h:00m:02s.52ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="70" NAME="Banned file analyzer" DESCRIPTION="Analysis of application to detect known insecure files" EXECUTIONTIME="00h:00m:01s.55ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="62" NAME="Private code signing" DESCRIPTION="App should not package private code signing key files." EXECUTIONTIME="00h:00m:01s.91ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="15" TITLE="Supported API test" RATIONALE="The application should only refer to the APIs allowed by the Windows SDK for Windows Store Apps.">
+      <TEST INDEX="72" NAME="Supported APIs" DESCRIPTION="Windows Phone App must only use supported platform APIs." EXECUTIONTIME="00h:00m:02s.69ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="19" TITLE="App manifest resources tests" RATIONALE="The App Package Manifest should have valid resources defined in the resources.pri file, as per the App Packaging Specification and App Manifest Schema.">
+      <TEST INDEX="45" NAME="App resources" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:01s.48ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="61" NAME="Branding" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:02s.50ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="20" TITLE="Debug configuration test" RATIONALE="The App should not install any debug binaries.">
+      <TEST INDEX="46" NAME="Debug configuration" DESCRIPTION="The App should not install any debug binaries." EXECUTIONTIME="00h:00m:01s.93ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="21" TITLE="File encoding test" RATIONALE="Packages containing an HTML5 Windows Store app must have correct file encoding.">
+      <TEST INDEX="49" NAME="UTF-8 file encoding" DESCRIPTION="Packages containing an HTML5 Windows Store app must have correct file encoding." EXECUTIONTIME="00h:00m:01s.77ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="23" TITLE="App Capabilities test" RATIONALE="Packages declaring special-use capabilities will have to provide justifications during the onboarding process.">
+      <TEST INDEX="52" NAME="Special use capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:01s.78ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="24" TITLE="Windows Runtime metadata validation" RATIONALE="Metadata needs to be conformant and consistent across all generation sources.">
+      <TEST INDEX="56" NAME="ExclusiveTo attribute" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:03s.55ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="57" NAME="Type location" DESCRIPTION="Types must be defined in the metadata file with the longest matching namespace." EXECUTIONTIME="00h:00m:01s.29ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="55" NAME="Type name case-sensitivity" DESCRIPTION="Namespace and type names must not vary only by casing." EXECUTIONTIME="00h:00m:01s.32ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="54" NAME="Type name correctness" DESCRIPTION="Only system types can be in the Windows namespace and no types can be in the global namespace." EXECUTIONTIME="00h:00m:01s.33ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="58" NAME="General metadata correctness" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:03s.42ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="53" NAME="Properties" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:01s.29ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="25" TITLE="Package sanity test" RATIONALE="Validation of the app package contents to ensure correctness.">
+      <TEST INDEX="63" NAME="Platform appropriate files" DESCRIPTION="App should not install files that do not match the target processor architecture." EXECUTIONTIME="00h:00m:01s.85ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="27" TITLE="Resource Usage Test" RATIONALE="WinJS background tasks need to call close() to free resource.">
+      <TEST INDEX="68" NAME="WinJS background task" DESCRIPTION="WinJS background tasks need to call close() to free resource." EXECUTIONTIME="00h:00m:01s.85ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+  </REQUIREMENTS>
+  <APPLICATIONS>
+    <Installed_Programs>
+      <Program Name="1362InfantLouisRichards.Eptro" Type="Application" Source="AppxPackage" Publisher="CN=BB7B72A7-44D7-4BE4-8610-6E59E2F1146B" Version="1.1.1003.0" Language="1033" InstallDate="09/19/2016 18:06:39" OSVersionAtInstallTime="10.0.0.14393" RootDirPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js" Id="0000542ad56ff9c45bd8f006b8ca531d7ea400000904">
+        <Indicators>
+          <WindowsStoreAppManifestIndicators>
+            <PackageManifest PackageFullName="1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t">
+              <Package>
+                <Identity Name="1362InfantLouisRichards.Eptro" Publisher="CN=BB7B72A7-44D7-4BE4-8610-6E59E2F1146B" Version="1.1.1003.0" ProcessorArchitecture="neutral" />
+                <PhoneIdentity PhoneProductId="931fb48f-5436-449a-9c87-1fb2371640f5" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+                <Properties>
+                  <DisplayName>Eptro - The instanews</DisplayName>
+                  <PublisherDisplayName>RCHSFT</PublisherDisplayName>
+                  <Logo>Assets\StoreLogo.png</Logo>
+                </Properties>
+                <Prerequisites>
+                  <OSMinVersion>6.3.1</OSMinVersion>
+                  <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+                </Prerequisites>
+                <Resources>
+                  <Resource Language="EN-US" />
+                  <Resource Scale="240" />
+                </Resources>
+                <Applications>
+                  <Application Id="App" Executable="Eptro.exe" EntryPoint="Eptro.App">
+                    <VisualElements DisplayName="Eptro" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="Eptro | The instanews" ForegroundText="light" BackgroundColor="#FFC42E" ToastCapable="true">
+                      <DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png">
+                        <ShowNameOnTiles>
+                          <ShowOn Tile="square150x150Logo" />
+                          <ShowOn Tile="wide310x150Logo" />
+                        </ShowNameOnTiles>
+                      </DefaultTile>
+                      <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#FFC42E" />
+                      <InitialRotationPreference>
+                        <Rotation Preference="portrait" />
+                        <Rotation Preference="landscape" />
+                        <Rotation Preference="landscapeFlipped" />
+                      </InitialRotationPreference>
+                    </VisualElements>
+                  </Application>
+                </Applications>
+                <Capabilities>
+                  <Capability Name="internetClientServer" />
+                </Capabilities>
+              </Package>
+            </PackageManifest>
+            <BundleManifest PackageFamilyName="1362InfantLouisRichards.Eptro_t8fw2476bzf4t">
+              <Bundle SchemaVersion="2.0">
+                <Identity Name="1362InfantLouisRichards.Eptro" Publisher="CN=BB7B72A7-44D7-4BE4-8610-6E59E2F1146B" Version="2016.919.1803.0" />
+                <Packages>
+                  <Package Type="application" Version="1.1.1003.0" Architecture="neutral" FileName="Eptro_1.1.1003.0_AnyCPU.appx" Offset="58" Size="4435255">
+                    <Resources>
+                      <Resource Language="EN-US" />
+                      <Resource Scale="240" />
+                    </Resources>
+                  </Package>
+                  <Package Type="resource" Version="1.1.1003.0" ResourceId="split.scale-100" FileName="Eptro_1.1.1003.0_scale-100.appx" Offset="4435398" Size="91101">
+                    <Resources>
+                      <Resource Scale="100" />
+                    </Resources>
+                  </Package>
+                  <Package Type="resource" Version="1.1.1003.0" ResourceId="split.scale-140" FileName="Eptro_1.1.1003.0_scale-140.appx" Offset="4526584" Size="144439">
+                    <Resources>
+                      <Resource Scale="140" />
+                    </Resources>
+                  </Package>
+                </Packages>
+              </Bundle>
+            </BundleManifest>
+          </WindowsStoreAppManifestIndicators>
+        </Indicators>
+        <StaticProperties>
+          <Files Id="000036af4ae8e4466b92087c54959d634f59bcb0822c">
+            <File Name="._future.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._future.js" LongPathHash="00007d7a9edf0c49d86c13672d4505fec8831be0c2e4" />
+            <File Name="._jquery-1.10.2.min.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._jquery-1.10.2.min.js" LongPathHash="000016b75b240d237341c54d1b6423e2506a6c46b50a" />
+            <File Name="._jquery.lwtCountdown-1.0.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._jquery.lwtcountdown-1.0.js" LongPathHash="00004c6723006e7ba539d6d28a0301fdbbd304bf4b55" />
+            <File Name="Eptro.exe" Id="00009a02147feea63fb6e9b332e84b2b52d1ac39975b" ProductName="Eptro" ProductVersion="1.0.0.0" VerLanguage="0" SwitchBackContext="0x0100000000000602" FileVersion="1.0.0.0" Size="0x5a00" SizeOfImage="0xc000" PeHeaderHash="01014df2c07b6cc8d0a7d634ce071f5ec416cbde0774" PeChecksum="0x0" BinProductVersion="1.0.0.0" BinFileVersion="1.0.0.0" FileDescription="Eptro" InternalName="Eptro.exe" LegalCopyright="Copyright ©  2016" LinkDate="09/19/2016 18:03:40" BinaryType="PE32_CLR_IL_PREFER32" ClrVersion="v4.0.30319" OriginalFileName="Eptro.exe" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\eptro.exe" LongPathHash="0000d9ecc39c6b5d93583fb47447ff1f87f17fe86d4a" />
+            <File Name="resources.pri" Id="0000e41ffd54cc8f96e9c9a4c0107d0cc2e67543f671" Size="0x4678" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\resources.pri" LongPathHash="00000a55dc198190db21f694f5901a5486e2a6e783dd" />
+            <File Name="._glassyWorms.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._glassyworms.js" LongPathHash="0000a2848376f5c6c8e7bd50f8e95a91d64831fa0d33" />
+            <File Name="._jquery-ui-1.8.16.custom.min.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._jquery-ui-1.8.16.custom.min.js" LongPathHash="0000ffd97825d00c9487685e00f04f7d8204d705f901" />
+            <File Name="._jquery.popupoverlay.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._jquery.popupoverlay.js" LongPathHash="000057e2090a222a8fe25c3ee457a734925540fde1bb" />
+            <File Name="offline.html" Id="00006cc0f1b88ab9c2e9a4f681da9f2a1dba54aa757a" Size="0x116c" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\offline.html" LongPathHash="000021e748f34854666ae18172f6f4b6eebf73475087" />
+            <File Name="._bootstrap.min.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._bootstrap.min.js" LongPathHash="0000f240473b59eaac38958019c521bdd727049c9066" />
+            <File Name="._jquery.mb.YTPlayer.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._jquery.mb.ytplayer.js" LongPathHash="0000b22e750b7c28f7b84d0f94ffeb10a4a759e86614" />
+            <File Name="._jquery.lettering.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._jquery.lettering.js" LongPathHash="00004e2e1459b5f9f0b6ced84454cab7d12951a00760" />
+            <File Name="._contact_me.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._contact_me.js" LongPathHash="00006ae8be748ca1ff9563432f91d8e2561adc1d999a" />
+            <File Name="index.html" Id="000034ead536982c95b2a7026cb412ebc234439714d9" Size="0x10be" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\index.html" LongPathHash="0000f08d393c5e3048cea4def42864b0cf1c5b5abe4f" />
+            <File Name="._custom.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._custom.js" LongPathHash="00003933aa12dcc0d67a2ae62f71aee370c7eecc7e70" />
+            <File Name="._fss.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._fss.js" LongPathHash="000051d615ba631369f39b43a7bfbf8f6c1b713039d3" />
+            <File Name="future.js" Id="00009bd8a0182b60b8fdb62a87fd068b7c4d3a2a2dab" Size="0x1bac" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\future.js" LongPathHash="0000f470813785d274849a0b3e42a94ac2ea18f99b3a" />
+            <File Name="._script.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._script.js" LongPathHash="0000b8ccf2c3d24e116e30d2336685b604906a72b990" />
+            <File Name="._jquery.swipebox.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._jquery.swipebox.js" LongPathHash="0000d110623345c1e4e6d5d74e168819167fd00127b4" />
+            <File Name="contact_me.js" Id="0000292d82031171b001af3a6dfa49d0724c5ba66c61" Size="0x6d6" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\contact_me.js" LongPathHash="0000f9cb9c1589000f297f298a5809a5a820a046e793" />
+            <File Name="._jquery.textillate.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._jquery.textillate.js" LongPathHash="0000b7ea75de0956bdd2677780aea8fba8bbd259524b" />
+            <File Name="._parallax.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._parallax.js" LongPathHash="0000139baf85ef5951893157de02323de903384a23e0" />
+            <File Name="jquery-1.10.2.min.js" Id="00000511abe9863c2ea7084efa7e24d1d86c5b3974f1" Size="0x16bb3" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\jquery-1.10.2.min.js" LongPathHash="00000c82d6c3d214828cec5fb8ece28f349bfc61ea95" />
+            <File Name="glassyWorms.js" Id="00004b179e3a1824858a9df0e075d7b6124d7cdb8437" Size="0x13a1" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\glassyworms.js" LongPathHash="00004dd1313ed1994c461a565c04d6968dc15948c1c6" />
+            <File Name="._rainyday.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._rainyday.js" LongPathHash="00004ec62909c78483d7a7f78b27c10641dc6738706b" />
+            <File Name="bootstrap.min.js" Id="00005814e91bb6276f4de8b7951c965f2f190a03978d" Size="0x71b6" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\bootstrap.min.js" LongPathHash="00002fdc84afbabde5ff37f4bb7d6adbd07064052739" />
+            <File Name="custom.js" Id="00003b4c94e9ee1276640418ad7447b8b7370e0b5758" Size="0x422a" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\custom.js" LongPathHash="0000f8f279e3c946b34202fcce43eb3ea6504dafaf4c" />
+            <File Name="._sketch.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._sketch.js" LongPathHash="0000dc45f178f2fd0c87e8ef14c31585ce486fc47897" />
+            <File Name="._starfield.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._starfield.js" LongPathHash="0000770afe4bf663c559c12aff59f305d40d9f849f60" />
+            <File Name="._notifyMe.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._notifyme.js" LongPathHash="00004c4fc1ada34ea49a519b69ff818216b506b4a586" />
+            <File Name="fss.js" Id="0000678ef2ad881454a43e714d7b95b528396c668522" Size="0x833d" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\fss.js" LongPathHash="000094a9c679375c834f212686e90ba6b32d16b38c28" />
+            <File Name="._jquery.vegas.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" Size="0x1000" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\._jquery.vegas.js" LongPathHash="00007edf953283e65f5ea2e1f34592a6944278e96976" />
+            <File Name="jquery-ui-1.8.16.custom.min.js" Id="000084b3bfcd03a5072e68be92b64e34635d6486fcdd" Size="0x2528" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\jquery-ui-1.8.16.custom.min.js" LongPathHash="0000f88aa6298848a08cc2fda1d093f3407a48c9e562" />
+            <File Name="script.js" Id="00006070c71222091052fe579a87254931cd46ff2c47" Size="0xc1f" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\script.js" LongPathHash="0000110c5c5b8e15797d9edf1e009fe4deab1f366a8e" />
+            <File Name="notifyMe.js" Id="0000e3a5e98497b6ef8d0cb1b7ce2a5da5b4805aaa70" Size="0x736" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\notifyme.js" LongPathHash="0000a2b27190b7f3991b7097ac17eeacff7786c8e849" />
+            <File Name="parallax.js" Id="0000aef210bb54f748ddaf4ddbf45a6b7f65d53d8871" Size="0x3d83" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\parallax.js" LongPathHash="0000022ed5ad2ae21bc8bc9f15f44176f487e5f3a7ae" />
+            <File Name="jquery.lettering.js" Id="00008f2dea54488fa261cd99fefa965943074e215571" Size="0x6b3" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\jquery.lettering.js" LongPathHash="000044e0b0eb517ed4efe7e2676e9d7dbdbf639e1443" />
+            <File Name="jquery.mb.YTPlayer.js" Id="0000bef85e8c92f6094592144bc02f74f6218d9e6e95" Size="0x9a78" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\jquery.mb.ytplayer.js" LongPathHash="0000a9c46d6c037803c7f0073e28d6a8375d0035bb06" />
+            <File Name="jquery.popupoverlay.js" Id="000040dead618a723bb619f5d67061dc3748e4996c5b" Size="0x5c21" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\jquery.popupoverlay.js" LongPathHash="0000a96fff2d28df5e671cc33898fc877ec5ecfc83c2" />
+            <File Name="rainyday.js" Id="0000b006cc0c221f0bd7665fa5e3491b80b4c631b17b" Size="0x7150" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\rainyday.js" LongPathHash="00001cc6557b0c5a67121dbf1cfd1e4df72cc45f53a1" />
+            <File Name="sketch.js" Id="000029e5fd2845076395564086b86e036a8e79669089" Size="0x10de" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\sketch.js" LongPathHash="0000bfaf8f707fe4f97bc59da3f111d212fc39c29fc6" />
+            <File Name="starfield.js" Id="0000137d8de0a423c604474425eed7365a225fe602b4" Size="0x1379" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\starfield.js" LongPathHash="0000073262d31328adffb0af1dd10cfca570dbb69c59" />
+            <File Name="jquery.lwtCountdown-1.0.js" Id="0000e2ff5607657bd0a45c0b7765d87d502cb16bd141" Size="0x1444" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\jquery.lwtcountdown-1.0.js" LongPathHash="0000c2814cc38ff76fb1b1bcc50982a03fd304eaad2c" />
+            <File Name="jquery.vegas.js" Id="000010a44ae5cd966fb00c63edf4a313971f7a188b99" Size="0x2cac" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\jquery.vegas.js" LongPathHash="000058faf3e2c17b7af94175d65d2708311a3b0d8e19" />
+            <File Name="jquery.swipebox.js" Id="00003b4d0dfaf3895d7302487feb78cff582100982ce" Size="0x4b28" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\jquery.swipebox.js" LongPathHash="0000c891fa8c049f4f606a807d2e976a4a9f318c5c67" />
+            <File Name="jquery.textillate.js" Id="00005cb43b8d5a05bd99c73dbbc613f87d7f0a000cfc" Size="0x1bcd" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_1b0c\1362infantlouisrichards.eptro_1.1.1003.0_neutral__t8fw2476bzf4t\assets\www\assets\js\jquery.textillate.js" LongPathHash="00005c9e3b666bc9e38d23f3a9d9692cf8d8d4dd036d" />
+          </Files>
+        </StaticProperties>
+      </Program>
+    </Installed_Programs>
+  </APPLICATIONS>
+  <DEPENDENCY_INFORMATION>
+    <AitStaticAnalysis Type="Template">
+      <AitFile ErrorCode="0" Name="jquery-1.10.2.min.js" Id="00000511abe9863c2ea7084efa7e24d1d86c5b3974f1" />
+      <AitFile ErrorCode="0" Name="jquery.vegas.js" Id="000010a44ae5cd966fb00c63edf4a313971f7a188b99">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="document.createElement" />
+          <AitFeature Name="document.documentElement" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="starfield.js" Id="0000137d8de0a423c604474425eed7365a225fe602b4">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="document.documentElement.clientHeight" />
+          <AitFeature Name="document.documentElement.clientWidth" />
+          <AitFeature Name="document.getElementById" />
+          <AitFeature Name="document.getElementsByTagName" />
+          <AitFeature Name="document.location.href" />
+          <AitFeature Name="document.onkeypress" />
+          <AitFeature Name="document.onkeyup" />
+          <AitFeature Name="document.onmousemove" />
+          <AitFeature Name="document.onmousewheel" />
+          <AitFeature Name="window.addEventListener" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="contact_me.js" Id="0000292d82031171b001af3a6dfa49d0724c5ba66c61" />
+      <AitFile ErrorCode="0" Name="sketch.js" Id="000029e5fd2845076395564086b86e036a8e79669089" />
+      <AitFile ErrorCode="0" Name="index.html" Id="000034ead536982c95b2a7026cb412ebc234439714d9">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="document.getElementById" />
+          <AitFeature Name="window.addEventListener" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="custom.js" Id="00003b4c94e9ee1276640418ad7447b8b7370e0b5758">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="document.createElementNS" />
+          <AitFeature Name="document.getElementById" />
+          <AitFeature Name="window.addEventListener" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="jquery.swipebox.js" Id="00003b4d0dfaf3895d7302487feb78cff582100982ce">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="document.createElement" />
+          <AitFeature Name="document.createElementNS" />
+          <AitFeature Name="document.createTouch" />
+          <AitFeature Name="navigator.msMaxTouchPoints" />
+          <AitFeature Name="navigator.userAgent.match" />
+          <AitFeature Name="window.addEventListener" />
+          <AitFeature Name="window.clearTimeout" />
+          <AitFeature Name="window.innerHeight" />
+          <AitFeature Name="window.innerWidth" />
+          <AitFeature Name="window.orientation" />
+          <AitFeature Name="window.setTimeout" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="jquery.popupoverlay.js" Id="000040dead618a723bb619f5d67061dc3748e4996c5b">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="document.activeElement" />
+          <AitFeature Name="document.getElementById" />
+          <AitFeature Name="document.getElementsByTagName" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="glassyWorms.js" Id="00004b179e3a1824858a9df0e075d7b6124d7cdb8437" />
+      <AitFile ErrorCode="0" Name="bootstrap.min.js" Id="00005814e91bb6276f4de8b7951c965f2f190a03978d">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="document.body.scrollTop" />
+          <AitFeature Name="document.createElement" />
+          <AitFeature Name="document.documentElement" />
+          <AitFeature Name="document.documentElement.scrollTop" />
+          <AitFeature Name="window.innerHeight" />
+          <AitFeature Name="window.innerWidth" />
+          <AitFeature Name="window.scrollTop" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="jquery.textillate.js" Id="00005cb43b8d5a05bd99c73dbbc613f87d7f0a000cfc" />
+      <AitFile ErrorCode="0" Name="script.js" Id="00006070c71222091052fe579a87254931cd46ff2c47" />
+      <AitFile ErrorCode="0" Name="fss.js" Id="0000678ef2ad881454a43e714d7b95b528396c668522">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="document.createElement" />
+          <AitFeature Name="document.createElementNS" />
+          <AitFeature Name="window.cancelAnimationFrame" />
+          <AitFeature Name="window.requestAnimationFrame" />
+          <AitFeature Name="window.setTimeout" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="offline.html" Id="00006cc0f1b88ab9c2e9a4f681da9f2a1dba54aa757a">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="document.getElementById" />
+          <AitFeature Name="window.addEventListener" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="jquery-ui-1.8.16.custom.min.js" Id="000084b3bfcd03a5072e68be92b64e34635d6486fcdd">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="document.compareDocumentPosition" />
+          <AitFeature Name="document.createElement" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="jquery.lettering.js" Id="00008f2dea54488fa261cd99fefa965943074e215571" />
+      <AitFile ErrorCode="0" Name="Eptro.exe" Id="00009a02147feea63fb6e9b332e84b2b52d1ac39975b">
+        <AitCategory Id="ApiStatic">
+          <AitFeature Name="mscoree.dll!_CorExeMain" />
+        </AitCategory>
+        <AitCategory Id="DotNet">
+          <AitFeature Name="System.Action`1" />
+          <AitFeature Name="System.ArgumentException" />
+          <AitFeature Name="System.ArgumentException..ctor" />
+          <AitFeature Name="System.AsyncCallback" />
+          <AitFeature Name="System.Char" />
+          <AitFeature Name="System.CodeDom.Compiler.GeneratedCodeAttribute" />
+          <AitFeature Name="System.CodeDom.Compiler.GeneratedCodeAttribute..ctor" />
+          <AitFeature Name="System.Collections.Generic.Dictionary`2" />
+          <AitFeature Name="System.Convert" />
+          <AitFeature Name="System.Convert.ToInt32" />
+          <AitFeature Name="System.Delegate" />
+          <AitFeature Name="System.Delegate.Combine" />
+          <AitFeature Name="System.Delegate.Remove" />
+          <AitFeature Name="System.Diagnostics.DebuggableAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggableAttribute..ctor" />
+          <AitFeature Name="System.Diagnostics.DebuggerDisplayAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggerDisplayAttribute..ctor" />
+          <AitFeature Name="System.Diagnostics.DebuggerNonUserCodeAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggerNonUserCodeAttribute..ctor" />
+          <AitFeature Name="System.Exception" />
+          <AitFeature Name="System.Exception..ctor" />
+          <AitFeature Name="System.FormatException" />
+          <AitFeature Name="System.Func`2" />
+          <AitFeature Name="System.IAsyncResult" />
+          <AitFeature Name="System.IDisposable" />
+          <AitFeature Name="System.IDisposable.Dispose" />
+          <AitFeature Name="System.Int32" />
+          <AitFeature Name="System.InvalidOperationException" />
+          <AitFeature Name="System.InvalidOperationException..ctor" />
+          <AitFeature Name="System.MTAThreadAttribute" />
+          <AitFeature Name="System.MTAThreadAttribute..ctor" />
+          <AitFeature Name="System.MulticastDelegate" />
+          <AitFeature Name="System.MulticastDelegate.op_Inequality" />
+          <AitFeature Name="System.NotImplementedException" />
+          <AitFeature Name="System.NotImplementedException..ctor" />
+          <AitFeature Name="System.Object" />
+          <AitFeature Name="System.Object..ctor" />
+          <AitFeature Name="System.Object.Equals" />
+          <AitFeature Name="System.Reflection.AssemblyCompanyAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyCompanyAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyCopyrightAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyCopyrightAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyDescriptionAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyDescriptionAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyFileVersionAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyFileVersionAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyProductAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyProductAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyTitleAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyTitleAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyTrademarkAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyTrademarkAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.AccessedThroughPropertyAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.AccessedThroughPropertyAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncStateMachineAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncStateMachineAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.AwaitUnsafeOnCompleted" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Create" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetException" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetResult" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetStateMachine" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilationRelaxationsAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilationRelaxationsAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilerGeneratedAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilerGeneratedAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.IAsyncStateMachine" />
+          <AitFeature Name="System.Runtime.CompilerServices.IAsyncStateMachine.MoveNext" />
+          <AitFeature Name="System.Runtime.CompilerServices.IAsyncStateMachine.SetStateMachine" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeHelpers" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor" />
+          <AitFeature Name="System.Runtime.CompilerServices.TaskAwaiter`1" />
+          <AitFeature Name="System.Runtime.InteropServices.ComVisibleAttribute" />
+          <AitFeature Name="System.Runtime.InteropServices.ComVisibleAttribute..ctor" />
+          <AitFeature Name="System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken" />
+          <AitFeature Name="System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal" />
+          <AitFeature Name="System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal.AddEventHandler" />
+          <AitFeature Name="System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal.RemoveEventHandler" />
+          <AitFeature Name="System.Runtime.Versioning.TargetFrameworkAttribute" />
+          <AitFeature Name="System.Runtime.Versioning.TargetFrameworkAttribute..ctor" />
+          <AitFeature Name="System.RuntimeTypeHandle" />
+          <AitFeature Name="System.String" />
+          <AitFeature Name="System.String.Compare" />
+          <AitFeature Name="System.String.CompareOrdinal" />
+          <AitFeature Name="System.String.Concat" />
+          <AitFeature Name="System.String.IsNullOrEmpty" />
+          <AitFeature Name="System.String.Split" />
+          <AitFeature Name="System.String.Trim" />
+          <AitFeature Name="System.StringComparison" />
+          <AitFeature Name="System.Threading.Interlocked" />
+          <AitFeature Name="System.Threading.Interlocked.CompareExchange" />
+          <AitFeature Name="System.Type" />
+          <AitFeature Name="System.Type.GetTypeFromHandle" />
+          <AitFeature Name="System.Type.get_FullName" />
+          <AitFeature Name="System.Type.get_TypeHandle" />
+          <AitFeature Name="System.Uri" />
+          <AitFeature Name="System.Uri..ctor" />
+          <AitFeature Name="System.ValueType" />
+          <AitFeature Name="System.WindowsRuntimeSystemExtensions" />
+          <AitFeature Name="System.WindowsRuntimeSystemExtensions.GetAwaiter" />
+        </AitCategory>
+        <AitCategory Id="DotNetWinRt">
+          <AitFeature Name="Windows.ApplicationModel.Activation.ApplicationExecutionState" />
+          <AitFeature Name="Windows.ApplicationModel.Activation.LaunchActivatedEventArgs" />
+          <AitFeature Name="Windows.ApplicationModel.Activation.LaunchActivatedEventArgs.get_Arguments" />
+          <AitFeature Name="Windows.ApplicationModel.Activation.LaunchActivatedEventArgs.get_PreviousExecutionState" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingDeferral" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingDeferral.Complete" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingEventArgs" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingEventArgs.get_SuspendingOperation" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingOperation" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingOperation.GetDeferral" />
+          <AitFeature Name="Windows.Foundation.IAsyncOperation`1" />
+          <AitFeature Name="Windows.Foundation.TypedEventHandler`2" />
+          <AitFeature Name="Windows.Networking.Connectivity.NetworkStatusChangedEventHandler" />
+          <AitFeature Name="Windows.System.Launcher" />
+          <AitFeature Name="Windows.System.Launcher.LaunchUriAsync" />
+          <AitFeature Name="Windows.UI.Color" />
+          <AitFeature Name="Windows.UI.Xaml.Application" />
+          <AitFeature Name="Windows.UI.Xaml.Application..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.Application.LoadComponent" />
+          <AitFeature Name="Windows.UI.Xaml.Application.Start" />
+          <AitFeature Name="Windows.UI.Xaml.Application.add_Suspending" />
+          <AitFeature Name="Windows.UI.Xaml.Application.remove_Suspending" />
+          <AitFeature Name="Windows.UI.Xaml.ApplicationInitializationCallback" />
+          <AitFeature Name="Windows.UI.Xaml.ApplicationInitializationCallback..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.ApplicationInitializationCallbackParams" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Button" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.ContentControl" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.ContentControl.get_Content" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Frame" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Frame..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Frame.Navigate" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Frame.add_NavigationFailed" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Frame.remove_NavigationFailed" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Page" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Page..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.ButtonBase" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.ButtonBase.add_Click" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.ButtonBase.remove_Click" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.ComponentResourceLocation" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.ProgressRing" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.ProgressRing.put_IsActive" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.UserControl" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.GoBack" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.Navigate" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.Refresh" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.add_ContentLoading" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.add_LoadCompleted" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.remove_ContentLoading" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.remove_LoadCompleted" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebViewContentLoadingEventArgs" />
+          <AitFeature Name="Windows.UI.Xaml.FrameworkElement" />
+          <AitFeature Name="Windows.UI.Xaml.FrameworkElement.FindName" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IComponentConnector" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IComponentConnector.Connect" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.GetValue" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.SetValue" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.get_IsAttachable" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.get_IsDependencyProperty" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.get_IsReadOnly" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.get_Name" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.get_TargetType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.get_Type" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMetadataProvider" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMetadataProvider.GetXamlType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMetadataProvider.GetXmlnsDefinitions" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.ActivateInstance" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.AddToMap" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.AddToVector" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.CreateFromString" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.GetMember" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.RunInitializer" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_BaseType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_ContentProperty" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_FullName" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_IsArray" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_IsBindable" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_IsCollection" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_IsConstructible" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_IsDictionary" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_IsMarkupExtension" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_ItemType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_KeyType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_UnderlyingType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.XmlnsDefinition" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.LoadCompletedEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.LoadCompletedEventHandler..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.NavigationEventArgs" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.NavigationFailedEventArgs" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.NavigationFailedEventArgs.get_SourcePageType" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.NavigationFailedEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.NavigationFailedEventHandler..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.RoutedEventArgs" />
+          <AitFeature Name="Windows.UI.Xaml.RoutedEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.RoutedEventHandler..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.SuspendingEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.SuspendingEventHandler..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.UIElement" />
+          <AitFeature Name="Windows.UI.Xaml.UIElement.put_Visibility" />
+          <AitFeature Name="Windows.UI.Xaml.Visibility" />
+          <AitFeature Name="Windows.UI.Xaml.Window" />
+          <AitFeature Name="Windows.UI.Xaml.Window.Activate" />
+          <AitFeature Name="Windows.UI.Xaml.Window.get_Content" />
+          <AitFeature Name="Windows.UI.Xaml.Window.get_Current" />
+          <AitFeature Name="Windows.UI.Xaml.Window.put_Content" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="future.js" Id="00009bd8a0182b60b8fdb62a87fd068b7c4d3a2a2dab">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="document.getElementById" />
+          <AitFeature Name="window.matchMedia" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="parallax.js" Id="0000aef210bb54f748ddaf4ddbf45a6b7f65d53d8871">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="document.body.appendChild" />
+          <AitFeature Name="document.body.removeChild" />
+          <AitFeature Name="document.createElement" />
+          <AitFeature Name="document.documentElement.scrollLeft" />
+          <AitFeature Name="document.documentElement.scrollTop" />
+          <AitFeature Name="navigator.userAgent.match" />
+          <AitFeature Name="window.DeviceMotionEvent" />
+          <AitFeature Name="window.DeviceOrientationEvent" />
+          <AitFeature Name="window.addEventListener" />
+          <AitFeature Name="window.cancelAnimationFrame" />
+          <AitFeature Name="window.getComputedStyle" />
+          <AitFeature Name="window.innerHeight" />
+          <AitFeature Name="window.innerWidth" />
+          <AitFeature Name="window.removeEventListener" />
+          <AitFeature Name="window.requestAnimationFrame" />
+          <AitFeature Name="window.setTimeout" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="rainyday.js" Id="0000b006cc0c221f0bd7665fa5e3491b80b4c631b17b">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="document.createElement" />
+          <AitFeature Name="document.getElementById" />
+          <AitFeature Name="document.getElementsByTagName" />
+          <AitFeature Name="window.mozRequestAnimationFrame" />
+          <AitFeature Name="window.requestAnimFrame" />
+          <AitFeature Name="window.requestAnimationFrame" />
+          <AitFeature Name="window.setInterval" />
+          <AitFeature Name="window.setTimeout" />
+          <AitFeature Name="window.webkitRequestAnimationFrame" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="jquery.mb.YTPlayer.js" Id="0000bef85e8c92f6094592144bc02f74f6218d9e6e95">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="document.createElement" />
+          <AitFeature Name="document.documentElement" />
+          <AitFeature Name="location.protocol" />
+          <AitFeature Name="navigator.appName" />
+          <AitFeature Name="navigator.appVersion" />
+          <AitFeature Name="navigator.userAgent" />
+          <AitFeature Name="window.devicePixelRatio" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="._bootstrap.min.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="._contact_me.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="._custom.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="._fss.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="._future.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="._glassyWorms.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="._jquery-1.10.2.min.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="._jquery-ui-1.8.16.custom.min.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="._jquery.lettering.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="._jquery.lwtCountdown-1.0.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="._jquery.mb.YTPlayer.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="._jquery.popupoverlay.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="._jquery.swipebox.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="._jquery.textillate.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="._jquery.vegas.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="._notifyMe.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="._parallax.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="._rainyday.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="._script.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="._sketch.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="._starfield.js" Id="0000d1abd2fbdaf9485ac21e8161edbf1ae86cb86644" />
+      <AitFile ErrorCode="0" Name="jquery.lwtCountdown-1.0.js" Id="0000e2ff5607657bd0a45c0b7765d87d502cb16bd141" />
+      <AitFile ErrorCode="0" Name="notifyMe.js" Id="0000e3a5e98497b6ef8d0cb1b7ce2a5da5b4805aaa70" />
+    </AitStaticAnalysis>
+  </DEPENDENCY_INFORMATION>
+</REPORT>

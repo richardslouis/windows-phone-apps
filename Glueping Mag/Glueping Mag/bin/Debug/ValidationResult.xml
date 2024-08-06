@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\wp-results.xsl'?>
+<REPORT xml:lang="en-IN" OVERALL_RESULT="PASS" VERSION="10.0.14393.33" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="WindowsPhone" PUBLISHER_DISPLAY_NAME="CN=BB7B72A7-44D7-4BE4-8610-6E59E2F1146B" APP_NAME="1362InfantLouisRichards.GluepingMagWorldEd" APP_VERSION="5.0.1016.0" OSVERSION="10.0.14393.0" OS="Microsoft Windows 10 Pro" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="16393" VALIDATION_TYPE="UI" ReportGenerationTime="19-09-2016 03:37:36" ID="b2bafde61f2ecf579939b4012f7ed9fe">
+  <REQUIREMENTS>
+    <REQUIREMENT NUMBER="12" TITLE="Package compliance test" RATIONALE="The package manifest was missing one or more required attributes.">
+      <TEST INDEX="77" NAME="Application count" DESCRIPTION="One package should not define more than one app in the manifest." EXECUTIONTIME="00h:00m:01s.68ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:01s.89ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="74" NAME="Bundle manifest" DESCRIPTION="Bundle manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:01s.79ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="75" NAME="Package size" DESCRIPTION="Package file size should not be greater than 4 gigabytes." EXECUTIONTIME="00h:00m:01s.73ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="14" TITLE="Windows security features test" RATIONALE="Applications must opt-into Windows security features.">
+      <TEST INDEX="33" NAME="Binary analyzer" DESCRIPTION="Analysis of security features enabled on binaries" EXECUTIONTIME="00h:00m:02s.33ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="70" NAME="Banned file analyzer" DESCRIPTION="Analysis of application to detect known insecure files" EXECUTIONTIME="00h:00m:01s.50ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="62" NAME="Private code signing" DESCRIPTION="App should not package private code signing key files." EXECUTIONTIME="00h:00m:01s.75ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="15" TITLE="Supported API test" RATIONALE="The application should only refer to the APIs allowed by the Windows SDK for Windows Store Apps.">
+      <TEST INDEX="72" NAME="Supported APIs" DESCRIPTION="Windows Phone App must only use supported platform APIs." EXECUTIONTIME="00h:00m:02s.12ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="19" TITLE="App manifest resources tests" RATIONALE="The App Package Manifest should have valid resources defined in the resources.pri file, as per the App Packaging Specification and App Manifest Schema.">
+      <TEST INDEX="45" NAME="App resources" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:01s.45ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="61" NAME="Branding" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:02s.39ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="20" TITLE="Debug configuration test" RATIONALE="The App should not install any debug binaries.">
+      <TEST INDEX="46" NAME="Debug configuration" DESCRIPTION="The App should not install any debug binaries." EXECUTIONTIME="00h:00m:01s.82ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="21" TITLE="File encoding test" RATIONALE="Packages containing an HTML5 Windows Store app must have correct file encoding.">
+      <TEST INDEX="49" NAME="UTF-8 file encoding" DESCRIPTION="Packages containing an HTML5 Windows Store app must have correct file encoding." EXECUTIONTIME="00h:00m:01s.66ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="23" TITLE="App Capabilities test" RATIONALE="Packages declaring special-use capabilities will have to provide justifications during the onboarding process.">
+      <TEST INDEX="52" NAME="Special use capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:01s.62ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="24" TITLE="Windows Runtime metadata validation" RATIONALE="Metadata needs to be conformant and consistent across all generation sources.">
+      <TEST INDEX="56" NAME="ExclusiveTo attribute" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:03s.47ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="57" NAME="Type location" DESCRIPTION="Types must be defined in the metadata file with the longest matching namespace." EXECUTIONTIME="00h:00m:01s.22ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="55" NAME="Type name case-sensitivity" DESCRIPTION="Namespace and type names must not vary only by casing." EXECUTIONTIME="00h:00m:01s.22ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="54" NAME="Type name correctness" DESCRIPTION="Only system types can be in the Windows namespace and no types can be in the global namespace." EXECUTIONTIME="00h:00m:01s.22ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="58" NAME="General metadata correctness" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:03s.54ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="53" NAME="Properties" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:01s.22ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="25" TITLE="Package sanity test" RATIONALE="Validation of the app package contents to ensure correctness.">
+      <TEST INDEX="63" NAME="Platform appropriate files" DESCRIPTION="App should not install files that do not match the target processor architecture." EXECUTIONTIME="00h:00m:01s.64ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="27" TITLE="Resource Usage Test" RATIONALE="WinJS background tasks need to call close() to free resource.">
+      <TEST INDEX="68" NAME="WinJS background task" DESCRIPTION="WinJS background tasks need to call close() to free resource." EXECUTIONTIME="00h:00m:01s.71ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+  </REQUIREMENTS>
+  <APPLICATIONS>
+    <Installed_Programs>
+      <Program Name="1362InfantLouisRichards.GluepingMagWorldEd" Type="Application" Source="AppxPackage" Publisher="CN=BB7B72A7-44D7-4BE4-8610-6E59E2F1146B" Version="5.0.1016.0" Language="1033" InstallDate="09/18/2016 22:07:20" OSVersionAtInstallTime="10.0.0.14393" RootDirPath="c:\windows\temp\appcert_5a80\1362infantlouisrichards.gluepingmagworlded_5.0.1016.0_neutral__t8fw2476bzf4t\assets\www\assets\js" Id="00002312c7c1e39195b3f711cee84ba9962500000904">
+        <Indicators>
+          <WindowsStoreAppManifestIndicators>
+            <PackageManifest PackageFullName="1362infantlouisrichards.gluepingmagworlded_5.0.1016.0_neutral__t8fw2476bzf4t">
+              <Package>
+                <Identity Name="1362InfantLouisRichards.GluepingMagWorldEd" Publisher="CN=BB7B72A7-44D7-4BE4-8610-6E59E2F1146B" Version="5.0.1016.0" ProcessorArchitecture="neutral" />
+                <PhoneIdentity PhoneProductId="847a306c-50dc-4266-bb26-81f7281407c6" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+                <Properties>
+                  <DisplayName>Glueping - Sup Tech</DisplayName>
+                  <PublisherDisplayName>RCHSFT</PublisherDisplayName>
+                  <Logo>Assets\StoreLogo.png</Logo>
+                </Properties>
+                <Prerequisites>
+                  <OSMinVersion>6.3.1</OSMinVersion>
+                  <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+                </Prerequisites>
+                <Resources>
+                  <Resource Language="EN-US" />
+                  <Resource Scale="240" />
+                </Resources>
+                <Applications>
+                  <Application Id="App" Executable="Glueping Mag.exe" EntryPoint="Glueping_Mag.App">
+                    <VisualElements DisplayName="Glueping" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="Glueping | Sup! Tech" ForegroundText="light" BackgroundColor="#E3E375" ToastCapable="true">
+                      <DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png">
+                        <ShowNameOnTiles>
+                          <ShowOn Tile="square150x150Logo" />
+                          <ShowOn Tile="wide310x150Logo" />
+                        </ShowNameOnTiles>
+                      </DefaultTile>
+                      <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#E3E375" />
+                      <InitialRotationPreference>
+                        <Rotation Preference="portrait" />
+                        <Rotation Preference="landscape" />
+                        <Rotation Preference="landscapeFlipped" />
+                      </InitialRotationPreference>
+                    </VisualElements>
+                  </Application>
+                </Applications>
+                <Capabilities>
+                  <Capability Name="internetClientServer" />
+                </Capabilities>
+              </Package>
+            </PackageManifest>
+            <BundleManifest PackageFamilyName="1362InfantLouisRichards.GluepingMagWorldEd_t8fw2476bzf4t">
+              <Bundle SchemaVersion="2.0">
+                <Identity Name="1362InfantLouisRichards.GluepingMagWorldEd" Publisher="CN=BB7B72A7-44D7-4BE4-8610-6E59E2F1146B" Version="2016.918.2206.0" />
+                <Packages>
+                  <Package Type="application" Version="5.0.1016.0" Architecture="neutral" FileName="Glueping Mag_5.0.1016.0_AnyCPU.appx" Offset="67" Size="944826">
+                    <Resources>
+                      <Resource Language="EN-US" />
+                      <Resource Scale="240" />
+                    </Resources>
+                  </Package>
+                  <Package Type="resource" Version="5.0.1016.0" ResourceId="split.scale-100" FileName="Glueping Mag_5.0.1016.0_scale-100.appx" Offset="944987" Size="51285">
+                    <Resources>
+                      <Resource Scale="100" />
+                    </Resources>
+                  </Package>
+                  <Package Type="resource" Version="5.0.1016.0" ResourceId="split.scale-140" FileName="Glueping Mag_5.0.1016.0_scale-140.appx" Offset="996366" Size="73809">
+                    <Resources>
+                      <Resource Scale="140" />
+                    </Resources>
+                  </Package>
+                </Packages>
+              </Bundle>
+            </BundleManifest>
+          </WindowsStoreAppManifestIndicators>
+        </Indicators>
+        <StaticProperties>
+          <Files Id="0000e03d4faa9b3f1cb2c08b2c7ef03c17ace24f27a3">
+            <File Name="noproceed.html" Id="00005b6c3f268ae045bd4969ae273b9b7f297be8c27d" Size="0x576" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_5a80\1362infantlouisrichards.gluepingmagworlded_5.0.1016.0_neutral__t8fw2476bzf4t\assets\www\noproceed.html" LongPathHash="0000169e1f673c2f12f63d437a28794e9cb8b8915d90" />
+            <File Name="proceed.html" Id="0000df7d505d4eb8bcfcf0e5eda885da5dfb9762088a" Size="0x864" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_5a80\1362infantlouisrichards.gluepingmagworlded_5.0.1016.0_neutral__t8fw2476bzf4t\assets\www\proceed.html" LongPathHash="00000200efd39c05ab5e1edd06a15237a594e9bfdafc" />
+            <File Name="Glueping Mag.exe" Id="0000d9616b00c3b880412a1ccd76714fc925d5f5f4d2" ProductName="Glueping Mag" ProductVersion="1.0.0.0" VerLanguage="0" SwitchBackContext="0x0100000000000602" FileVersion="1.0.0.0" Size="0x5a00" SizeOfImage="0xc000" PeHeaderHash="0101ae62e07d9fad28dc03a58a693bbbc5bb175b2f98" PeChecksum="0x0" BinProductVersion="1.0.0.0" BinFileVersion="1.0.0.0" FileDescription="Glueping Mag" InternalName="Glueping Mag.exe" LegalCopyright="Copyright ©  2016" LinkDate="09/18/2016 22:06:33" BinaryType="PE32_CLR_IL_PREFER32" ClrVersion="v4.0.30319" OriginalFileName="Glueping Mag.exe" LowerCaseLongPath="c:\windows\temp\appcert_5a80\1362infantlouisrichards.gluepingmagworlded_5.0.1016.0_neutral__t8fw2476bzf4t\glueping mag.exe" LongPathHash="000021ff8bf443cca880f8be2f0a90c3552e81809d7d" />
+            <File Name="resources.pri" Id="00004ba96c8cb3bcc7a0d06569f42b198892a97ce2ea" Size="0x1858" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_5a80\1362infantlouisrichards.gluepingmagworlded_5.0.1016.0_neutral__t8fw2476bzf4t\resources.pri" LongPathHash="00001bfe440e9196b35a8dee33ff495f14f00386839c" />
+            <File Name="jquery.onvisible.min.js" Id="0000fa1a88cb46df968c93e77b02870eb3914927901f" Size="0x1d9" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_5a80\1362infantlouisrichards.gluepingmagworlded_5.0.1016.0_neutral__t8fw2476bzf4t\assets\www\assets\js\jquery.onvisible.min.js" LongPathHash="000016cc4a538e1424178b74aadd973a872ad883d12d" />
+            <File Name="jquery.dropotron.min.js" Id="00009bb5b8f4ee446f084ce224dff0d960e0da59a0c0" Size="0x10ea" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_5a80\1362infantlouisrichards.gluepingmagworlded_5.0.1016.0_neutral__t8fw2476bzf4t\assets\www\assets\js\jquery.dropotron.min.js" LongPathHash="0000e51f8ad1aff27b6974d356cf38e4b0f452b4eca9" />
+            <File Name="jquery.min.js" Id="0000276c87ff3e1e3155679c318938e74e5c1b76d809" Size="0x176d5" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_5a80\1362infantlouisrichards.gluepingmagworlded_5.0.1016.0_neutral__t8fw2476bzf4t\assets\www\assets\js\jquery.min.js" LongPathHash="0000b7c047811ec6ac13c74ba0f922fd13ed8c348529" />
+            <File Name="html5shiv.js" Id="00006ee35415750b51dd65a6521d1dd91aba3e2ae828" Size="0x94c" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_5a80\1362infantlouisrichards.gluepingmagworlded_5.0.1016.0_neutral__t8fw2476bzf4t\assets\www\assets\js\ie\html5shiv.js" LongPathHash="00008fddb5ec5eb132c80810d95e7e2a0b79c2890eff" />
+            <File Name="respond.min.js" Id="00008e786bcf921518f0c8c46d14a51235af2fb99926" Size="0x11ef" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_5a80\1362infantlouisrichards.gluepingmagworlded_5.0.1016.0_neutral__t8fw2476bzf4t\assets\www\assets\js\ie\respond.min.js" LongPathHash="0000205177bf31542e5af8df7206d1c0beacf3a893f5" />
+            <File Name="jquery.scrolly.min.js" Id="0000af59b07ddfb2d2b8cb4893ece27615a96f0a0769" Size="0x343" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_5a80\1362infantlouisrichards.gluepingmagworlded_5.0.1016.0_neutral__t8fw2476bzf4t\assets\www\assets\js\jquery.scrolly.min.js" LongPathHash="0000359f1852ca6cfd94a1fa2e33d1edcbae23b2f810" />
+            <File Name="main.js" Id="00003fb908f8402df045129ac94bdc56322e9f58b2db" Size="0x149b" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_5a80\1362infantlouisrichards.gluepingmagworlded_5.0.1016.0_neutral__t8fw2476bzf4t\assets\www\assets\js\main.js" LongPathHash="00002fa0e26758e7d812d6b64a113dbc6375f3de4552" />
+            <File Name="skel.min.js" Id="000079362438064c26cd28021f458bbf86a3e791c2e2" Size="0x2383" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_5a80\1362infantlouisrichards.gluepingmagworlded_5.0.1016.0_neutral__t8fw2476bzf4t\assets\www\assets\js\skel.min.js" LongPathHash="00001266f778376df2446cc9a740dde6601e4063bf7e" />
+            <File Name="util.js" Id="0000e32e958f74bd5edc4e1fbdd9fa6c30425d3c7954" Size="0x3091" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_5a80\1362infantlouisrichards.gluepingmagworlded_5.0.1016.0_neutral__t8fw2476bzf4t\assets\www\assets\js\util.js" LongPathHash="00009d8ec1249b3ad3b8155148bc161d511fac47c321" />
+          </Files>
+        </StaticProperties>
+      </Program>
+    </Installed_Programs>
+  </APPLICATIONS>
+  <DEPENDENCY_INFORMATION>
+    <AitStaticAnalysis Type="Template">
+      <AitFile ErrorCode="0" Name="jquery.min.js" Id="0000276c87ff3e1e3155679c318938e74e5c1b76d809" />
+      <AitFile ErrorCode="0" Name="main.js" Id="00003fb908f8402df045129ac94bdc56322e9f58b2db">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="window.clearInterval" />
+          <AitFeature Name="window.setInterval" />
+          <AitFeature Name="window.setTimeout" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="noproceed.html" Id="00005b6c3f268ae045bd4969ae273b9b7f297be8c27d" />
+      <AitFile ErrorCode="0" Name="html5shiv.js" Id="00006ee35415750b51dd65a6521d1dd91aba3e2ae828" />
+      <AitFile ErrorCode="0" Name="skel.min.js" Id="000079362438064c26cd28021f458bbf86a3e791c2e2">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="document.addEventListener" />
+          <AitFeature Name="document.createElement" />
+          <AitFeature Name="document.documentElement.clientHeight" />
+          <AitFeature Name="document.documentElement.clientWidth" />
+          <AitFeature Name="document.getElementsByTagName" />
+          <AitFeature Name="navigator.msMaxTouchPoints" />
+          <AitFeature Name="navigator.userAgent" />
+          <AitFeature Name="navigator.userAgent.match" />
+          <AitFeature Name="window.getComputedStyle" />
+          <AitFeature Name="window.matchMedia" />
+          <AitFeature Name="window.onorientationchange" />
+          <AitFeature Name="window.setTimeout" />
+          <AitFeature Name="window.styleMedia" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="respond.min.js" Id="00008e786bcf921518f0c8c46d14a51235af2fb99926" />
+      <AitFile ErrorCode="0" Name="jquery.dropotron.min.js" Id="00009bb5b8f4ee446f084ce224dff0d960e0da59a0c0">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="navigator.userAgent.match" />
+          <AitFeature Name="window.setTimeout" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="jquery.scrolly.min.js" Id="0000af59b07ddfb2d2b8cb4893ece27615a96f0a0769" />
+      <AitFile ErrorCode="0" Name="Glueping Mag.exe" Id="0000d9616b00c3b880412a1ccd76714fc925d5f5f4d2">
+        <AitCategory Id="ApiStatic">
+          <AitFeature Name="mscoree.dll!_CorExeMain" />
+        </AitCategory>
+        <AitCategory Id="DotNet">
+          <AitFeature Name="System.Action`1" />
+          <AitFeature Name="System.ArgumentException" />
+          <AitFeature Name="System.ArgumentException..ctor" />
+          <AitFeature Name="System.AsyncCallback" />
+          <AitFeature Name="System.Char" />
+          <AitFeature Name="System.CodeDom.Compiler.GeneratedCodeAttribute" />
+          <AitFeature Name="System.CodeDom.Compiler.GeneratedCodeAttribute..ctor" />
+          <AitFeature Name="System.Collections.Generic.Dictionary`2" />
+          <AitFeature Name="System.Convert" />
+          <AitFeature Name="System.Convert.ToInt32" />
+          <AitFeature Name="System.Delegate" />
+          <AitFeature Name="System.Delegate.Combine" />
+          <AitFeature Name="System.Delegate.Remove" />
+          <AitFeature Name="System.Diagnostics.DebuggableAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggableAttribute..ctor" />
+          <AitFeature Name="System.Diagnostics.DebuggerDisplayAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggerDisplayAttribute..ctor" />
+          <AitFeature Name="System.Diagnostics.DebuggerNonUserCodeAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggerNonUserCodeAttribute..ctor" />
+          <AitFeature Name="System.Exception" />
+          <AitFeature Name="System.Exception..ctor" />
+          <AitFeature Name="System.FormatException" />
+          <AitFeature Name="System.Func`2" />
+          <AitFeature Name="System.IAsyncResult" />
+          <AitFeature Name="System.IDisposable" />
+          <AitFeature Name="System.IDisposable.Dispose" />
+          <AitFeature Name="System.Int32" />
+          <AitFeature Name="System.InvalidOperationException" />
+          <AitFeature Name="System.InvalidOperationException..ctor" />
+          <AitFeature Name="System.MTAThreadAttribute" />
+          <AitFeature Name="System.MTAThreadAttribute..ctor" />
+          <AitFeature Name="System.MulticastDelegate" />
+          <AitFeature Name="System.MulticastDelegate.op_Inequality" />
+          <AitFeature Name="System.NotImplementedException" />
+          <AitFeature Name="System.NotImplementedException..ctor" />
+          <AitFeature Name="System.Object" />
+          <AitFeature Name="System.Object..ctor" />
+          <AitFeature Name="System.Object.Equals" />
+          <AitFeature Name="System.Reflection.AssemblyCompanyAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyCompanyAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyCopyrightAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyCopyrightAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyDescriptionAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyDescriptionAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyFileVersionAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyFileVersionAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyProductAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyProductAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyTitleAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyTitleAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyTrademarkAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyTrademarkAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.AccessedThroughPropertyAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.AccessedThroughPropertyAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncStateMachineAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncStateMachineAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.AwaitUnsafeOnCompleted" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Create" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetException" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetResult" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetStateMachine" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilationRelaxationsAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilationRelaxationsAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilerGeneratedAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilerGeneratedAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.IAsyncStateMachine" />
+          <AitFeature Name="System.Runtime.CompilerServices.IAsyncStateMachine.MoveNext" />
+          <AitFeature Name="System.Runtime.CompilerServices.IAsyncStateMachine.SetStateMachine" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeHelpers" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor" />
+          <AitFeature Name="System.Runtime.CompilerServices.TaskAwaiter`1" />
+          <AitFeature Name="System.Runtime.InteropServices.ComVisibleAttribute" />
+          <AitFeature Name="System.Runtime.InteropServices.ComVisibleAttribute..ctor" />
+          <AitFeature Name="System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken" />
+          <AitFeature Name="System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal" />
+          <AitFeature Name="System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal.AddEventHandler" />
+          <AitFeature Name="System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal.RemoveEventHandler" />
+          <AitFeature Name="System.Runtime.Versioning.TargetFrameworkAttribute" />
+          <AitFeature Name="System.Runtime.Versioning.TargetFrameworkAttribute..ctor" />
+          <AitFeature Name="System.RuntimeTypeHandle" />
+          <AitFeature Name="System.String" />
+          <AitFeature Name="System.String.Compare" />
+          <AitFeature Name="System.String.CompareOrdinal" />
+          <AitFeature Name="System.String.Concat" />
+          <AitFeature Name="System.String.IsNullOrEmpty" />
+          <AitFeature Name="System.String.Split" />
+          <AitFeature Name="System.String.Trim" />
+          <AitFeature Name="System.StringComparison" />
+          <AitFeature Name="System.Threading.Interlocked" />
+          <AitFeature Name="System.Threading.Interlocked.CompareExchange" />
+          <AitFeature Name="System.Type" />
+          <AitFeature Name="System.Type.GetTypeFromHandle" />
+          <AitFeature Name="System.Type.get_FullName" />
+          <AitFeature Name="System.Type.get_TypeHandle" />
+          <AitFeature Name="System.Uri" />
+          <AitFeature Name="System.Uri..ctor" />
+          <AitFeature Name="System.ValueType" />
+          <AitFeature Name="System.WindowsRuntimeSystemExtensions" />
+          <AitFeature Name="System.WindowsRuntimeSystemExtensions.GetAwaiter" />
+        </AitCategory>
+        <AitCategory Id="DotNetWinRt">
+          <AitFeature Name="Windows.ApplicationModel.Activation.ApplicationExecutionState" />
+          <AitFeature Name="Windows.ApplicationModel.Activation.LaunchActivatedEventArgs" />
+          <AitFeature Name="Windows.ApplicationModel.Activation.LaunchActivatedEventArgs.get_Arguments" />
+          <AitFeature Name="Windows.ApplicationModel.Activation.LaunchActivatedEventArgs.get_PreviousExecutionState" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingDeferral" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingDeferral.Complete" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingEventArgs" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingEventArgs.get_SuspendingOperation" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingOperation" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingOperation.GetDeferral" />
+          <AitFeature Name="Windows.Foundation.IAsyncOperation`1" />
+          <AitFeature Name="Windows.Foundation.TypedEventHandler`2" />
+          <AitFeature Name="Windows.Networking.Connectivity.NetworkStatusChangedEventHandler" />
+          <AitFeature Name="Windows.System.Launcher" />
+          <AitFeature Name="Windows.System.Launcher.LaunchUriAsync" />
+          <AitFeature Name="Windows.UI.Color" />
+          <AitFeature Name="Windows.UI.Xaml.Application" />
+          <AitFeature Name="Windows.UI.Xaml.Application..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.Application.LoadComponent" />
+          <AitFeature Name="Windows.UI.Xaml.Application.Start" />
+          <AitFeature Name="Windows.UI.Xaml.Application.add_Suspending" />
+          <AitFeature Name="Windows.UI.Xaml.Application.remove_Suspending" />
+          <AitFeature Name="Windows.UI.Xaml.ApplicationInitializationCallback" />
+          <AitFeature Name="Windows.UI.Xaml.ApplicationInitializationCallback..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.ApplicationInitializationCallbackParams" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Button" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.ContentControl" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.ContentControl.get_Content" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Frame" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Frame..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Frame.Navigate" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Frame.add_NavigationFailed" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Frame.remove_NavigationFailed" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Page" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Page..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.ButtonBase" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.ButtonBase.add_Click" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.ButtonBase.remove_Click" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.ComponentResourceLocation" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.ProgressRing" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.ProgressRing.put_IsActive" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.UserControl" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.GoBack" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.Navigate" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.Refresh" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.add_ContentLoading" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.add_LoadCompleted" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.remove_ContentLoading" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.remove_LoadCompleted" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebViewContentLoadingEventArgs" />
+          <AitFeature Name="Windows.UI.Xaml.FrameworkElement" />
+          <AitFeature Name="Windows.UI.Xaml.FrameworkElement.FindName" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IComponentConnector" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IComponentConnector.Connect" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.GetValue" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.SetValue" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.get_IsAttachable" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.get_IsDependencyProperty" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.get_IsReadOnly" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.get_Name" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.get_TargetType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.get_Type" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMetadataProvider" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMetadataProvider.GetXamlType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMetadataProvider.GetXmlnsDefinitions" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.ActivateInstance" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.AddToMap" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.AddToVector" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.CreateFromString" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.GetMember" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.RunInitializer" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_BaseType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_ContentProperty" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_FullName" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_IsArray" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_IsBindable" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_IsCollection" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_IsConstructible" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_IsDictionary" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_IsMarkupExtension" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_ItemType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_KeyType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_UnderlyingType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.XmlnsDefinition" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.LoadCompletedEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.LoadCompletedEventHandler..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.NavigationEventArgs" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.NavigationFailedEventArgs" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.NavigationFailedEventArgs.get_SourcePageType" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.NavigationFailedEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.NavigationFailedEventHandler..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.RoutedEventArgs" />
+          <AitFeature Name="Windows.UI.Xaml.RoutedEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.RoutedEventHandler..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.SuspendingEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.SuspendingEventHandler..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.UIElement" />
+          <AitFeature Name="Windows.UI.Xaml.UIElement.put_Visibility" />
+          <AitFeature Name="Windows.UI.Xaml.Visibility" />
+          <AitFeature Name="Windows.UI.Xaml.Window" />
+          <AitFeature Name="Windows.UI.Xaml.Window.Activate" />
+          <AitFeature Name="Windows.UI.Xaml.Window.get_Content" />
+          <AitFeature Name="Windows.UI.Xaml.Window.get_Current" />
+          <AitFeature Name="Windows.UI.Xaml.Window.put_Content" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="proceed.html" Id="0000df7d505d4eb8bcfcf0e5eda885da5dfb9762088a">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="document.getElementById" />
+          <AitFeature Name="navigator.onLine" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="util.js" Id="0000e32e958f74bd5edc4e1fbdd9fa6c30425d3c7954">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="document.createElement" />
+          <AitFeature Name="window.location.href" />
+          <AitFeature Name="window.setTimeout" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="jquery.onvisible.min.js" Id="0000fa1a88cb46df968c93e77b02870eb3914927901f">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="window.clearTimeout" />
+          <AitFeature Name="window.setTimeout" />
+        </AitCategory>
+      </AitFile>
+    </AitStaticAnalysis>
+  </DEPENDENCY_INFORMATION>
+</REPORT>

@@ -1,0 +1,34 @@
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\bin\Release\App.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\bin\Release\MainPage.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\bin\Release\Glueping Mag.xr.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\bin\Release\Glueping Mag.exe
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\bin\Release\Glueping Mag.pdb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\bin\Release\Glueping_Mag.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\bin\Release\resources.pri
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\bin\Release\AppxManifest.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\bin\Release\Glueping Mag.build.appxrecipe
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\App.g.i.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\App.g.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\MainPage.g.i.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\MainPage.g.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\XamlTypeInfo.g.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\App.xaml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\MainPage.xaml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\App.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\MainPage.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\XamlSaveStateFile.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\Glueping Mag.exe
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\Glueping_Mag.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\Glueping Mag.pdb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\priconfig.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\priconfig.xml.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\layout.resfiles
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\layout.resfiles.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\resources.resfiles
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\resources.resfiles.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\pri.resfiles
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\pri.resfiles.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\qualifiers.txt
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\qualifiers.txt.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Glueping Mag\Glueping Mag\obj\Release\ProjectArchitectures.txt

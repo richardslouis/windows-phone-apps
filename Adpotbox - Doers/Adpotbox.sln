@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Adpotbox", "Adpotbox\Adpotbox.vbproj", "{C4CBC2B9-9838-4274-994E-717DD60C5B16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4CBC2B9-9838-4274-994E-717DD60C5B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CBC2B9-9838-4274-994E-717DD60C5B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CBC2B9-9838-4274-994E-717DD60C5B16}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C4CBC2B9-9838-4274-994E-717DD60C5B16}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C4CBC2B9-9838-4274-994E-717DD60C5B16}.Debug|ARM.Build.0 = Debug|ARM
+		{C4CBC2B9-9838-4274-994E-717DD60C5B16}.Debug|ARM.Deploy.0 = Debug|ARM
+		{C4CBC2B9-9838-4274-994E-717DD60C5B16}.Debug|x86.ActiveCfg = Debug|x86
+		{C4CBC2B9-9838-4274-994E-717DD60C5B16}.Debug|x86.Build.0 = Debug|x86
+		{C4CBC2B9-9838-4274-994E-717DD60C5B16}.Debug|x86.Deploy.0 = Debug|x86
+		{C4CBC2B9-9838-4274-994E-717DD60C5B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CBC2B9-9838-4274-994E-717DD60C5B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4CBC2B9-9838-4274-994E-717DD60C5B16}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C4CBC2B9-9838-4274-994E-717DD60C5B16}.Release|ARM.ActiveCfg = Release|ARM
+		{C4CBC2B9-9838-4274-994E-717DD60C5B16}.Release|ARM.Build.0 = Release|ARM
+		{C4CBC2B9-9838-4274-994E-717DD60C5B16}.Release|ARM.Deploy.0 = Release|ARM
+		{C4CBC2B9-9838-4274-994E-717DD60C5B16}.Release|x86.ActiveCfg = Release|x86
+		{C4CBC2B9-9838-4274-994E-717DD60C5B16}.Release|x86.Build.0 = Release|x86
+		{C4CBC2B9-9838-4274-994E-717DD60C5B16}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

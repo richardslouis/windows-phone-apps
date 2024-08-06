@@ -1,0 +1,72 @@
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\bin\Release\App.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\bin\Release\MainPage.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\bin\Release\Adpotbox.xr.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\bin\Release\Adpotbox.exe
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\bin\Release\Adpotbox.pdb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\bin\Release\Adpotbox.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\bin\Release\resources.pri
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\bin\Release\AppxManifest.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\bin\Release\Adpotbox.build.appxrecipe
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\bin\Release\OneSignalSDK_WP_WNS.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\bin\Release\Newtonsoft.Json.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\Adpotbox.vbprojResolveAssemblyReference.cache
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\App.g.i.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\App.g.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\MainPage.g.i.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\MainPage.g.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\XamlTypeInfo.g.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\App.xaml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\MainPage.xaml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\App.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\MainPage.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\XamlSaveStateFile.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\Adpotbox.exe
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\Adpotbox.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\Adpotbox.pdb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\Adpotbox.vbproj.GenerateResource.Cache
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\priconfig.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\priconfig.xml.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\layout.resfiles
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\layout.resfiles.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\resources.resfiles
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\resources.resfiles.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\pri.resfiles
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\pri.resfiles.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\qualifiers.txt
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\qualifiers.txt.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\WindowsPhone\Adpotbox\Adpotbox\obj\Release\ProjectArchitectures.txt
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\bin\Release\App.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\bin\Release\MainPage.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\bin\Release\Adpotbox.xr.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\bin\Release\Adpotbox.exe
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\bin\Release\Adpotbox.pdb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\bin\Release\Adpotbox.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\bin\Release\resources.pri
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\bin\Release\AppxManifest.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\bin\Release\Adpotbox.build.appxrecipe
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\App.g.i.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\App.g.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\MainPage.g.i.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\MainPage.g.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\XamlTypeInfo.g.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\App.xaml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\MainPage.xaml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\App.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\MainPage.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\XamlSaveStateFile.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\Adpotbox.exe
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\Adpotbox.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\Adpotbox.pdb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\priconfig.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\priconfig.xml.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\layout.resfiles
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\layout.resfiles.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\resources.resfiles
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\resources.resfiles.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\pri.resfiles
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\pri.resfiles.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\qualifiers.txt
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\qualifiers.txt.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Publishers\Adpotbox\obj\Release\ProjectArchitectures.txt

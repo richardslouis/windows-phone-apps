@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="Paperbooklet.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Paperbooklet"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#654796">
+
+    <Grid Background="#654796" ScrollViewer.VerticalScrollBarVisibility="Hidden">
+        <WebView DefaultBackgroundColor="#654796" x:Name="webview1" LoadCompleted="WebView_LoadCompleted" Source="ms-appx-web:///assets/www/proceed.html" Margin="0,10,0,0" ScrollViewer.VerticalScrollBarVisibility="Hidden" />
+        <ProgressRing x:Name="ProgressRing1" HorizontalAlignment="center" VerticalAlignment="Center" Height="360" Width="360" Background="{x:Null}" Foreground="White" Margin="0,0,0,0"/>
+    </Grid>
+</Page>

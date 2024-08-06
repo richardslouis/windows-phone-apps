@@ -1,0 +1,72 @@
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\App.xbf
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\MainPage.xbf
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\Paperbooklet.xr.xml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\Paperbooklet.exe
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\Paperbooklet.pdb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\Paperbooklet.xml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\resources.pri
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\AppxManifest.xml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\Paperbooklet.build.appxrecipe
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\OneSignalSDK_WP_WNS.dll
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\Newtonsoft.Json.dll
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\Paperbooklet.vbprojResolveAssemblyReference.cache
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\App.g.i.vb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\App.g.vb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\MainPage.g.i.vb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\MainPage.g.vb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\XamlTypeInfo.g.vb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\App.xaml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\MainPage.xaml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\App.xbf
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\MainPage.xbf
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\XamlSaveStateFile.xml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\Paperbooklet.exe
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\Paperbooklet.xml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\Paperbooklet.pdb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\Paperbooklet.vbproj.GenerateResource.Cache
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\priconfig.xml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\priconfig.xml.intermediate
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\layout.resfiles
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\layout.resfiles.intermediate
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\resources.resfiles
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\resources.resfiles.intermediate
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\pri.resfiles
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\pri.resfiles.intermediate
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\qualifiers.txt
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\qualifiers.txt.intermediate
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\MultipleQualifiersPerDimensionFound.txt
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\ProjectArchitectures.txt
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\App.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\MainPage.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\Paperbooklet.xr.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\Paperbooklet.exe
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\Paperbooklet.pdb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\Paperbooklet.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\resources.pri
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\AppxManifest.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\Paperbooklet.build.appxrecipe
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\App.g.i.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\App.g.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\MainPage.g.i.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\MainPage.g.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\XamlTypeInfo.g.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\App.xaml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\MainPage.xaml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\App.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\MainPage.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\XamlSaveStateFile.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\Paperbooklet.exe
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\Paperbooklet.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\Paperbooklet.pdb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\priconfig.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\priconfig.xml.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\layout.resfiles
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\layout.resfiles.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\resources.resfiles
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\resources.resfiles.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\pri.resfiles
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\pri.resfiles.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\qualifiers.txt
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\qualifiers.txt.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\ProjectArchitectures.txt

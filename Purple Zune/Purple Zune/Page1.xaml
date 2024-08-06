@@ -1,0 +1,95 @@
+﻿<phone:PhoneApplicationPage
+
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:ec="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions" 
+
+    x:Class="Purple_zune.Page1"
+
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+
+    Foreground="{StaticResource PhoneForegroundBrush}"
+
+    SupportedOrientations="Portrait" Orientation="Portrait"
+
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="Auto"/>
+
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <!--ContentPanel - place additional content here-->
+
+        <Grid x:Name="ContentPanel" Margin="12,-23,12,35" Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="314*" />
+                <ColumnDefinition Width="142*" />
+            </Grid.ColumnDefinitions>
+            <TextBox Height="73" HorizontalAlignment="Stretch" Margin="54,17,70,0" x:Name="textBox" Text="www.msn.com" VerticalAlignment="Top" 
+
+                           FontFamily="Comic Sans MS" FontSize="20">
+
+                <TextBox.Background>
+
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+
+                        <GradientStop Color="white" Offset="0" />
+
+                        <GradientStop Color="white" Offset="1" />
+
+                    </LinearGradientBrush>
+
+                </TextBox.Background>
+
+            </TextBox>
+
+            <Button Content="Go" Height="73" HorizontalAlignment="Right" Margin="0,17,0,0" x:Name="button1" 
+
+                    VerticalAlignment="Top" Width="91" FontSize="17" Click="button1_Click_1" />
+
+            <phone:WebBrowser HorizontalAlignment="Stretch" Margin="-12,82,-12,-61" x:Name="MywebBrowser1" VerticalAlignment="Stretch" Grid.ColumnSpan="2" Height="735" />
+            <Button Content="Info" FontSize="17" Height="73" Margin="55,17,-23,0" x:Name="button2" VerticalAlignment="Top" Grid.Column="1">
+            	<i:Interaction.Triggers>
+            		<i:EventTrigger EventName="Click">
+            			<ec:NavigateToPageAction TargetPage="/Page3.xaml"/>
+            		</i:EventTrigger>
+            	</i:Interaction.Triggers>
+            </Button>
+            <Button Content="Flip" FontSize="17" Height="73" HorizontalAlignment="Right" Margin="0,17,65,0" x:Name="button3" VerticalAlignment="Top" Width="100" Grid.ColumnSpan="2">
+
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ec:NavigateToPageAction TargetPage="/MainPage.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+
+            </Button>
+            <TextBlock Height="40" HorizontalAlignment="Left" Margin="6,36,0,0" Name="textBlock1" Text="http://" VerticalAlignment="Top" Width="54" />
+        </Grid>
+
+    </Grid>
+
+</phone:PhoneApplicationPage>

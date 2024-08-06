@@ -1,0 +1,4 @@
+MainPackage=C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\Paperbooklet_6.0.2201.1_AnyCPU.appx
+SymbolPackage=C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\AppPackages\Paperbooklet_6.0.2201.1_Test\Paperbooklet_6.0.2201.1_AnyCPU.appxsym
+ResourcePack=C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\Paperbooklet_6.0.2201.1_scale-100.appx
+ResourcePack=C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\Paperbooklet_6.0.2201.1_scale-140.appx

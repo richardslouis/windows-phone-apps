@@ -1,0 +1,1099 @@
+﻿<phone:PhoneApplicationPage 
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+	xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+	xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+	x:Class="Foster_English.PanoramaPage1"
+	FontFamily="{StaticResource PhoneFontFamilyNormal}"
+	FontSize="{StaticResource PhoneFontSizeNormal}"
+	Foreground="{StaticResource PhoneForegroundBrush}"
+	SupportedOrientations="Portrait" Orientation="Portrait"
+	shell:SystemTray.IsVisible="False" HorizontalAlignment="Left">
+	<phone:PhoneApplicationPage.Resources>
+		<ScrollBarVisibility x:Key="ScrollBarVisibility1">Disabled</ScrollBarVisibility>
+	</phone:PhoneApplicationPage.Resources>
+	<phone:PhoneApplicationPage.Background>
+		<ImageBrush Stretch="Fill"/>
+	</phone:PhoneApplicationPage.Background>
+
+	<!--LayoutRoot contains the root grid where all other page content is placed-->
+	<Grid x:Name="LayoutRoot">
+		<controls:Panorama Title="Foster English" Margin="-8,8,8,-8">
+
+			<!--Panorama item one-->
+
+			<!--Panorama item two-->
+			<controls:PanoramaItem Header=">>">
+				<ScrollViewer>
+					<RichTextBox Width="420">
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Fard"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Face-paint, makeup."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Fartlek"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="An athletic training regime."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Fatuous"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Unconsciously foolish."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Filibuster"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Refusal to give up the floor in a debate to prevent a vote."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Firkin"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A quarter barrel or small cask."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Flibbertigibbet"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Nonsense, balderdash."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Flummox"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="To exasperate."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Folderol"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Nonsense."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Formication"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="The sense of ants crawling on your skin."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Fuddy-duddy"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="An old-fashioned, mild-mannered person."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+					</RichTextBox>
+				</ScrollViewer>
+			</controls:PanoramaItem>
+			<controls:PanoramaItem Header=">>">
+				<ScrollViewer>
+					<RichTextBox Width="420">
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Furbelow"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A fringe or ruffle."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Furphy"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A portable water-container."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Gaberlunzie"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A wandering beggar."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Gardyloo!"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A warning shouted before throwing water from above."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Gastromancy"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Telling fortune from the rumblings of the stomach."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Gazump"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="To buy something already promised to someone else."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Gobbledygook"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Nonsense, balderdash."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Gobemouche"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A highly gullible person."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Godwottery"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Nonsense, balderdash."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Gongoozle"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="To stare at, kibitz."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+					</RichTextBox>
+				</ScrollViewer>
+			</controls:PanoramaItem>
+			<controls:PanoramaItem Header=">>">
+				<ScrollViewer>
+					<RichTextBox Width="420">
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Gonzo"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Far-out journalism."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Goombah"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="An older friend who protects you."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Hemidemisemiquaver"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A musical timing of 1/64."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Hobbledehoy"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="An awkward or ill-mannered young boy."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Hocus-pocus"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Deceitful sleight of hand."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Hoosegow"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A jail or prison."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Hootenanny"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A country or folk music get-together."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Jackanapes"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A rapscallion, hooligan."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Kerfuffle"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="An uproar, mild scandal."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Klutz"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="An awkward, stupid person."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+					</RichTextBox>
+				</ScrollViewer>
+			</controls:PanoramaItem>
+			<controls:PanoramaItem Header=">>">
+				<ScrollViewer>
+					<RichTextBox Width="420">
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="La-di-da"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="An interjection indicating that something is pretentious."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Lagopodous"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Like a rabbit's foot."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Lickety-split"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="As fast as possible."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Lickspittle"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A servile person, a toady."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Logorrhea"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Loquaciousness, talkativeness."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Lollygag"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="To move slowly, fall behind."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Malarkey"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Nonsense, balderdash."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Maverick"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A loner, someone outside the box."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Mollycoddle"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="To treat too leniently."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Mugwump"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="An independent politician who does not follow any party."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+					</RichTextBox>
+				</ScrollViewer>
+			</controls:PanoramaItem>
+			<controls:PanoramaItem Header=">>">
+				<ScrollViewer>
+					<RichTextBox Width="420">
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Mumpsimus"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="An outdated and unreasonable position on an issue."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Namby-pamby"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Weak, with no backbone."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Nincompoop"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A foolish person."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Oocephalus"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="An egghead."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Ornery"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Mean, nasty, grumpy."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Pandiculation"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A full body stretch."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Panjandrum"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Someone who thinks himself high and mighty."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Pettifogger"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A person who tries to befuddle others with his speech."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Pratfall"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A fall on one's rear."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Quean"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A disreputable woman."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+					</RichTextBox>
+				</ScrollViewer>
+			</controls:PanoramaItem>
+			<controls:PanoramaItem Header=">>">
+				<ScrollViewer>
+					<RichTextBox Width="420">
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Rambunctious"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Aggressive, hard to control."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Ranivorous"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Frog-eating"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Rigmarole"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Nonsense, unnecessary complexity."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Shenanigan"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A prank, mischief."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Sialoquent"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Spitting while speaking."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Skedaddle"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="To hurry somewhere."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Skullduggery"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="No good, underhanded dealing."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Slangwhanger"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A loud abusive speaker or obnoxious writer."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Smellfungus"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A perpetual pessimist."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Snickersnee"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A long knife."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+					</RichTextBox>
+				</ScrollViewer>
+			</controls:PanoramaItem>
+			<controls:PanoramaItem Header=">>">
+				<ScrollViewer>
+					<RichTextBox Width="420">
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Snollygoster"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A person who can't be trusted."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Snool"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A servile person."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Tatterdemalion"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A child in rags."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Troglodyte"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Someone or something that lives in a cave."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Turdiform"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Having the form of a lark."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Unremacadamized"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Having not been repaved with macadam."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Vomitory"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="An exit or outlet."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Wabbit"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Exhausted, tired, worn out."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Widdershins"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="In a contrary or counterclockwise direction."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Yahoo"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A rube, a country bumpkin."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+					</RichTextBox>
+				</ScrollViewer>
+			</controls:PanoramaItem>
+			<controls:PanoramaItem Header=">>
+			">
+				<ScrollViewer>
+					<RichTextBox Width="420">
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Ailurophile"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A cat-lover."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Assemblage"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A gathering."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Becoming"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Attractive."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Beleaguer"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="To exhaust with attacks."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Brood"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="To think alone."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Bucolic"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="In a lovely rural setting."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Bungalow"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A small, cozy cottage."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Chatoyant"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Like a cat's eye."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Comely"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Attractive."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Conflate"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="To blend together."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+					</RichTextBox>
+				</ScrollViewer>
+			</controls:PanoramaItem>
+			<controls:PanoramaItem Header=">>
+			">
+				<ScrollViewer>
+					<RichTextBox Width="420">
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Cynosure"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A focal point of admiration."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Dalliance"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A brief love affair."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Demesne"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Dominion, territory."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Demure"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Shy and reserved."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Denouement"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="The resolution of a mystery."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Desuetude"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Disuse."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Desultory"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Slow, sluggish."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Diaphanous"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Filmy."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Dissemble"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Deceive."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Dulcet"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Sweet, sugary."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+					</RichTextBox>
+				</ScrollViewer>
+			</controls:PanoramaItem>
+			<controls:PanoramaItem Header=">>">
+				<ScrollViewer>
+					<RichTextBox Width="420">
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Ebullience"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Bubbling enthusiasm."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Effervescent"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Bubbly."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Efflorescence"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Flowering, blooming."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Elision"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Dropping a sound or syllable in a word."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Elixir"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A good potion."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Eloquence"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Beauty and persuasion in speech."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Embrocation"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Rubbing on a lotion."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Emollient"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A softener."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Ephemeral"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Short-lived."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Epiphany"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A sudden revelation."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+					</RichTextBox>
+				</ScrollViewer>
+			</controls:PanoramaItem>
+			<controls:PanoramaItem Header=">>">
+				<ScrollViewer>
+					<RichTextBox Width="420">
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Erstwhile"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="At one time, for a time."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Ethereal"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Gaseous, invisible but detectable."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Evanescent"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Vanishing quickly, lasting a very short time."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Evocative"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Suggestive."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Fetching"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Pretty."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Felicity"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Pleasantness."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Forbearance"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Withholding response to provocation."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Fugacious"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Fleeting."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Furtive"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Shifty, sneaky."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Gambol"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="To skip or leap about joyfully."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+					</RichTextBox>
+				</ScrollViewer>
+			</controls:PanoramaItem>
+			<controls:PanoramaItem Header=">>">
+				<ScrollViewer>
+					<RichTextBox Width="420">
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Glamour"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Beauty."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Gossamer"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="The finest piece of thread, a spider's silk"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Halcyon"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Happy, sunny, care-free."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Harbinger"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Messenger with news of the future."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Imbrication"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Overlapping and forming a regular pattern."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Imbroglio"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="An altercation or complicated situation."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Imbue"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="To infuse, instill."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Incipient"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Beginning, in an early stage."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Ineffable"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Unutterable, inexpressible."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Ingénue"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A naïve young woman."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+					</RichTextBox>
+				</ScrollViewer>
+			</controls:PanoramaItem>
+			<controls:PanoramaItem Header=">>">
+				<ScrollViewer>
+					<RichTextBox Width="420">
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Inglenook"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A cozy nook by the hearth."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Insouciance"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Blithe nonchalance."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Inure"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="To become jaded."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Labyrinthine"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Twisting and turning."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Lagniappe"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A special kind of gift."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Lagoon"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A small gulf or inlet."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Languor"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Listlessness, inactivity."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Lassitude"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Weariness, listlessness."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Leisure"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Free time."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Lilt"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="To move musically or lively."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+					</RichTextBox>
+				</ScrollViewer>
+			</controls:PanoramaItem>
+			<controls:PanoramaItem Header=">>">
+				<ScrollViewer>
+					<RichTextBox Width="420">
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Lissome"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Slender and graceful."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Lithe"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Slender and flexible."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Love"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Deep affection."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Mellifluous"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Sweet sounding."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Moiety"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="One of two equal parts."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Mondegreen"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A slip of the ear."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Murmurous"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Murmuring."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Nemesis"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="An unconquerable archenemy."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Offing"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="The sea between the horizon and the offshore."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Onomatopoeia"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A word that sounds like its meaning."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+					</RichTextBox>
+				</ScrollViewer>
+			</controls:PanoramaItem>
+			<controls:PanoramaItem Header=">>">
+				<ScrollViewer>
+					<RichTextBox Width="420">
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Opulent"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Lush, luxuriant."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Palimpsest"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A manuscript written over earlier ones."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Panacea"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A solution for all problems"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Panoply"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A complete set."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Pastiche"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="An art work combining materials from various sources."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Penumbra"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A half-shadow."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Petrichor"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="The smell of earth after rain."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Plethora"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A large quantity."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Propinquity"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="An inclination."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Pyrrhic"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Successful with heavy losses."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+					</RichTextBox>
+				</ScrollViewer>
+			</controls:PanoramaItem>
+			<controls:PanoramaItem Header=">>">
+				<ScrollViewer>
+					<RichTextBox Width="420">
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Quintessential"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Most essential."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Ratatouille"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A spicy French stew."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Ravel"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="To knit or unknit."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Redolent"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Fragrant."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Riparian"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="By the bank of a stream."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Ripple"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A very small wave."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Scintilla"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="A spark or very small thing."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Sempiternal"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Eternal."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Seraglio"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Rich, luxurious oriental palace or harem."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Serendipity"/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run Text="Finding something nice while looking for something else."/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+						<Paragraph><Run/></Paragraph>
+					</RichTextBox>
+				</ScrollViewer>
+			</controls:PanoramaItem>
+		</controls:Panorama>
+	</Grid>
+</phone:PhoneApplicationPage>

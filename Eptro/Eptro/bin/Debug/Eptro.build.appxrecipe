@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-NQDOAVJ</Machine>
+    <WindowsUser>Richards Louis</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>931fb48f-5436-449a-9c87-1fb2371640f5</PackageIdentityName>
+    <PackageIdentityPublisher>CN=BB7B72A7-44D7-4BE4-8610-6E59E2F1146B</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\bin\Debug\Eptro.exe">
+      <PackagePath>Eptro.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\font-awesome\fonts\._fontawesome-webfont.ttf">
+      <PackagePath>Assets\www\assets\font-awesome\fonts\._fontawesome-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\font-awesome\fonts\fontawesome-webfont.ttf">
+      <PackagePath>Assets\www\assets\font-awesome\fonts\fontawesome-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\font-awesome\fonts\._FontAwesome.otf">
+      <PackagePath>Assets\www\assets\font-awesome\fonts\._FontAwesome.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\font-awesome\fonts\FontAwesome.otf">
+      <PackagePath>Assets\www\assets\font-awesome\fonts\FontAwesome.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\Square71x71Logo.scale-140.png">
+      <PackagePath>Assets\Square71x71Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\WideLogo.scale-140.png">
+      <PackagePath>Assets\WideLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\img\._contact-problem.png">
+      <PackagePath>Assets\www\assets\img\._contact-problem.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\img\._contact-success.png">
+      <PackagePath>Assets\www\assets\img\._contact-success.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\img\._parallax-foreground.png">
+      <PackagePath>Assets\www\assets\img\._parallax-foreground.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\img\._parallax-midground.png">
+      <PackagePath>Assets\www\assets\img\._parallax-midground.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\img\._pattern.png">
+      <PackagePath>Assets\www\assets\img\._pattern.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\img\._swipebox-icons.png">
+      <PackagePath>Assets\www\assets\img\._swipebox-icons.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\img\contact-problem.png">
+      <PackagePath>Assets\www\assets\img\contact-problem.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\img\contact-success.png">
+      <PackagePath>Assets\www\assets\img\contact-success.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\img\parallax-foreground.png">
+      <PackagePath>Assets\www\assets\img\parallax-foreground.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\img\parallax-midground.png">
+      <PackagePath>Assets\www\assets\img\parallax-midground.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\img\pattern.png">
+      <PackagePath>Assets\www\assets\img\pattern.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\img\swipebox-icons.png">
+      <PackagePath>Assets\www\assets\img\swipebox-icons.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\._01.png">
+      <PackagePath>Assets\www\assets\overlays\._01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\._02.png">
+      <PackagePath>Assets\www\assets\overlays\._02.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\._03.png">
+      <PackagePath>Assets\www\assets\overlays\._03.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\._04.png">
+      <PackagePath>Assets\www\assets\overlays\._04.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\._05.png">
+      <PackagePath>Assets\www\assets\overlays\._05.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\._06.png">
+      <PackagePath>Assets\www\assets\overlays\._06.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\._07.png">
+      <PackagePath>Assets\www\assets\overlays\._07.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\._08.png">
+      <PackagePath>Assets\www\assets\overlays\._08.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\._09.png">
+      <PackagePath>Assets\www\assets\overlays\._09.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\._10.png">
+      <PackagePath>Assets\www\assets\overlays\._10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\._11.png">
+      <PackagePath>Assets\www\assets\overlays\._11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\._12.png">
+      <PackagePath>Assets\www\assets\overlays\._12.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\._13.png">
+      <PackagePath>Assets\www\assets\overlays\._13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\._14.png">
+      <PackagePath>Assets\www\assets\overlays\._14.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\._15.png">
+      <PackagePath>Assets\www\assets\overlays\._15.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\01.png">
+      <PackagePath>Assets\www\assets\overlays\01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\02.png">
+      <PackagePath>Assets\www\assets\overlays\02.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\03.png">
+      <PackagePath>Assets\www\assets\overlays\03.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\04.png">
+      <PackagePath>Assets\www\assets\overlays\04.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\05.png">
+      <PackagePath>Assets\www\assets\overlays\05.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\06.png">
+      <PackagePath>Assets\www\assets\overlays\06.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\07.png">
+      <PackagePath>Assets\www\assets\overlays\07.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\08.png">
+      <PackagePath>Assets\www\assets\overlays\08.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\09.png">
+      <PackagePath>Assets\www\assets\overlays\09.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\10.png">
+      <PackagePath>Assets\www\assets\overlays\10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\11.png">
+      <PackagePath>Assets\www\assets\overlays\11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\12.png">
+      <PackagePath>Assets\www\assets\overlays\12.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\13.png">
+      <PackagePath>Assets\www\assets\overlays\13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\14.png">
+      <PackagePath>Assets\www\assets\overlays\14.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\overlays\15.png">
+      <PackagePath>Assets\www\assets\overlays\15.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\css\._animate.css">
+      <PackagePath>Assets\www\assets\css\._animate.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\css\._bootstrap.min.css">
+      <PackagePath>Assets\www\assets\css\._bootstrap.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\css\._style.css">
+      <PackagePath>Assets\www\assets\css\._style.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\css\animate.css">
+      <PackagePath>Assets\www\assets\css\animate.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\css\bootstrap.min.css">
+      <PackagePath>Assets\www\assets\css\bootstrap.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\css\style.css">
+      <PackagePath>Assets\www\assets\css\style.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\font-awesome\css\._font-awesome.css">
+      <PackagePath>Assets\www\assets\font-awesome\css\._font-awesome.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\font-awesome\css\._font-awesome.min.css">
+      <PackagePath>Assets\www\assets\font-awesome\css\._font-awesome.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\font-awesome\css\font-awesome.css">
+      <PackagePath>Assets\www\assets\font-awesome\css\font-awesome.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\font-awesome\css\font-awesome.min.css">
+      <PackagePath>Assets\www\assets\font-awesome\css\font-awesome.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\font-awesome\fonts\._fontawesome-webfont.svg">
+      <PackagePath>Assets\www\assets\font-awesome\fonts\._fontawesome-webfont.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\font-awesome\fonts\fontawesome-webfont.svg">
+      <PackagePath>Assets\www\assets\font-awesome\fonts\fontawesome-webfont.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\img\._swipebox-icons.svg">
+      <PackagePath>Assets\www\assets\img\._swipebox-icons.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\img\swipebox-icons.svg">
+      <PackagePath>Assets\www\assets\img\swipebox-icons.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._bootstrap.min.js">
+      <PackagePath>Assets\www\assets\js\._bootstrap.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._contact_me.js">
+      <PackagePath>Assets\www\assets\js\._contact_me.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._custom.js">
+      <PackagePath>Assets\www\assets\js\._custom.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._fss.js">
+      <PackagePath>Assets\www\assets\js\._fss.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._future.js">
+      <PackagePath>Assets\www\assets\js\._future.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._glassyWorms.js">
+      <PackagePath>Assets\www\assets\js\._glassyWorms.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._jquery-1.10.2.min.js">
+      <PackagePath>Assets\www\assets\js\._jquery-1.10.2.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._jquery-ui-1.8.16.custom.min.js">
+      <PackagePath>Assets\www\assets\js\._jquery-ui-1.8.16.custom.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._jquery.lettering.js">
+      <PackagePath>Assets\www\assets\js\._jquery.lettering.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._jquery.lwtCountdown-1.0.js">
+      <PackagePath>Assets\www\assets\js\._jquery.lwtCountdown-1.0.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._jquery.mb.YTPlayer.js">
+      <PackagePath>Assets\www\assets\js\._jquery.mb.YTPlayer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._jquery.popupoverlay.js">
+      <PackagePath>Assets\www\assets\js\._jquery.popupoverlay.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._jquery.swipebox.js">
+      <PackagePath>Assets\www\assets\js\._jquery.swipebox.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._jquery.textillate.js">
+      <PackagePath>Assets\www\assets\js\._jquery.textillate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._jquery.vegas.js">
+      <PackagePath>Assets\www\assets\js\._jquery.vegas.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._notifyMe.js">
+      <PackagePath>Assets\www\assets\js\._notifyMe.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._parallax.js">
+      <PackagePath>Assets\www\assets\js\._parallax.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._rainyday.js">
+      <PackagePath>Assets\www\assets\js\._rainyday.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._script.js">
+      <PackagePath>Assets\www\assets\js\._script.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._sketch.js">
+      <PackagePath>Assets\www\assets\js\._sketch.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\._starfield.js">
+      <PackagePath>Assets\www\assets\js\._starfield.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\bootstrap.min.js">
+      <PackagePath>Assets\www\assets\js\bootstrap.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\contact_me.js">
+      <PackagePath>Assets\www\assets\js\contact_me.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\custom.js">
+      <PackagePath>Assets\www\assets\js\custom.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\fss.js">
+      <PackagePath>Assets\www\assets\js\fss.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\future.js">
+      <PackagePath>Assets\www\assets\js\future.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\glassyWorms.js">
+      <PackagePath>Assets\www\assets\js\glassyWorms.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\jquery-1.10.2.min.js">
+      <PackagePath>Assets\www\assets\js\jquery-1.10.2.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\jquery-ui-1.8.16.custom.min.js">
+      <PackagePath>Assets\www\assets\js\jquery-ui-1.8.16.custom.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\jquery.lettering.js">
+      <PackagePath>Assets\www\assets\js\jquery.lettering.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\jquery.lwtCountdown-1.0.js">
+      <PackagePath>Assets\www\assets\js\jquery.lwtCountdown-1.0.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\jquery.mb.YTPlayer.js">
+      <PackagePath>Assets\www\assets\js\jquery.mb.YTPlayer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\jquery.popupoverlay.js">
+      <PackagePath>Assets\www\assets\js\jquery.popupoverlay.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\jquery.swipebox.js">
+      <PackagePath>Assets\www\assets\js\jquery.swipebox.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\jquery.textillate.js">
+      <PackagePath>Assets\www\assets\js\jquery.textillate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\jquery.vegas.js">
+      <PackagePath>Assets\www\assets\js\jquery.vegas.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\notifyMe.js">
+      <PackagePath>Assets\www\assets\js\notifyMe.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\parallax.js">
+      <PackagePath>Assets\www\assets\js\parallax.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\rainyday.js">
+      <PackagePath>Assets\www\assets\js\rainyday.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\script.js">
+      <PackagePath>Assets\www\assets\js\script.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\sketch.js">
+      <PackagePath>Assets\www\assets\js\sketch.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\js\starfield.js">
+      <PackagePath>Assets\www\assets\js\starfield.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\sounds\._0595.mp3">
+      <PackagePath>Assets\www\assets\sounds\._0595.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\sounds\._glass-tone.mp3">
+      <PackagePath>Assets\www\assets\sounds\._glass-tone.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\sounds\0595.mp3">
+      <PackagePath>Assets\www\assets\sounds\0595.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\assets\sounds\glass-tone.mp3">
+      <PackagePath>Assets\www\assets\sounds\glass-tone.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\index.html">
+      <PackagePath>Assets\www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\Assets\www\offline.html">
+      <PackagePath>Assets\www\offline.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\bin\Debug\Eptro.xr.xml">
+      <PackagePath>Eptro.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Eptro\Eptro\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

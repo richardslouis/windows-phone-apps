@@ -1,0 +1,4 @@
+MainPackage=C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Clothing Mag\Clothing Mag\bin\Release\Clothing Mag_6.0.2200.0_AnyCPU.appx
+SymbolPackage=C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Clothing Mag\Clothing Mag\AppPackages\Clothing Mag_6.0.2200.0_Test\Clothing Mag_6.0.2200.0_AnyCPU.appxsym
+ResourcePack=C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Clothing Mag\Clothing Mag\bin\Release\Clothing Mag_6.0.2200.0_scale-100.appx
+ResourcePack=C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Clothing Mag\Clothing Mag\bin\Release\Clothing Mag_6.0.2200.0_scale-140.appx

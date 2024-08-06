@@ -1,0 +1,38 @@
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\ApplicationIcon.png
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\Background.png
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\Purple Zune.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\Purple Zune.pdb
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\obj\Debug\Purple Zune.csprojResolveAssemblyReference.cache
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\obj\Debug\Purple Zune.g.resources
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\obj\Debug\Purple Zune.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\obj\Debug\Purple Zune.pdb
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\AppManifest.xaml
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\Bin\Debug\Purple_Zune.xap
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\obj\Debug\App.g.i.cs
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\obj\Debug\MainPage.g.i.cs
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\obj\Debug\Page1.g.i.cs
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\obj\Debug\Page3.g.i.cs
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\obj\Debug\XapCacheFile.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2010\Projects\final\Purple Zune\Purple Zune\obj\Debug\Page2.g.i.cs

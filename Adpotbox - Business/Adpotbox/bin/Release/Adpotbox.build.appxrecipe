@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-NQDOAVJ</Machine>
+    <WindowsUser>Richards Louis</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>a6d78ba7-016a-4aed-a25d-fb0f98186969</PackageIdentityName>
+    <PackageIdentityPublisher>CN=BB7B72A7-44D7-4BE4-8610-6E59E2F1146B</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\obj\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\bin\Release\Adpotbox.exe">
+      <PackagePath>Adpotbox.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\Square71x71Logo.scale-140.png">
+      <PackagePath>Assets\Square71x71Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\WideLogo.scale-140.png">
+      <PackagePath>Assets\WideLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\www\logo.png">
+      <PackagePath>Assets\www\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\www\load.gif">
+      <PackagePath>Assets\www\load.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\www\nointernet.gif">
+      <PackagePath>Assets\www\nointernet.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\www\progress_bar.gif">
+      <PackagePath>Assets\www\progress_bar.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\www\offline.html">
+      <PackagePath>Assets\www\offline.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\Assets\www\proceed.html">
+      <PackagePath>Assets\www\proceed.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\bin\Release\Adpotbox.xr.xml">
+      <PackagePath>Adpotbox.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Business\Adpotbox\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

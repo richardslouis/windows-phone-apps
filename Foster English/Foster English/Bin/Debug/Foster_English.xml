@@ -1,0 +1,65 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Foster_English
+</name>
+</assembly>
+<members>
+<member name="M:Foster_English.PanoramaPage1.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Foster_English.MainPage.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Foster_English.App.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="F:Foster_English.MainViewModel._items">
+	<summary>
+ A collection for ItemViewModel objects.
+ </summary>
+</member><member name="P:Foster_English.MainViewModel.SampleProperty">
+	<summary>
+ Sample ViewModel property; this property is used in the view to display its value using a Binding
+ </summary>
+	<returns></returns>
+</member><member name="M:Foster_English.MainViewModel.LoadData">
+	<summary>
+ Creates and adds a few ItemViewModel objects into the Items collection.
+ </summary>
+</member><member name="P:Foster_English.ItemViewModel.LineOne">
+	<summary>
+ Sample ViewModel property; this property is used in the view to display its value using a Binding.
+ </summary>
+	<returns></returns>
+</member><member name="P:Foster_English.ItemViewModel.LineTwo">
+	<summary>
+ Sample ViewModel property; this property is used in the view to display its value using a Binding.
+ </summary>
+	<returns></returns>
+</member><member name="P:Foster_English.ItemViewModel.LineThree">
+	<summary>
+ Sample ViewModel property; this property is used in the view to display its value using a Binding.
+ </summary>
+	<returns></returns>
+</member><member name="P:Foster_English.App.ViewModel">
+	<summary>
+ A static ViewModel used by the views to bind against.
+ </summary>
+	<returns>The MainViewModel object.</returns>
+</member><member name="P:Foster_English.App.RootFrame">
+	<summary>
+ Provides easy access to the root frame of the Phone Application.
+ </summary>
+	<returns>The root frame of the Phone Application.</returns>
+</member><member name="M:Foster_English.App.#ctor">
+	<summary>
+ Constructor for the Application object.
+ </summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,1183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C4CBC2B9-9838-4274-994E-717DD60C5B16}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <RootNamespace>Adpotbox</RootNamespace>
+    <AssemblyName>Adpotbox</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{76F1466A-8B6D-4E39-A767-685A06062A39};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <AppxBundle>Always</AppxBundle>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>NETFX_CORE</DefineConstants>
+    <DocumentationFile>Adpotbox.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>NETFX_CORE</DefineConstants>
+    <DocumentationFile>Adpotbox.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>NETFX_CORE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>Adpotbox.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>Adpotbox.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>NETFX_CORE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>Adpotbox.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>true</Prefer32Bit>
+    <DocumentationFile>Adpotbox.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.vb">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.vb">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Collections.ObjectModel" />
+    <Import Include="System.ComponentModel" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.IO" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Runtime.CompilerServices" />
+    <Import Include="System.Threading.Tasks" />
+    <Import Include="System.Windows.Input" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="Windows.ApplicationModel" />
+    <Import Include="Windows.ApplicationModel.Activation" />
+    <Import Include="Windows.Foundation" />
+    <Import Include="Windows.Foundation.Collections" />
+    <Import Include="Windows.Graphics.Display" />
+    <Import Include="Windows.UI.ViewManagement" />
+    <Import Include="Windows.UI.Xaml" />
+    <Import Include="Windows.UI.Xaml.Controls" />
+    <Import Include="Windows.UI.Xaml.Controls.Primitives" />
+    <Import Include="Windows.UI.Xaml.Data" />
+    <Import Include="Windows.UI.Xaml.Input" />
+    <Import Include="Windows.UI.Xaml.Media" />
+    <Import Include="Windows.UI.Xaml.Media.Animation" />
+    <Import Include="Windows.UI.Xaml.Media.Imaging" />
+    <Import Include="System.Runtime.InteropServices.WindowsRuntime" />
+    <Import Include="Windows.Phone.UI.Input" />
+    <Import Include="Windows.UI.Xaml.Navigation" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\Logo.scale-140.png" />
+    <Content Include="Assets\Logo.scale-240.png" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SmallLogo.scale-140.png" />
+    <Content Include="Assets\SmallLogo.scale-240.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-240.png" />
+    <Content Include="Assets\Square71x71Logo.scale-100.png" />
+    <Content Include="Assets\Square71x71Logo.scale-140.png" />
+    <Content Include="Assets\Square71x71Logo.scale-240.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-140.png" />
+    <Content Include="Assets\StoreLogo.scale-240.png" />
+    <Content Include="Assets\WideLogo.scale-100.png" />
+    <Content Include="Assets\WideLogo.scale-140.png" />
+    <Content Include="Assets\WideLogo.scale-240.png" />
+    <Content Include="Assets\www\assets\css\bootstrap.min.css" />
+    <Content Include="Assets\www\assets\css\material-design-iconic-font.min.css" />
+    <Content Include="Assets\www\assets\css\responsive.css" />
+    <Content Include="Assets\www\assets\css\style.css" />
+    <Content Include="Assets\www\assets\fonts\Material-Design-Iconic-Font.svg" />
+    <Content Include="Assets\www\assets\fonts\montserrat-light-webfont.svg" />
+    <Content Include="Assets\www\assets\fonts\montserrat-semibold-webfont.svg" />
+    <Content Include="Assets\www\assets\img\dark-logo.png" />
+    <Content Include="Assets\www\assets\img\favicon.ico" />
+    <Content Include="Assets\www\assets\img\light-logo.png" />
+    <Content Include="Assets\www\assets\img\load.gif" />
+    <Content Include="Assets\www\assets\img\payrichiesoft.png" />
+    <Content Include="Assets\www\assets\img\shooshpay.png" />
+    <Content Include="Assets\www\assets\img\shooshpay_disabled.png" />
+    <Content Include="Assets\www\assets\js\bootstrap.min.js" />
+    <Content Include="Assets\www\assets\js\main.js" />
+    <Content Include="Assets\www\assets\js\plugins.js" />
+    <Content Include="Assets\www\assets\js\vendor\jquery-1.12.4.min.js" />
+    <Content Include="Assets\www\assets\js\vendor\modernizr-2.8.3.min.js" />
+    <Content Include="Assets\www\favicon.ico" />
+    <Content Include="Assets\www\index.html" />
+    <Content Include="Assets\www\load.gif" />
+    <Content Include="Assets\www\offline.html" />
+    <Content Include="Assets\www\payrichiesoft\assets\css\font-awesome.min.css" />
+    <Content Include="Assets\www\payrichiesoft\assets\css\ie9.css" />
+    <Content Include="Assets\www\payrichiesoft\assets\css\main.css" />
+    <Content Include="Assets\www\payrichiesoft\assets\css\noscript.css" />
+    <Content Include="Assets\www\payrichiesoft\assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="Assets\www\payrichiesoft\assets\js\jquery.min.js" />
+    <Content Include="Assets\www\payrichiesoft\assets\js\main.js" />
+    <Content Include="Assets\www\payrichiesoft\assets\js\skel.min.js" />
+    <Content Include="Assets\www\payrichiesoft\assets\js\util.js" />
+    <Content Include="Assets\www\payrichiesoft\css\custom\custom.css" />
+    <Content Include="Assets\www\payrichiesoft\css\custom\custom.min.css" />
+    <Content Include="Assets\www\payrichiesoft\css\layouts\layout-2.min.css" />
+    <Content Include="Assets\www\payrichiesoft\css\layouts\layout-3.min.css" />
+    <Content Include="Assets\www\payrichiesoft\css\layouts\page-center.css" />
+    <Content Include="Assets\www\payrichiesoft\css\layouts\style-fullscreen.css" />
+    <Content Include="Assets\www\payrichiesoft\css\layouts\style-horizontal.css" />
+    <Content Include="Assets\www\payrichiesoft\css\materialize.css" />
+    <Content Include="Assets\www\payrichiesoft\css\materialize.min.css" />
+    <Content Include="Assets\www\payrichiesoft\css\plugins\media-hover-effects.css" />
+    <Content Include="Assets\www\payrichiesoft\css\style.css" />
+    <Content Include="Assets\www\payrichiesoft\css\style.min.css" />
+    <Content Include="Assets\www\payrichiesoft\favicon.ico" />
+    <Content Include="Assets\www\payrichiesoft\font\material-design-icons\LICENSE.txt" />
+    <Content Include="Assets\www\payrichiesoft\font\material-design-icons\Material-Design-Icons.svg" />
+    <Content Include="Assets\www\payrichiesoft\images\1logo.png" />
+    <Content Include="Assets\www\payrichiesoft\images\bg.jpg" />
+    <Content Include="Assets\www\payrichiesoft\images\login-logo.png" />
+    <Content Include="Assets\www\payrichiesoft\images\logo.png" />
+    <Content Include="Assets\www\payrichiesoft\images\overlay.png" />
+    <Content Include="Assets\www\payrichiesoft\index.html" />
+    <Content Include="Assets\www\payrichiesoft\js\custom-script.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\animation.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\buttons.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\cards.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\carousel.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\character_counter.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\chips.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\collapsible.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\date_picker\picker.date.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\date_picker\picker.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\dropdown.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\forms.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\global.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\hammer.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\jquery.easing.1.3.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\jquery.hammer.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\jquery.timeago.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\leanModal.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\materialbox.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\materialize.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\parallax.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\prism.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\pushpin.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\scrollFire.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\scrollspy.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\sideNav.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\slider.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\tabs.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\toasts.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\tooltip.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\transitions.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\velocity.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize-plugins\waves.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize.js" />
+    <Content Include="Assets\www\payrichiesoft\js\materialize.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\angular-materialize.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\angular.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\animate-css\animate.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\chartist-js\chartist-script.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\chartist-js\chartist.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\chartist-js\chartist.min.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\chartist-js\chartist.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\chartjs\chart-script.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\chartjs\chart.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\chartjs\chartjs-sample-chart.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\d3\d3.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\d3\d3.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\data-tables\css\jquery.dataTables.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\data-tables\css\jquery.dataTables.min.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\data-tables\css\jquery.dataTables_themeroller.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\data-tables\data-tables-script.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\data-tables\images\favicon.ico" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\data-tables\images\sort_asc.png" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\data-tables\images\sort_asc_disabled.png" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\data-tables\images\sort_both.png" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\data-tables\images\sort_desc.png" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\data-tables\images\sort_desc_disabled.png" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\data-tables\js\jquery.dataTables.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\data-tables\js\jquery.dataTables.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\data-tables\js\jquery.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\dropify\css\demo.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\dropify\css\dropify.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\dropify\css\dropify.min.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\dropify\fonts\dropify.svg" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\dropify\js\dropify.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\dropify\js\dropify.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\dynatree\jquery.dynatree.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\dynatree\skin-vista\icons.gif" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\dynatree\skin-vista\loading.gif" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\dynatree\skin-vista\ui.dynatree.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\dynatree\skin\icons-rtl.gif" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\dynatree\skin\icons.gif" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\dynatree\skin\loading.gif" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\dynatree\skin\ui.dynatree.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\dynatree\skin\vline-rtl.gif" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\dynatree\skin\vline.gif" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\editable-table\mindmup-editabletable.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\editable-table\numeric-input-example.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\floatThead\jquery.floatThead-slim.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\floatThead\jquery.floatThead-slim.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\floatThead\jquery.floatThead.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\floatThead\jquery.floatThead.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\excanvas.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\excanvas.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\flot-script.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.colorhelpers.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.colorhelpers.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.canvas.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.canvas.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.categories.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.categories.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.crosshair.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.crosshair.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.errorbars.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.errorbars.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.fillbetween.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.fillbetween.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.image.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.image.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.navigate.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.navigate.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.pie.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.pie.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.resize.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.resize.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.selection.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.selection.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.stack.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.stack.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.symbol.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.symbol.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.threshold.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.threshold.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.time.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\jquery.flot.time.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\flot-chart\LICENSE.txt" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\formatter\formatter.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\formatter\formatter.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\formatter\jquery.formatter.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\formatter\jquery.formatter.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\formatter\scale.fix.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\css\fullcalendar.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\css\fullcalendar.min.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\css\fullcalendar.print.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\fullcalendar-script.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\js\fullcalendar.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\js\fullcalendar.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\js\gcal.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\js\lang-all.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\ar-ma.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\ar-sa.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\ar-tn.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\ar.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\bg.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\ca.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\cs.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\da.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\de-at.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\de.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\el.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\en-au.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\en-ca.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\en-gb.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\es.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\fa.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\fi.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\fr-ca.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\fr.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\he.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\hi.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\hr.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\hu.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\id.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\is.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\it.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\ja.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\ko.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\lt.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\lv.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\nb.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\nl.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\pl.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\pt-br.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\pt.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\ro.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\ru.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\sk.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\sl.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\sr-cyrl.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\sr.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\sv.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\th.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\tr.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\uk.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\vi.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\zh-cn.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lang\zh-tw.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lib\cupertino\images\animated-overlay.gif" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lib\cupertino\images\ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lib\cupertino\images\ui-bg_flat_15_cd0a0a_40x100.png" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lib\cupertino\images\ui-bg_glass_100_e4f1fb_1x400.png" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lib\cupertino\images\ui-bg_glass_50_3baae3_1x400.png" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lib\cupertino\images\ui-bg_glass_80_d7ebf9_1x400.png" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lib\cupertino\images\ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lib\cupertino\images\ui-bg_highlight-hard_70_000000_1x100.png" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lib\cupertino\images\ui-bg_highlight-soft_100_deedf7_1x100.png" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lib\cupertino\images\ui-bg_highlight-soft_25_ffef8f_1x100.png" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lib\cupertino\images\ui-icons_2694e8_256x240.png" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lib\cupertino\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lib\cupertino\images\ui-icons_3d80b3_256x240.png" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lib\cupertino\images\ui-icons_72a7cf_256x240.png" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lib\cupertino\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lib\cupertino\jquery-ui.min.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lib\jquery-ui.custom.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lib\jquery.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\fullcalendar\lib\moment.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\google-map\google-map-script.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\imagesloaded.pkgd.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\introjs\intro.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\introjs\introjs.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\introjs\minified\intro.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\introjs\minified\introjs-rtl.min.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\introjs\minified\introjs.min.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\introjs\themes\introjs-dark.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\introjs\themes\introjs-nassim.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\introjs\themes\introjs-nazanin.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\introjs\themes\introjs-royal.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\ionRangeSlider\css\ion.rangeSlider.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\ionRangeSlider\css\ion.rangeSlider.skinFlat.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\ionRangeSlider\img\sprite-skin-flat.png" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\ionRangeSlider\index.html" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\ionRangeSlider\js\ion.rangeSlider.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-1.11.2.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-cookies\jquery.cookies.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-sortable.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jQuery-ui-Slider-Pips\jquery-ui-slider-pips.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jQuery-ui-Slider-Pips\jquery-ui-slider-pips.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jQuery-ui-Slider-Pips\jquery-ui-slider-pips.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-ui.custom.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\additional-methods.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\additional-methods.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\jquery.validate.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\jquery.validate.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_ar.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_ar.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_bg.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_bg.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_bn_BD.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_bn_BD.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_ca.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_ca.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_cs.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_cs.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_da.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_da.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_de.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_de.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_el.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_el.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_es.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_es.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_es_AR.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_es_AR.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_es_PE.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_es_PE.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_et.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_et.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_eu.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_eu.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_fa.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_fa.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_fi.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_fi.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_fr.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_fr.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_ge.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_ge.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_gl.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_gl.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_he.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_he.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_hr.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_hr.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_hu.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_hu.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_hy_AM.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_hy_AM.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_id.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_id.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_is.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_is.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_it.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_it.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_ja.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_ja.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_ka.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_ka.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_kk.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_kk.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_ko.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_ko.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_lt.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_lt.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_lv.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_lv.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_my.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_my.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_nl.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_nl.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_no.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_no.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_pl.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_pl.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_pt_BR.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_pt_BR.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_pt_PT.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_pt_PT.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_ro.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_ro.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_ru.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_ru.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_si.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_si.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_sk.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_sk.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_sl.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_sl.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_sr.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_sr.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_sr_lat.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_sr_lat.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_sv.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_sv.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_th.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_th.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_tj.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_tj.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_tr.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_tr.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_uk.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_uk.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_vi.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_vi.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_zh.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_zh.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_zh_TW.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\messages_zh_TW.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\methods_de.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\methods_de.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\methods_es_CL.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\methods_es_CL.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\methods_fi.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\methods_fi.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\methods_nl.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\methods_nl.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\methods_pt.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery-validation\localization\methods_pt.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery.nestable\jquery.nestable.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jquery.nestable\nestable.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jsgrid\css\jsgrid-theme.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jsgrid\css\jsgrid-theme.min.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jsgrid\css\jsgrid.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jsgrid\css\jsgrid.min.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jsgrid\js\db.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jsgrid\js\jsgrid-script.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jsgrid\js\jsgrid.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jsgrid\js\jsgrid.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jvectormap\jquery-jvectormap-1.2.2.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jvectormap\jquery-jvectormap-world-mill-en.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jvectormap\jquery-jvectormap.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\jvectormap\vectormap-script.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\magnific-popup\jquery.magnific-popup.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\magnific-popup\jquery.magnific-popup.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\magnific-popup\magnific-popup.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\masonry.pkgd.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\morris-chart\morris-script.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\morris-chart\morris.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\morris-chart\morris.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\perfect-scrollbar\perfect-scrollbar.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\perfect-scrollbar\perfect-scrollbar.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\prism\prism.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\prism\prism.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\raphael-min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\raphael\raphael-min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\sparkline\jquery.sparkline.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\sparkline\sparkline-script.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\sweetalert\themes\facebook\facebook.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\sweetalert\themes\google\google.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\sweetalert\themes\twitter\twitter.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\translator\jqueryTranslator.min.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\translator\translation-script.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\xcharts\xcharts-script.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\xcharts\xcharts.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\xcharts\xcharts.js" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\xcharts\xcharts.min.css" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\xcharts\xcharts.min.js" />
+    <Content Include="Assets\www\payrichiesoft\offline.html" />
+    <Content Include="Assets\www\payrichiesoft\online.html" />
+    <Content Include="Assets\www\payrichiesoft\others.html" />
+    <Content Include="Assets\www\payrichiesoft\payrichiesoft_black.png" />
+    <Content Include="Assets\www\shooshpay\assets\css\font-awesome.min.css" />
+    <Content Include="Assets\www\shooshpay\assets\css\ie9.css" />
+    <Content Include="Assets\www\shooshpay\assets\css\main.css" />
+    <Content Include="Assets\www\shooshpay\assets\css\noscript.css" />
+    <Content Include="Assets\www\shooshpay\assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="Assets\www\shooshpay\assets\js\jquery.min.js" />
+    <Content Include="Assets\www\shooshpay\assets\js\main.js" />
+    <Content Include="Assets\www\shooshpay\assets\js\skel.min.js" />
+    <Content Include="Assets\www\shooshpay\assets\js\util.js" />
+    <Content Include="Assets\www\shooshpay\css\custom\custom.css" />
+    <Content Include="Assets\www\shooshpay\css\custom\custom.min.css" />
+    <Content Include="Assets\www\shooshpay\css\layouts\layout-2.min.css" />
+    <Content Include="Assets\www\shooshpay\css\layouts\layout-3.min.css" />
+    <Content Include="Assets\www\shooshpay\css\layouts\page-center.css" />
+    <Content Include="Assets\www\shooshpay\css\layouts\style-fullscreen.css" />
+    <Content Include="Assets\www\shooshpay\css\layouts\style-horizontal.css" />
+    <Content Include="Assets\www\shooshpay\css\materialize.css" />
+    <Content Include="Assets\www\shooshpay\css\materialize.min.css" />
+    <Content Include="Assets\www\shooshpay\css\plugins\media-hover-effects.css" />
+    <Content Include="Assets\www\shooshpay\css\style.css" />
+    <Content Include="Assets\www\shooshpay\css\style.min.css" />
+    <Content Include="Assets\www\shooshpay\favicon.ico" />
+    <Content Include="Assets\www\shooshpay\font\material-design-icons\LICENSE.txt" />
+    <Content Include="Assets\www\shooshpay\font\material-design-icons\Material-Design-Icons.svg" />
+    <Content Include="Assets\www\shooshpay\images\1logo.png" />
+    <Content Include="Assets\www\shooshpay\images\bg.jpg" />
+    <Content Include="Assets\www\shooshpay\images\login-logo.png" />
+    <Content Include="Assets\www\shooshpay\images\logo.png" />
+    <Content Include="Assets\www\shooshpay\images\overlay.png" />
+    <Content Include="Assets\www\shooshpay\index.html" />
+    <Content Include="Assets\www\shooshpay\js\custom-script.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\animation.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\buttons.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\cards.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\carousel.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\character_counter.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\chips.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\collapsible.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\date_picker\picker.date.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\date_picker\picker.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\dropdown.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\forms.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\global.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\hammer.min.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\jquery.easing.1.3.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\jquery.hammer.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\jquery.timeago.min.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\leanModal.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\materialbox.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\materialize.min.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\parallax.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\prism.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\pushpin.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\scrollFire.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\scrollspy.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\sideNav.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\slider.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\tabs.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\toasts.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\tooltip.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\transitions.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\velocity.min.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize-plugins\waves.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize.js" />
+    <Content Include="Assets\www\shooshpay\js\materialize.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\angular-materialize.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\angular.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\animate-css\animate.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\chartist-js\chartist-script.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\chartist-js\chartist.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\chartist-js\chartist.min.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\chartist-js\chartist.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\chartjs\chart-script.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\chartjs\chart.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\chartjs\chartjs-sample-chart.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\d3\d3.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\d3\d3.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\data-tables\css\jquery.dataTables.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\data-tables\css\jquery.dataTables.min.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\data-tables\css\jquery.dataTables_themeroller.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\data-tables\data-tables-script.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\data-tables\images\favicon.ico" />
+    <Content Include="Assets\www\shooshpay\js\plugins\data-tables\images\sort_asc.png" />
+    <Content Include="Assets\www\shooshpay\js\plugins\data-tables\images\sort_asc_disabled.png" />
+    <Content Include="Assets\www\shooshpay\js\plugins\data-tables\images\sort_both.png" />
+    <Content Include="Assets\www\shooshpay\js\plugins\data-tables\images\sort_desc.png" />
+    <Content Include="Assets\www\shooshpay\js\plugins\data-tables\images\sort_desc_disabled.png" />
+    <Content Include="Assets\www\shooshpay\js\plugins\data-tables\js\jquery.dataTables.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\data-tables\js\jquery.dataTables.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\data-tables\js\jquery.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\dropify\css\demo.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\dropify\css\dropify.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\dropify\css\dropify.min.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\dropify\fonts\dropify.svg" />
+    <Content Include="Assets\www\shooshpay\js\plugins\dropify\js\dropify.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\dropify\js\dropify.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\dynatree\jquery.dynatree.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\dynatree\skin-vista\icons.gif" />
+    <Content Include="Assets\www\shooshpay\js\plugins\dynatree\skin-vista\loading.gif" />
+    <Content Include="Assets\www\shooshpay\js\plugins\dynatree\skin-vista\ui.dynatree.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\dynatree\skin\icons-rtl.gif" />
+    <Content Include="Assets\www\shooshpay\js\plugins\dynatree\skin\icons.gif" />
+    <Content Include="Assets\www\shooshpay\js\plugins\dynatree\skin\loading.gif" />
+    <Content Include="Assets\www\shooshpay\js\plugins\dynatree\skin\ui.dynatree.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\dynatree\skin\vline-rtl.gif" />
+    <Content Include="Assets\www\shooshpay\js\plugins\dynatree\skin\vline.gif" />
+    <Content Include="Assets\www\shooshpay\js\plugins\editable-table\mindmup-editabletable.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\editable-table\numeric-input-example.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\floatThead\jquery.floatThead-slim.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\floatThead\jquery.floatThead-slim.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\floatThead\jquery.floatThead.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\floatThead\jquery.floatThead.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\excanvas.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\excanvas.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\flot-script.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.colorhelpers.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.colorhelpers.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.canvas.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.canvas.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.categories.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.categories.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.crosshair.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.crosshair.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.errorbars.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.errorbars.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.fillbetween.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.fillbetween.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.image.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.image.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.navigate.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.navigate.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.pie.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.pie.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.resize.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.resize.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.selection.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.selection.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.stack.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.stack.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.symbol.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.symbol.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.threshold.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.threshold.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.time.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\jquery.flot.time.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\flot-chart\LICENSE.txt" />
+    <Content Include="Assets\www\shooshpay\js\plugins\formatter\formatter.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\formatter\formatter.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\formatter\jquery.formatter.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\formatter\jquery.formatter.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\formatter\scale.fix.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\css\fullcalendar.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\css\fullcalendar.min.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\css\fullcalendar.print.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\fullcalendar-script.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\js\fullcalendar.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\js\fullcalendar.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\js\gcal.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\js\lang-all.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\ar-ma.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\ar-sa.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\ar-tn.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\ar.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\bg.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\ca.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\cs.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\da.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\de-at.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\de.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\el.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\en-au.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\en-ca.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\en-gb.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\es.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\fa.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\fi.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\fr-ca.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\fr.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\he.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\hi.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\hr.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\hu.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\id.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\is.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\it.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\ja.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\ko.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\lt.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\lv.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\nb.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\nl.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\pl.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\pt-br.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\pt.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\ro.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\ru.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\sk.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\sl.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\sr-cyrl.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\sr.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\sv.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\th.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\tr.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\uk.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\vi.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\zh-cn.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lang\zh-tw.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lib\cupertino\images\animated-overlay.gif" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lib\cupertino\images\ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lib\cupertino\images\ui-bg_flat_15_cd0a0a_40x100.png" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lib\cupertino\images\ui-bg_glass_100_e4f1fb_1x400.png" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lib\cupertino\images\ui-bg_glass_50_3baae3_1x400.png" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lib\cupertino\images\ui-bg_glass_80_d7ebf9_1x400.png" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lib\cupertino\images\ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lib\cupertino\images\ui-bg_highlight-hard_70_000000_1x100.png" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lib\cupertino\images\ui-bg_highlight-soft_100_deedf7_1x100.png" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lib\cupertino\images\ui-bg_highlight-soft_25_ffef8f_1x100.png" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lib\cupertino\images\ui-icons_2694e8_256x240.png" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lib\cupertino\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lib\cupertino\images\ui-icons_3d80b3_256x240.png" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lib\cupertino\images\ui-icons_72a7cf_256x240.png" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lib\cupertino\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lib\cupertino\jquery-ui.min.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lib\jquery-ui.custom.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lib\jquery.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\fullcalendar\lib\moment.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\google-map\google-map-script.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\imagesloaded.pkgd.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\introjs\intro.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\introjs\introjs.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\introjs\minified\intro.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\introjs\minified\introjs-rtl.min.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\introjs\minified\introjs.min.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\introjs\themes\introjs-dark.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\introjs\themes\introjs-nassim.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\introjs\themes\introjs-nazanin.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\introjs\themes\introjs-royal.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\ionRangeSlider\css\ion.rangeSlider.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\ionRangeSlider\css\ion.rangeSlider.skinFlat.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\ionRangeSlider\img\sprite-skin-flat.png" />
+    <Content Include="Assets\www\shooshpay\js\plugins\ionRangeSlider\index.html" />
+    <Content Include="Assets\www\shooshpay\js\plugins\ionRangeSlider\js\ion.rangeSlider.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-1.11.2.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-cookies\jquery.cookies.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-sortable.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jQuery-ui-Slider-Pips\jquery-ui-slider-pips.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jQuery-ui-Slider-Pips\jquery-ui-slider-pips.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jQuery-ui-Slider-Pips\jquery-ui-slider-pips.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-ui.custom.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\additional-methods.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\additional-methods.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\jquery.validate.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\jquery.validate.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_ar.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_ar.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_bg.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_bg.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_bn_BD.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_bn_BD.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_ca.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_ca.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_cs.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_cs.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_da.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_da.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_de.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_de.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_el.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_el.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_es.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_es.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_es_AR.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_es_AR.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_es_PE.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_es_PE.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_et.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_et.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_eu.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_eu.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_fa.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_fa.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_fi.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_fi.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_fr.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_fr.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_ge.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_ge.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_gl.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_gl.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_he.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_he.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_hr.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_hr.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_hu.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_hu.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_hy_AM.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_hy_AM.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_id.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_id.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_is.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_is.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_it.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_it.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_ja.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_ja.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_ka.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_ka.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_kk.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_kk.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_ko.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_ko.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_lt.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_lt.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_lv.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_lv.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_my.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_my.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_nl.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_nl.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_no.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_no.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_pl.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_pl.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_pt_BR.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_pt_BR.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_pt_PT.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_pt_PT.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_ro.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_ro.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_ru.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_ru.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_si.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_si.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_sk.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_sk.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_sl.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_sl.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_sr.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_sr.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_sr_lat.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_sr_lat.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_sv.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_sv.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_th.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_th.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_tj.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_tj.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_tr.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_tr.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_uk.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_uk.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_vi.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_vi.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_zh.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_zh.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_zh_TW.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\messages_zh_TW.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\methods_de.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\methods_de.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\methods_es_CL.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\methods_es_CL.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\methods_fi.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\methods_fi.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\methods_nl.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\methods_nl.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\methods_pt.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery-validation\localization\methods_pt.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery.nestable\jquery.nestable.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jquery.nestable\nestable.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jsgrid\css\jsgrid-theme.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jsgrid\css\jsgrid-theme.min.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jsgrid\css\jsgrid.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jsgrid\css\jsgrid.min.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jsgrid\js\db.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jsgrid\js\jsgrid-script.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jsgrid\js\jsgrid.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jsgrid\js\jsgrid.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jvectormap\jquery-jvectormap-1.2.2.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jvectormap\jquery-jvectormap-world-mill-en.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jvectormap\jquery-jvectormap.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\jvectormap\vectormap-script.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\magnific-popup\jquery.magnific-popup.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\magnific-popup\jquery.magnific-popup.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\magnific-popup\magnific-popup.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\masonry.pkgd.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\morris-chart\morris-script.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\morris-chart\morris.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\morris-chart\morris.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\perfect-scrollbar\perfect-scrollbar.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\perfect-scrollbar\perfect-scrollbar.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\prism\prism.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\prism\prism.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\raphael-min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\raphael\raphael-min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\sparkline\jquery.sparkline.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\sparkline\sparkline-script.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\sweetalert\themes\facebook\facebook.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\sweetalert\themes\google\google.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\sweetalert\themes\twitter\twitter.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\translator\jqueryTranslator.min.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\translator\translation-script.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\xcharts\xcharts-script.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\xcharts\xcharts.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\xcharts\xcharts.js" />
+    <Content Include="Assets\www\shooshpay\js\plugins\xcharts\xcharts.min.css" />
+    <Content Include="Assets\www\shooshpay\js\plugins\xcharts\xcharts.min.js" />
+    <Content Include="Assets\www\shooshpay\offline.html" />
+    <Content Include="Assets\www\shooshpay\online.html" />
+    <Content Include="Assets\www\shooshpay\others.html" />
+    <Content Include="Assets\www\shooshpay\shooshpay_black.png" />
+    <Content Include="Assets\www\style.css" />
+    <None Include="Assets\www\assets\fonts\Material-Design-Iconic-Font.eot" />
+    <Content Include="Assets\www\assets\fonts\Material-Design-Iconic-Font.ttf" />
+    <None Include="Assets\www\assets\fonts\Material-Design-Iconic-Font.woff" />
+    <None Include="Assets\www\assets\fonts\Material-Design-Iconic-Font.woff2" />
+    <None Include="Assets\www\assets\fonts\montserrat-light-webfont.eot" />
+    <None Include="Assets\www\assets\fonts\montserrat-light-webfont.woff" />
+    <None Include="Assets\www\assets\fonts\montserrat-light-webfont.woff2" />
+    <None Include="Assets\www\assets\fonts\montserrat-semibold-webfont.eot" />
+    <None Include="Assets\www\assets\fonts\montserrat-semibold-webfont.woff" />
+    <None Include="Assets\www\assets\fonts\montserrat-semibold-webfont.woff2" />
+    <None Include="Assets\www\payrichiesoft\assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Assets\www\payrichiesoft\assets\fonts\fontawesome-webfont.ttf" />
+    <None Include="Assets\www\payrichiesoft\assets\fonts\fontawesome-webfont.woff" />
+    <None Include="Assets\www\payrichiesoft\assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Assets\www\payrichiesoft\assets\fonts\FontAwesome.otf" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\base\_page.scss" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\base\_typography.scss" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\components\_box.scss" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\components\_button.scss" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\components\_form.scss" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\components\_icon.scss" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\components\_image.scss" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\components\_list.scss" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\components\_table.scss" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\ie9.scss" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\layout\_bg.scss" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\layout\_footer.scss" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\layout\_header.scss" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\layout\_main.scss" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\layout\_wrapper.scss" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\libs\_functions.scss" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\libs\_mixins.scss" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\libs\_skel.scss" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\libs\_vars.scss" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\main.scss" />
+    <None Include="Assets\www\payrichiesoft\assets\sass\noscript.scss" />
+    <None Include="Assets\www\payrichiesoft\font\material-design-icons\Material-Design-Icons.eot" />
+    <Content Include="Assets\www\payrichiesoft\font\material-design-icons\Material-Design-Icons.ttf" />
+    <None Include="Assets\www\payrichiesoft\font\material-design-icons\Material-Design-Icons.woff" />
+    <None Include="Assets\www\payrichiesoft\font\material-design-icons\Material-Design-Icons.woff2" />
+    <Content Include="Assets\www\payrichiesoft\font\roboto\Roboto-Bold.ttf" />
+    <None Include="Assets\www\payrichiesoft\font\roboto\Roboto-Bold.woff" />
+    <None Include="Assets\www\payrichiesoft\font\roboto\Roboto-Bold.woff2" />
+    <Content Include="Assets\www\payrichiesoft\font\roboto\Roboto-Light.ttf" />
+    <None Include="Assets\www\payrichiesoft\font\roboto\Roboto-Light.woff" />
+    <None Include="Assets\www\payrichiesoft\font\roboto\Roboto-Light.woff2" />
+    <Content Include="Assets\www\payrichiesoft\font\roboto\Roboto-Medium.ttf" />
+    <None Include="Assets\www\payrichiesoft\font\roboto\Roboto-Medium.woff" />
+    <None Include="Assets\www\payrichiesoft\font\roboto\Roboto-Medium.woff2" />
+    <Content Include="Assets\www\payrichiesoft\font\roboto\Roboto-Regular.ttf" />
+    <None Include="Assets\www\payrichiesoft\font\roboto\Roboto-Regular.woff" />
+    <None Include="Assets\www\payrichiesoft\font\roboto\Roboto-Regular.woff2" />
+    <Content Include="Assets\www\payrichiesoft\font\roboto\Roboto-Thin.ttf" />
+    <None Include="Assets\www\payrichiesoft\font\roboto\Roboto-Thin.woff" />
+    <None Include="Assets\www\payrichiesoft\font\roboto\Roboto-Thin.woff2" />
+    <None Include="Assets\www\payrichiesoft\js\plugins\chartist-js\chartist.min.js.map" />
+    <None Include="Assets\www\payrichiesoft\js\plugins\chartist-js\LICENSE" />
+    <None Include="Assets\www\payrichiesoft\js\plugins\chartist-js\scss\chartist.scss" />
+    <None Include="Assets\www\payrichiesoft\js\plugins\chartist-js\scss\settings\_chartist-settings.scss" />
+    <None Include="Assets\www\payrichiesoft\js\plugins\data-tables\images\Sorting icons.psd" />
+    <None Include="Assets\www\payrichiesoft\js\plugins\dropify\fonts\dropify.eot" />
+    <Content Include="Assets\www\payrichiesoft\js\plugins\dropify\fonts\dropify.ttf" />
+    <None Include="Assets\www\payrichiesoft\js\plugins\dropify\fonts\dropify.woff" />
+    <None Include="Assets\www\payrichiesoft\js\plugins\flot-chart\README.md" />
+    <None Include="Assets\www\payrichiesoft\js\plugins\sweetalert\themes\facebook\facebook.scss" />
+    <None Include="Assets\www\payrichiesoft\js\plugins\sweetalert\themes\google\google.scss" />
+    <None Include="Assets\www\payrichiesoft\js\plugins\sweetalert\themes\twitter\twitter.scss" />
+    <None Include="Assets\www\payrichiesoft\js\plugins\translator\translate-ch.json" />
+    <None Include="Assets\www\payrichiesoft\js\plugins\translator\translate-en.json" />
+    <None Include="Assets\www\payrichiesoft\js\plugins\translator\translate-es.json" />
+    <None Include="Assets\www\payrichiesoft\js\plugins\translator\translate-fr.json" />
+    <None Include="Assets\www\payrichiesoft\js\plugins\xcharts\LICENSE" />
+    <None Include="Assets\www\payrichiesoft\js\plugins\xcharts\README.md" />
+    <None Include="Assets\www\shooshpay\assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Assets\www\shooshpay\assets\fonts\fontawesome-webfont.ttf" />
+    <None Include="Assets\www\shooshpay\assets\fonts\fontawesome-webfont.woff" />
+    <None Include="Assets\www\shooshpay\assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Assets\www\shooshpay\assets\fonts\FontAwesome.otf" />
+    <None Include="Assets\www\shooshpay\assets\sass\base\_page.scss" />
+    <None Include="Assets\www\shooshpay\assets\sass\base\_typography.scss" />
+    <None Include="Assets\www\shooshpay\assets\sass\components\_box.scss" />
+    <None Include="Assets\www\shooshpay\assets\sass\components\_button.scss" />
+    <None Include="Assets\www\shooshpay\assets\sass\components\_form.scss" />
+    <None Include="Assets\www\shooshpay\assets\sass\components\_icon.scss" />
+    <None Include="Assets\www\shooshpay\assets\sass\components\_image.scss" />
+    <None Include="Assets\www\shooshpay\assets\sass\components\_list.scss" />
+    <None Include="Assets\www\shooshpay\assets\sass\components\_table.scss" />
+    <None Include="Assets\www\shooshpay\assets\sass\ie9.scss" />
+    <None Include="Assets\www\shooshpay\assets\sass\layout\_bg.scss" />
+    <None Include="Assets\www\shooshpay\assets\sass\layout\_footer.scss" />
+    <None Include="Assets\www\shooshpay\assets\sass\layout\_header.scss" />
+    <None Include="Assets\www\shooshpay\assets\sass\layout\_main.scss" />
+    <None Include="Assets\www\shooshpay\assets\sass\layout\_wrapper.scss" />
+    <None Include="Assets\www\shooshpay\assets\sass\libs\_functions.scss" />
+    <None Include="Assets\www\shooshpay\assets\sass\libs\_mixins.scss" />
+    <None Include="Assets\www\shooshpay\assets\sass\libs\_skel.scss" />
+    <None Include="Assets\www\shooshpay\assets\sass\libs\_vars.scss" />
+    <None Include="Assets\www\shooshpay\assets\sass\main.scss" />
+    <None Include="Assets\www\shooshpay\assets\sass\noscript.scss" />
+    <None Include="Assets\www\shooshpay\font\material-design-icons\Material-Design-Icons.eot" />
+    <Content Include="Assets\www\shooshpay\font\material-design-icons\Material-Design-Icons.ttf" />
+    <None Include="Assets\www\shooshpay\font\material-design-icons\Material-Design-Icons.woff" />
+    <None Include="Assets\www\shooshpay\font\material-design-icons\Material-Design-Icons.woff2" />
+    <Content Include="Assets\www\shooshpay\font\roboto\Roboto-Bold.ttf" />
+    <None Include="Assets\www\shooshpay\font\roboto\Roboto-Bold.woff" />
+    <None Include="Assets\www\shooshpay\font\roboto\Roboto-Bold.woff2" />
+    <Content Include="Assets\www\shooshpay\font\roboto\Roboto-Light.ttf" />
+    <None Include="Assets\www\shooshpay\font\roboto\Roboto-Light.woff" />
+    <None Include="Assets\www\shooshpay\font\roboto\Roboto-Light.woff2" />
+    <Content Include="Assets\www\shooshpay\font\roboto\Roboto-Medium.ttf" />
+    <None Include="Assets\www\shooshpay\font\roboto\Roboto-Medium.woff" />
+    <None Include="Assets\www\shooshpay\font\roboto\Roboto-Medium.woff2" />
+    <Content Include="Assets\www\shooshpay\font\roboto\Roboto-Regular.ttf" />
+    <None Include="Assets\www\shooshpay\font\roboto\Roboto-Regular.woff" />
+    <None Include="Assets\www\shooshpay\font\roboto\Roboto-Regular.woff2" />
+    <Content Include="Assets\www\shooshpay\font\roboto\Roboto-Thin.ttf" />
+    <None Include="Assets\www\shooshpay\font\roboto\Roboto-Thin.woff" />
+    <None Include="Assets\www\shooshpay\font\roboto\Roboto-Thin.woff2" />
+    <None Include="Assets\www\shooshpay\js\plugins\chartist-js\chartist.min.js.map" />
+    <None Include="Assets\www\shooshpay\js\plugins\chartist-js\LICENSE" />
+    <None Include="Assets\www\shooshpay\js\plugins\chartist-js\scss\chartist.scss" />
+    <None Include="Assets\www\shooshpay\js\plugins\chartist-js\scss\settings\_chartist-settings.scss" />
+    <None Include="Assets\www\shooshpay\js\plugins\data-tables\images\Sorting icons.psd" />
+    <None Include="Assets\www\shooshpay\js\plugins\dropify\fonts\dropify.eot" />
+    <Content Include="Assets\www\shooshpay\js\plugins\dropify\fonts\dropify.ttf" />
+    <None Include="Assets\www\shooshpay\js\plugins\dropify\fonts\dropify.woff" />
+    <None Include="Assets\www\shooshpay\js\plugins\flot-chart\README.md" />
+    <None Include="Assets\www\shooshpay\js\plugins\sweetalert\themes\facebook\facebook.scss" />
+    <None Include="Assets\www\shooshpay\js\plugins\sweetalert\themes\google\google.scss" />
+    <None Include="Assets\www\shooshpay\js\plugins\sweetalert\themes\twitter\twitter.scss" />
+    <None Include="Assets\www\shooshpay\js\plugins\translator\translate-ch.json" />
+    <None Include="Assets\www\shooshpay\js\plugins\translator\translate-en.json" />
+    <None Include="Assets\www\shooshpay\js\plugins\translator\translate-es.json" />
+    <None Include="Assets\www\shooshpay\js\plugins\translator\translate-fr.json" />
+    <None Include="Assets\www\shooshpay\js\plugins\xcharts\LICENSE" />
+    <None Include="Assets\www\shooshpay\js\plugins\xcharts\README.md" />
+    <None Include="Package.StoreAssociation.xml" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetPlatformIdentifier)' == '' ">
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,4 @@
+MainPackage=C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\bin\Release\Magpoke_6.0.2201.2_AnyCPU.appx
+SymbolPackage=C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\AppPackages\Magpoke_6.0.2201.2_Test\Magpoke_6.0.2201.2_AnyCPU.appxsym
+ResourcePack=C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\bin\Release\Magpoke_6.0.2201.2_scale-100.appx
+ResourcePack=C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\bin\Release\Magpoke_6.0.2201.2_scale-140.appx

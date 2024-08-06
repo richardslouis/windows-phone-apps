@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-NQDOAVJ</Machine>
+    <WindowsUser>Richards Louis</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>e0e86f91-33a3-4935-a405-abf1ca8e2d48</PackageIdentityName>
+    <PackageIdentityPublisher>CN=BB7B72A7-44D7-4BE4-8610-6E59E2F1146B</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\obj\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\Paperbooklet.exe">
+      <PackagePath>Paperbooklet.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\Square71x71Logo.scale-140.png">
+      <PackagePath>Assets\Square71x71Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\WideLogo.scale-140.png">
+      <PackagePath>Assets\WideLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\assets\css\images\overlay.png">
+      <PackagePath>Assets\www\assets\css\images\overlay.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\images\avatar.png">
+      <PackagePath>Assets\www\images\avatar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\images\com.png">
+      <PackagePath>Assets\www\images\com.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\images\copy.png">
+      <PackagePath>Assets\www\images\copy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\images\notcopy.png">
+      <PackagePath>Assets\www\images\notcopy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\images\notok.png">
+      <PackagePath>Assets\www\images\notok.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\images\notreset.png">
+      <PackagePath>Assets\www\images\notreset.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\images\ok.png">
+      <PackagePath>Assets\www\images\ok.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\images\overlay.png">
+      <PackagePath>Assets\www\images\overlay.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\images\reset.png">
+      <PackagePath>Assets\www\images\reset.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\images\stat.png">
+      <PackagePath>Assets\www\images\stat.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\assets\css\font-awesome.min.css">
+      <PackagePath>Assets\www\assets\css\font-awesome.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\assets\css\ie8.css">
+      <PackagePath>Assets\www\assets\css\ie8.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\assets\css\ie9.css">
+      <PackagePath>Assets\www\assets\css\ie9.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\assets\css\main.css">
+      <PackagePath>Assets\www\assets\css\main.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\assets\css\noscript.css">
+      <PackagePath>Assets\www\assets\css\noscript.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\css\font-awesome.min.css">
+      <PackagePath>Assets\www\css\font-awesome.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\css\ie\v8.css">
+      <PackagePath>Assets\www\css\ie\v8.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\css\ie\v9.css">
+      <PackagePath>Assets\www\css\ie\v9.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\css\skel.css">
+      <PackagePath>Assets\www\css\skel.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\css\style-mobile.css">
+      <PackagePath>Assets\www\css\style-mobile.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\css\style-narrow.css">
+      <PackagePath>Assets\www\css\style-narrow.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\css\style-narrower.css">
+      <PackagePath>Assets\www\css\style-narrower.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\css\style-normal.css">
+      <PackagePath>Assets\www\css\style-normal.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\css\style-wide.css">
+      <PackagePath>Assets\www\css\style-wide.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\css\style.css">
+      <PackagePath>Assets\www\css\style.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\assets\fonts\fontawesome-webfont.svg">
+      <PackagePath>Assets\www\assets\fonts\fontawesome-webfont.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\fonts\fontawesome-webfont.svg">
+      <PackagePath>Assets\www\fonts\fontawesome-webfont.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\assets\js\html5shiv.js">
+      <PackagePath>Assets\www\assets\js\html5shiv.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\assets\js\respond.min.js">
+      <PackagePath>Assets\www\assets\js\respond.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\css\ie\html5shiv.js">
+      <PackagePath>Assets\www\css\ie\html5shiv.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\js\jquery-1.11.3.min.js">
+      <PackagePath>Assets\www\js\jquery-1.11.3.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\assets\js\PIE.htc">
+      <PackagePath>Assets\www\assets\js\PIE.htc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\css\ie\backgroundsize.min.htc">
+      <PackagePath>Assets\www\css\ie\backgroundsize.min.htc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\css\ie\PIE.htc">
+      <PackagePath>Assets\www\css\ie\PIE.htc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\css\style.php">
+      <PackagePath>Assets\www\css\style.php</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\favicon.ico">
+      <PackagePath>Assets\www\favicon.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\images\bg.jpg">
+      <PackagePath>Assets\www\images\bg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\images\loader.gif">
+      <PackagePath>Assets\www\images\loader.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\images\loader_orig.gif">
+      <PackagePath>Assets\www\images\loader_orig.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\images\loading.gif">
+      <PackagePath>Assets\www\images\loading.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\noproceed.html">
+      <PackagePath>Assets\www\noproceed.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\proceed.html">
+      <PackagePath>Assets\www\proceed.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\assets\fonts\fontawesome-webfont.ttf">
+      <PackagePath>Assets\www\assets\fonts\fontawesome-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\fonts\fontawesome-webfont.ttf">
+      <PackagePath>Assets\www\fonts\fontawesome-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\assets\fonts\FontAwesome.otf">
+      <PackagePath>Assets\www\assets\fonts\FontAwesome.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\Assets\www\fonts\FontAwesome.otf">
+      <PackagePath>Assets\www\fonts\FontAwesome.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\Paperbooklet.xr.xml">
+      <PackagePath>Paperbooklet.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Paperbooklet\Paperbooklet\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

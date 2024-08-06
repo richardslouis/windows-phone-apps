@@ -1,0 +1,4 @@
+MainPackage=C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Finiup Mag\Finiup Mag\bin\Release\Finiup Mag_6.0.2201.0_AnyCPU.appx
+SymbolPackage=C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Finiup Mag\Finiup Mag\AppPackages\Finiup Mag_6.0.2201.0_Test\Finiup Mag_6.0.2201.0_AnyCPU.appxsym
+ResourcePack=C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Finiup Mag\Finiup Mag\bin\Release\Finiup Mag_6.0.2201.0_scale-100.appx
+ResourcePack=C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Finiup Mag\Finiup Mag\bin\Release\Finiup Mag_6.0.2201.0_scale-140.appx

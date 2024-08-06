@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\wp-results.xsl'?>
+<REPORT xml:lang="en-IN" OVERALL_RESULT="PASS" VERSION="10.0.14393.33" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="WindowsPhone" PUBLISHER_DISPLAY_NAME="CN=BB7B72A7-44D7-4BE4-8610-6E59E2F1146B" APP_NAME="1362InfantLouisRichards.Paperbooklet" APP_VERSION="5.0.1016.0" OSVERSION="10.0.14393.0" OS="Microsoft Windows 10 Pro" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="16393" VALIDATION_TYPE="UI" ReportGenerationTime="18-09-2016 18:12:06" ID="7663a396e893be77174c7acaf251fc4a">
+  <REQUIREMENTS>
+    <REQUIREMENT NUMBER="12" TITLE="Package compliance test" RATIONALE="The package manifest was missing one or more required attributes.">
+      <TEST INDEX="77" NAME="Application count" DESCRIPTION="One package should not define more than one app in the manifest." EXECUTIONTIME="00h:00m:01s.74ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:01s.94ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="74" NAME="Bundle manifest" DESCRIPTION="Bundle manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:01s.80ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="75" NAME="Package size" DESCRIPTION="Package file size should not be greater than 4 gigabytes." EXECUTIONTIME="00h:00m:01s.73ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="14" TITLE="Windows security features test" RATIONALE="Applications must opt-into Windows security features.">
+      <TEST INDEX="33" NAME="Binary analyzer" DESCRIPTION="Analysis of security features enabled on binaries" EXECUTIONTIME="00h:00m:02s.46ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="70" NAME="Banned file analyzer" DESCRIPTION="Analysis of application to detect known insecure files" EXECUTIONTIME="00h:00m:01s.53ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="62" NAME="Private code signing" DESCRIPTION="App should not package private code signing key files." EXECUTIONTIME="00h:00m:01s.80ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="15" TITLE="Supported API test" RATIONALE="The application should only refer to the APIs allowed by the Windows SDK for Windows Store Apps.">
+      <TEST INDEX="72" NAME="Supported APIs" DESCRIPTION="Windows Phone App must only use supported platform APIs." EXECUTIONTIME="00h:00m:02s.10ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="19" TITLE="App manifest resources tests" RATIONALE="The App Package Manifest should have valid resources defined in the resources.pri file, as per the App Packaging Specification and App Manifest Schema.">
+      <TEST INDEX="45" NAME="App resources" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:01s.42ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="61" NAME="Branding" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:02s.54ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="20" TITLE="Debug configuration test" RATIONALE="The App should not install any debug binaries.">
+      <TEST INDEX="46" NAME="Debug configuration" DESCRIPTION="The App should not install any debug binaries." EXECUTIONTIME="00h:00m:01s.85ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="21" TITLE="File encoding test" RATIONALE="Packages containing an HTML5 Windows Store app must have correct file encoding.">
+      <TEST INDEX="49" NAME="UTF-8 file encoding" DESCRIPTION="Packages containing an HTML5 Windows Store app must have correct file encoding." EXECUTIONTIME="00h:00m:01s.66ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="23" TITLE="App Capabilities test" RATIONALE="Packages declaring special-use capabilities will have to provide justifications during the onboarding process.">
+      <TEST INDEX="52" NAME="Special use capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:01s.71ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="24" TITLE="Windows Runtime metadata validation" RATIONALE="Metadata needs to be conformant and consistent across all generation sources.">
+      <TEST INDEX="56" NAME="ExclusiveTo attribute" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:03s.43ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="57" NAME="Type location" DESCRIPTION="Types must be defined in the metadata file with the longest matching namespace." EXECUTIONTIME="00h:00m:01s.25ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="55" NAME="Type name case-sensitivity" DESCRIPTION="Namespace and type names must not vary only by casing." EXECUTIONTIME="00h:00m:01s.25ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="54" NAME="Type name correctness" DESCRIPTION="Only system types can be in the Windows namespace and no types can be in the global namespace." EXECUTIONTIME="00h:00m:01s.25ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="58" NAME="General metadata correctness" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:03s.46ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+      <TEST INDEX="53" NAME="Properties" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:01s.23ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="25" TITLE="Package sanity test" RATIONALE="Validation of the app package contents to ensure correctness.">
+      <TEST INDEX="63" NAME="Platform appropriate files" DESCRIPTION="App should not install files that do not match the target processor architecture." EXECUTIONTIME="00h:00m:01s.74ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="27" TITLE="Resource Usage Test" RATIONALE="WinJS background tasks need to call close() to free resource.">
+      <TEST INDEX="68" NAME="WinJS background task" DESCRIPTION="WinJS background tasks need to call close() to free resource." EXECUTIONTIME="00h:00m:01s.74ms">
+        <MESSAGES />
+        <RESULT><![CDATA[PASS]]></RESULT>
+      </TEST>
+    </REQUIREMENT>
+  </REQUIREMENTS>
+  <APPLICATIONS>
+    <Installed_Programs>
+      <Program Name="1362InfantLouisRichards.Paperbooklet" Type="Application" Source="AppxPackage" Publisher="CN=BB7B72A7-44D7-4BE4-8610-6E59E2F1146B" Version="5.0.1016.0" Language="1033" InstallDate="09/18/2016 12:41:51" OSVersionAtInstallTime="10.0.0.14393" RootDirPath="c:\windows\temp\appcert_5ec8\1362infantlouisrichards.paperbooklet_5.0.1016.0_neutral__t8fw2476bzf4t" Id="00000c9fc569bc1b5ca77a466082ad863cd500000904">
+        <Indicators>
+          <WindowsStoreAppManifestIndicators>
+            <PackageManifest PackageFullName="1362infantlouisrichards.paperbooklet_5.0.1016.0_neutral__t8fw2476bzf4t">
+              <Package>
+                <Identity Name="1362InfantLouisRichards.Paperbooklet" Publisher="CN=BB7B72A7-44D7-4BE4-8610-6E59E2F1146B" Version="5.0.1016.0" ProcessorArchitecture="neutral" />
+                <PhoneIdentity PhoneProductId="e0e86f91-33a3-4935-a405-abf1ca8e2d48" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+                <Properties>
+                  <DisplayName>Paperbooklet - AnyOS Clipboard</DisplayName>
+                  <PublisherDisplayName>RCHSFT</PublisherDisplayName>
+                  <Logo>Assets\StoreLogo.png</Logo>
+                </Properties>
+                <Prerequisites>
+                  <OSMinVersion>6.3.1</OSMinVersion>
+                  <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+                </Prerequisites>
+                <Resources>
+                  <Resource Language="EN-US" />
+                  <Resource Scale="240" />
+                </Resources>
+                <Applications>
+                  <Application Id="App" Executable="Paperbooklet.exe" EntryPoint="Paperbooklet.App">
+                    <VisualElements DisplayName="Paperbooklet" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="Paperbooklet | AnyOS Clipboard" ForegroundText="light" BackgroundColor="#654796" ToastCapable="true">
+                      <DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png">
+                        <ShowNameOnTiles>
+                          <ShowOn Tile="square150x150Logo" />
+                          <ShowOn Tile="wide310x150Logo" />
+                        </ShowNameOnTiles>
+                      </DefaultTile>
+                      <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#654796" />
+                      <InitialRotationPreference>
+                        <Rotation Preference="portrait" />
+                        <Rotation Preference="landscape" />
+                        <Rotation Preference="landscapeFlipped" />
+                      </InitialRotationPreference>
+                    </VisualElements>
+                  </Application>
+                </Applications>
+                <Capabilities>
+                  <Capability Name="internetClientServer" />
+                </Capabilities>
+              </Package>
+            </PackageManifest>
+            <BundleManifest PackageFamilyName="1362InfantLouisRichards.Paperbooklet_t8fw2476bzf4t">
+              <Bundle SchemaVersion="2.0">
+                <Identity Name="1362InfantLouisRichards.Paperbooklet" Publisher="CN=BB7B72A7-44D7-4BE4-8610-6E59E2F1146B" Version="2016.918.1240.0" />
+                <Packages>
+                  <Package Type="application" Version="5.0.1016.0" Architecture="neutral" FileName="Paperbooklet_5.0.1016.0_AnyCPU.appx" Offset="65" Size="3383292">
+                    <Resources>
+                      <Resource Language="EN-US" />
+                      <Resource Scale="240" />
+                    </Resources>
+                  </Package>
+                  <Package Type="resource" Version="5.0.1016.0" ResourceId="split.scale-100" FileName="Paperbooklet_5.0.1016.0_scale-100.appx" Offset="3383449" Size="46095">
+                    <Resources>
+                      <Resource Scale="100" />
+                    </Resources>
+                  </Package>
+                  <Package Type="resource" Version="5.0.1016.0" ResourceId="split.scale-140" FileName="Paperbooklet_5.0.1016.0_scale-140.appx" Offset="3429636" Size="57578">
+                    <Resources>
+                      <Resource Scale="140" />
+                    </Resources>
+                  </Package>
+                </Packages>
+              </Bundle>
+            </BundleManifest>
+          </WindowsStoreAppManifestIndicators>
+        </Indicators>
+        <StaticProperties>
+          <Files Id="00000544d53dfc7d9e9f846cf40e198cbed93c6368a0">
+            <File Name="noproceed.html" Id="000076ce9abdd8c017eaa084d7422646a699368b5e29" Size="0x169b" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_5ec8\1362infantlouisrichards.paperbooklet_5.0.1016.0_neutral__t8fw2476bzf4t\assets\www\noproceed.html" LongPathHash="00000a87fcd3a95a9162b487738b37f872ef24ff733b" />
+            <File Name="proceed.html" Id="000049a27aece314aa21beb7a79c96d6c2fb9335f5eb" Size="0x17f0" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_5ec8\1362infantlouisrichards.paperbooklet_5.0.1016.0_neutral__t8fw2476bzf4t\assets\www\proceed.html" LongPathHash="000057594bd0ed55e2921a765cd8745ce7b34586955b" />
+            <File Name="Paperbooklet.exe" Id="0000c53e61f15818e9ffcaaf0ab223d26f4cb2d7fdbd" ProductName="Paperbooklet" ProductVersion="1.0.0.0" VerLanguage="0" SwitchBackContext="0x0100000000000602" FileVersion="1.0.0.0" Size="0x5a00" SizeOfImage="0xc000" PeHeaderHash="01017313b7756623ad9305085eb30fafdcc0f8b3c9f1" PeChecksum="0x0" BinProductVersion="1.0.0.0" BinFileVersion="1.0.0.0" FileDescription="Paperbooklet" InternalName="Paperbooklet.exe" LegalCopyright="Copyright ©  2016" LinkDate="09/18/2016 12:40:51" BinaryType="PE32_CLR_IL_PREFER32" ClrVersion="v4.0.30319" OriginalFileName="Paperbooklet.exe" LowerCaseLongPath="c:\windows\temp\appcert_5ec8\1362infantlouisrichards.paperbooklet_5.0.1016.0_neutral__t8fw2476bzf4t\paperbooklet.exe" LongPathHash="0000f16b8f52643686cf1fcf58c02e98d6280184fa5a" />
+            <File Name="resources.pri" Id="00001d72e04180135f792b8c098230c5acf0be496061" Size="0x21a8" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_5ec8\1362infantlouisrichards.paperbooklet_5.0.1016.0_neutral__t8fw2476bzf4t\resources.pri" LongPathHash="00004627f8bedef6ef6d0dc5dd72515fcbdf51ac6450" />
+            <File Name="jquery-1.11.3.min.js" Id="0000b661751c7aa065e2e159df6103bca974b1111409" Size="0x176d8" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_5ec8\1362infantlouisrichards.paperbooklet_5.0.1016.0_neutral__t8fw2476bzf4t\assets\www\js\jquery-1.11.3.min.js" LongPathHash="0000c2b98d91ca4ab400f7da115a6113bb130fc3bb53" />
+            <File Name="html5shiv.js" Id="00006ee35415750b51dd65a6521d1dd91aba3e2ae828" Size="0x94c" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_5ec8\1362infantlouisrichards.paperbooklet_5.0.1016.0_neutral__t8fw2476bzf4t\assets\www\assets\js\html5shiv.js" LongPathHash="00005295a0bd0cb3d3811f6ceabeaa5b89376f6ee7de" />
+            <File Name="respond.min.js" Id="00008e786bcf921518f0c8c46d14a51235af2fb99926" Size="0x11ef" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_5ec8\1362infantlouisrichards.paperbooklet_5.0.1016.0_neutral__t8fw2476bzf4t\assets\www\assets\js\respond.min.js" LongPathHash="0000397f791fe45e8ce0bb04d4f3314e07c64794ddb8" />
+            <File Name="html5shiv.js" Id="00006ee35415750b51dd65a6521d1dd91aba3e2ae828" Size="0x94c" BinaryType="DATA_ONLY" LowerCaseLongPath="c:\windows\temp\appcert_5ec8\1362infantlouisrichards.paperbooklet_5.0.1016.0_neutral__t8fw2476bzf4t\assets\www\css\ie\html5shiv.js" LongPathHash="00007928ff21e1a7a6ade3144626a4e9dc0dc7f2a13e" />
+          </Files>
+        </StaticProperties>
+      </Program>
+    </Installed_Programs>
+  </APPLICATIONS>
+  <DEPENDENCY_INFORMATION>
+    <AitStaticAnalysis Type="Template">
+      <AitFile ErrorCode="0" Name="proceed.html" Id="000049a27aece314aa21beb7a79c96d6c2fb9335f5eb">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="document.body.className" />
+          <AitFeature Name="document.body.className.replace" />
+          <AitFeature Name="document.getElementById" />
+          <AitFeature Name="navigator.onLine" />
+          <AitFeature Name="navigator.userAgent.match" />
+          <AitFeature Name="window.addEventListener" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="html5shiv.js" Id="00006ee35415750b51dd65a6521d1dd91aba3e2ae828" />
+      <AitFile ErrorCode="0" Name="noproceed.html" Id="000076ce9abdd8c017eaa084d7422646a699368b5e29">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="document.body.className" />
+          <AitFeature Name="document.body.className.replace" />
+          <AitFeature Name="document.getElementById" />
+          <AitFeature Name="navigator.onLine" />
+          <AitFeature Name="navigator.userAgent.match" />
+          <AitFeature Name="window.addEventListener" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="respond.min.js" Id="00008e786bcf921518f0c8c46d14a51235af2fb99926" />
+      <AitFile ErrorCode="0" Name="jquery-1.11.3.min.js" Id="0000b661751c7aa065e2e159df6103bca974b1111409" />
+      <AitFile ErrorCode="0" Name="Paperbooklet.exe" Id="0000c53e61f15818e9ffcaaf0ab223d26f4cb2d7fdbd">
+        <AitCategory Id="ApiStatic">
+          <AitFeature Name="mscoree.dll!_CorExeMain" />
+        </AitCategory>
+        <AitCategory Id="DotNet">
+          <AitFeature Name="System.Action`1" />
+          <AitFeature Name="System.ArgumentException" />
+          <AitFeature Name="System.ArgumentException..ctor" />
+          <AitFeature Name="System.AsyncCallback" />
+          <AitFeature Name="System.Char" />
+          <AitFeature Name="System.CodeDom.Compiler.GeneratedCodeAttribute" />
+          <AitFeature Name="System.CodeDom.Compiler.GeneratedCodeAttribute..ctor" />
+          <AitFeature Name="System.Collections.Generic.Dictionary`2" />
+          <AitFeature Name="System.Convert" />
+          <AitFeature Name="System.Convert.ToInt32" />
+          <AitFeature Name="System.Delegate" />
+          <AitFeature Name="System.Delegate.Combine" />
+          <AitFeature Name="System.Delegate.Remove" />
+          <AitFeature Name="System.Diagnostics.DebuggableAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggableAttribute..ctor" />
+          <AitFeature Name="System.Diagnostics.DebuggerDisplayAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggerDisplayAttribute..ctor" />
+          <AitFeature Name="System.Diagnostics.DebuggerNonUserCodeAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggerNonUserCodeAttribute..ctor" />
+          <AitFeature Name="System.Exception" />
+          <AitFeature Name="System.Exception..ctor" />
+          <AitFeature Name="System.FormatException" />
+          <AitFeature Name="System.Func`2" />
+          <AitFeature Name="System.IAsyncResult" />
+          <AitFeature Name="System.IDisposable" />
+          <AitFeature Name="System.IDisposable.Dispose" />
+          <AitFeature Name="System.Int32" />
+          <AitFeature Name="System.InvalidOperationException" />
+          <AitFeature Name="System.InvalidOperationException..ctor" />
+          <AitFeature Name="System.MTAThreadAttribute" />
+          <AitFeature Name="System.MTAThreadAttribute..ctor" />
+          <AitFeature Name="System.MulticastDelegate" />
+          <AitFeature Name="System.MulticastDelegate.op_Inequality" />
+          <AitFeature Name="System.NotImplementedException" />
+          <AitFeature Name="System.NotImplementedException..ctor" />
+          <AitFeature Name="System.Object" />
+          <AitFeature Name="System.Object..ctor" />
+          <AitFeature Name="System.Object.Equals" />
+          <AitFeature Name="System.Reflection.AssemblyCompanyAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyCompanyAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyCopyrightAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyCopyrightAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyDescriptionAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyDescriptionAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyFileVersionAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyFileVersionAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyProductAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyProductAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyTitleAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyTitleAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyTrademarkAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyTrademarkAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.AccessedThroughPropertyAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.AccessedThroughPropertyAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncStateMachineAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncStateMachineAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.AwaitUnsafeOnCompleted" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Create" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetException" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetResult" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetStateMachine" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilationRelaxationsAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilationRelaxationsAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilerGeneratedAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilerGeneratedAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.IAsyncStateMachine" />
+          <AitFeature Name="System.Runtime.CompilerServices.IAsyncStateMachine.MoveNext" />
+          <AitFeature Name="System.Runtime.CompilerServices.IAsyncStateMachine.SetStateMachine" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeHelpers" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor" />
+          <AitFeature Name="System.Runtime.CompilerServices.TaskAwaiter`1" />
+          <AitFeature Name="System.Runtime.InteropServices.ComVisibleAttribute" />
+          <AitFeature Name="System.Runtime.InteropServices.ComVisibleAttribute..ctor" />
+          <AitFeature Name="System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken" />
+          <AitFeature Name="System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal" />
+          <AitFeature Name="System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal.AddEventHandler" />
+          <AitFeature Name="System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal.RemoveEventHandler" />
+          <AitFeature Name="System.Runtime.Versioning.TargetFrameworkAttribute" />
+          <AitFeature Name="System.Runtime.Versioning.TargetFrameworkAttribute..ctor" />
+          <AitFeature Name="System.RuntimeTypeHandle" />
+          <AitFeature Name="System.String" />
+          <AitFeature Name="System.String.Compare" />
+          <AitFeature Name="System.String.CompareOrdinal" />
+          <AitFeature Name="System.String.Concat" />
+          <AitFeature Name="System.String.IsNullOrEmpty" />
+          <AitFeature Name="System.String.Split" />
+          <AitFeature Name="System.String.Trim" />
+          <AitFeature Name="System.StringComparison" />
+          <AitFeature Name="System.Threading.Interlocked" />
+          <AitFeature Name="System.Threading.Interlocked.CompareExchange" />
+          <AitFeature Name="System.Type" />
+          <AitFeature Name="System.Type.GetTypeFromHandle" />
+          <AitFeature Name="System.Type.get_FullName" />
+          <AitFeature Name="System.Type.get_TypeHandle" />
+          <AitFeature Name="System.Uri" />
+          <AitFeature Name="System.Uri..ctor" />
+          <AitFeature Name="System.ValueType" />
+          <AitFeature Name="System.WindowsRuntimeSystemExtensions" />
+          <AitFeature Name="System.WindowsRuntimeSystemExtensions.GetAwaiter" />
+        </AitCategory>
+        <AitCategory Id="DotNetWinRt">
+          <AitFeature Name="Windows.ApplicationModel.Activation.ApplicationExecutionState" />
+          <AitFeature Name="Windows.ApplicationModel.Activation.LaunchActivatedEventArgs" />
+          <AitFeature Name="Windows.ApplicationModel.Activation.LaunchActivatedEventArgs.get_Arguments" />
+          <AitFeature Name="Windows.ApplicationModel.Activation.LaunchActivatedEventArgs.get_PreviousExecutionState" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingDeferral" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingDeferral.Complete" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingEventArgs" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingEventArgs.get_SuspendingOperation" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingOperation" />
+          <AitFeature Name="Windows.ApplicationModel.SuspendingOperation.GetDeferral" />
+          <AitFeature Name="Windows.Foundation.IAsyncOperation`1" />
+          <AitFeature Name="Windows.Foundation.TypedEventHandler`2" />
+          <AitFeature Name="Windows.Networking.Connectivity.NetworkStatusChangedEventHandler" />
+          <AitFeature Name="Windows.System.Launcher" />
+          <AitFeature Name="Windows.System.Launcher.LaunchUriAsync" />
+          <AitFeature Name="Windows.UI.Color" />
+          <AitFeature Name="Windows.UI.Xaml.Application" />
+          <AitFeature Name="Windows.UI.Xaml.Application..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.Application.LoadComponent" />
+          <AitFeature Name="Windows.UI.Xaml.Application.Start" />
+          <AitFeature Name="Windows.UI.Xaml.Application.add_Suspending" />
+          <AitFeature Name="Windows.UI.Xaml.Application.remove_Suspending" />
+          <AitFeature Name="Windows.UI.Xaml.ApplicationInitializationCallback" />
+          <AitFeature Name="Windows.UI.Xaml.ApplicationInitializationCallback..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.ApplicationInitializationCallbackParams" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Button" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.ContentControl" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.ContentControl.get_Content" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Frame" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Frame..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Frame.Navigate" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Frame.add_NavigationFailed" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Frame.remove_NavigationFailed" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Page" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Page..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.ButtonBase" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.ButtonBase.add_Click" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.ButtonBase.remove_Click" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.Primitives.ComponentResourceLocation" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.ProgressRing" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.ProgressRing.put_IsActive" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.UserControl" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.GoBack" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.Navigate" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.Refresh" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.add_ContentLoading" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.add_LoadCompleted" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.remove_ContentLoading" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebView.remove_LoadCompleted" />
+          <AitFeature Name="Windows.UI.Xaml.Controls.WebViewContentLoadingEventArgs" />
+          <AitFeature Name="Windows.UI.Xaml.FrameworkElement" />
+          <AitFeature Name="Windows.UI.Xaml.FrameworkElement.FindName" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IComponentConnector" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IComponentConnector.Connect" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.GetValue" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.SetValue" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.get_IsAttachable" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.get_IsDependencyProperty" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.get_IsReadOnly" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.get_Name" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.get_TargetType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMember.get_Type" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMetadataProvider" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMetadataProvider.GetXamlType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlMetadataProvider.GetXmlnsDefinitions" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.ActivateInstance" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.AddToMap" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.AddToVector" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.CreateFromString" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.GetMember" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.RunInitializer" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_BaseType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_ContentProperty" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_FullName" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_IsArray" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_IsBindable" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_IsCollection" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_IsConstructible" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_IsDictionary" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_IsMarkupExtension" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_ItemType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_KeyType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.IXamlType.get_UnderlyingType" />
+          <AitFeature Name="Windows.UI.Xaml.Markup.XmlnsDefinition" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.LoadCompletedEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.LoadCompletedEventHandler..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.NavigationEventArgs" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.NavigationFailedEventArgs" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.NavigationFailedEventArgs.get_SourcePageType" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.NavigationFailedEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.Navigation.NavigationFailedEventHandler..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.RoutedEventArgs" />
+          <AitFeature Name="Windows.UI.Xaml.RoutedEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.RoutedEventHandler..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.SuspendingEventHandler" />
+          <AitFeature Name="Windows.UI.Xaml.SuspendingEventHandler..ctor" />
+          <AitFeature Name="Windows.UI.Xaml.UIElement" />
+          <AitFeature Name="Windows.UI.Xaml.UIElement.put_Visibility" />
+          <AitFeature Name="Windows.UI.Xaml.Visibility" />
+          <AitFeature Name="Windows.UI.Xaml.Window" />
+          <AitFeature Name="Windows.UI.Xaml.Window.Activate" />
+          <AitFeature Name="Windows.UI.Xaml.Window.get_Content" />
+          <AitFeature Name="Windows.UI.Xaml.Window.get_Current" />
+          <AitFeature Name="Windows.UI.Xaml.Window.put_Content" />
+        </AitCategory>
+      </AitFile>
+    </AitStaticAnalysis>
+  </DEPENDENCY_INFORMATION>
+</REPORT>

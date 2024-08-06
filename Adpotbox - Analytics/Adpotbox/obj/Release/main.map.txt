@@ -1,0 +1,23 @@
+[ResourceMetadata]
+"ResourceDimensions"		"scale-240"
+"ResourceDimensions"		"language-en-us"
+"ResourceDimensions"		"language-en-US"
+
+[Files]
+"C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Analytics\Adpotbox\obj\Release\split.pri"			"resources.pri"
+"C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Analytics\Adpotbox\obj\Release\PackageLayout\MainPage.xbf"			"MainPage.xbf"
+"C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Analytics\Adpotbox\obj\Release\PackageLayout\App.xbf"			"App.xbf"
+"C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Analytics\Adpotbox\obj\Release\PackageLayout\Adpotbox.xr.xml"			"Adpotbox.xr.xml"
+"C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Analytics\Adpotbox\obj\Release\PackageLayout\Adpotbox.exe"			"Adpotbox.exe"
+"C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Analytics\Adpotbox\obj\Release\PackageLayout\Assets\WideLogo.scale-240.png"			"Assets\WideLogo.scale-240.png"
+"C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Analytics\Adpotbox\obj\Release\PackageLayout\Assets\StoreLogo.scale-240.png"			"Assets\StoreLogo.scale-240.png"
+"C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Analytics\Adpotbox\obj\Release\PackageLayout\Assets\Square71x71Logo.scale-240.png"			"Assets\Square71x71Logo.scale-240.png"
+"C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Analytics\Adpotbox\obj\Release\PackageLayout\Assets\SplashScreen.scale-240.png"			"Assets\SplashScreen.scale-240.png"
+"C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Analytics\Adpotbox\obj\Release\PackageLayout\Assets\SmallLogo.scale-240.png"			"Assets\SmallLogo.scale-240.png"
+"C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Analytics\Adpotbox\obj\Release\PackageLayout\Assets\Logo.scale-240.png"			"Assets\Logo.scale-240.png"
+"C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Analytics\Adpotbox\obj\Release\PackageLayout\Assets\www\progress_bar.gif"			"Assets\www\progress_bar.gif"
+"C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Analytics\Adpotbox\obj\Release\PackageLayout\Assets\www\proceed.html"			"Assets\www\proceed.html"
+"C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Analytics\Adpotbox\obj\Release\PackageLayout\Assets\www\offline.html"			"Assets\www\offline.html"
+"C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Analytics\Adpotbox\obj\Release\PackageLayout\Assets\www\nointernet.gif"			"Assets\www\nointernet.gif"
+"C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Analytics\Adpotbox\obj\Release\PackageLayout\Assets\www\logo.png"			"Assets\www\logo.png"
+"C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Adpotbox - Analytics\Adpotbox\obj\Release\PackageLayout\Assets\www\load.gif"			"Assets\www\load.gif"

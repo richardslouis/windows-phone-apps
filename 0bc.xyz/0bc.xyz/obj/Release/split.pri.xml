@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="1362InfantLouisRichards.0bc.xyz" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>240</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="0bc.xyz.xr.xml" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/0bc.xyz.xr.xml">
+				<Candidate type="Path">
+					<Value>0bc.xyz.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="App.xbf" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/MainPage.xbf">
+				<Candidate type="Path">
+					<Value>MainPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="BadgeLogo.png" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/BadgeLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\BadgeLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.png" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Square71x71Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WideLogo.png" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/WideLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\WideLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="www">
+					<NamedResource name="noproceed.html" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/noproceed.html">
+						<Candidate type="Path">
+							<Value>Assets\www\noproceed.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="proceed.html" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/proceed.html">
+						<Candidate type="Path">
+							<Value>Assets\www\proceed.html</Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="assets">
+						<ResourceMapSubtree name="css">
+							<NamedResource name="font-awesome.min.css" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/assets/css/font-awesome.min.css">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\css\font-awesome.min.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ie8.css" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/assets/css/ie8.css">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\css\ie8.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ie9.css" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/assets/css/ie9.css">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\css\ie9.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="main.css" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/assets/css/main.css">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\css\main.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="noscript.css" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/assets/css/noscript.css">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\css\noscript.css</Value>
+								</Candidate>
+							</NamedResource>
+							<ResourceMapSubtree name="images">
+								<NamedResource name="overlay.png" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/assets/css/images/overlay.png">
+									<Candidate type="Path">
+										<Value>Assets\www\assets\css\images\overlay.png</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="fonts">
+							<NamedResource name="fontawesome-webfont.svg" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/assets/fonts/fontawesome-webfont.svg">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\fonts\fontawesome-webfont.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="fontawesome-webfont.ttf" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/assets/fonts/fontawesome-webfont.ttf">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\fonts\fontawesome-webfont.ttf</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="FontAwesome.otf" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/assets/fonts/FontAwesome.otf">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\fonts\FontAwesome.otf</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="js">
+							<NamedResource name="html5shiv.js" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/assets/js/html5shiv.js">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\js\html5shiv.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="PIE.htc" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/assets/js/PIE.htc">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\js\PIE.htc</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="respond.min.js" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/assets/js/respond.min.js">
+								<Candidate type="Path">
+									<Value>Assets\www\assets\js\respond.min.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="css">
+						<NamedResource name="font-awesome.min.css" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/css/font-awesome.min.css">
+							<Candidate type="Path">
+								<Value>Assets\www\css\font-awesome.min.css</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="skel.css" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/css/skel.css">
+							<Candidate type="Path">
+								<Value>Assets\www\css\skel.css</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="style-mobile.css" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/css/style-mobile.css">
+							<Candidate type="Path">
+								<Value>Assets\www\css\style-mobile.css</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="style-narrow.css" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/css/style-narrow.css">
+							<Candidate type="Path">
+								<Value>Assets\www\css\style-narrow.css</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="style-narrower.css" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/css/style-narrower.css">
+							<Candidate type="Path">
+								<Value>Assets\www\css\style-narrower.css</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="style-normal.css" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/css/style-normal.css">
+							<Candidate type="Path">
+								<Value>Assets\www\css\style-normal.css</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="style-wide.css" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/css/style-wide.css">
+							<Candidate type="Path">
+								<Value>Assets\www\css\style-wide.css</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="style.css" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/css/style.css">
+							<Candidate type="Path">
+								<Value>Assets\www\css\style.css</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="style.php" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/css/style.php">
+							<Candidate type="Path">
+								<Value>Assets\www\css\style.php</Value>
+							</Candidate>
+						</NamedResource>
+						<ResourceMapSubtree name="ie">
+							<NamedResource name="backgroundsize.min.htc" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/css/ie/backgroundsize.min.htc">
+								<Candidate type="Path">
+									<Value>Assets\www\css\ie\backgroundsize.min.htc</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="html5shiv.js" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/css/ie/html5shiv.js">
+								<Candidate type="Path">
+									<Value>Assets\www\css\ie\html5shiv.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="PIE.htc" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/css/ie/PIE.htc">
+								<Candidate type="Path">
+									<Value>Assets\www\css\ie\PIE.htc</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="v8.css" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/css/ie/v8.css">
+								<Candidate type="Path">
+									<Value>Assets\www\css\ie\v8.css</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="v9.css" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/css/ie/v9.css">
+								<Candidate type="Path">
+									<Value>Assets\www\css\ie\v9.css</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="fonts">
+						<NamedResource name="fontawesome-webfont.svg" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/fonts/fontawesome-webfont.svg">
+							<Candidate type="Path">
+								<Value>Assets\www\fonts\fontawesome-webfont.svg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="fontawesome-webfont.ttf" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/fonts/fontawesome-webfont.ttf">
+							<Candidate type="Path">
+								<Value>Assets\www\fonts\fontawesome-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="FontAwesome.otf" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/fonts/FontAwesome.otf">
+							<Candidate type="Path">
+								<Value>Assets\www\fonts\FontAwesome.otf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="images">
+						<NamedResource name="256zerobc.png" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/images/256zerobc.png">
+							<Candidate type="Path">
+								<Value>Assets\www\images\256zerobc.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="avatar.png" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/images/avatar.png">
+							<Candidate type="Path">
+								<Value>Assets\www\images\avatar.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="bg.jpg" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/images/bg.jpg">
+							<Candidate type="Path">
+								<Value>Assets\www\images\bg.jpg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="loading.gif" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/images/loading.gif">
+							<Candidate type="Path">
+								<Value>Assets\www\images\loading.gif</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="ok.png" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/images/ok.png">
+							<Candidate type="Path">
+								<Value>Assets\www\images\ok.png</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="reset.png" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/images/reset.png">
+							<Candidate type="Path">
+								<Value>Assets\www\images\reset.png</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="js">
+						<NamedResource name="jquery-1.11.3.min.js" uri="ms-resource://1362InfantLouisRichards.0bc.xyz/Files/Assets/www/js/jquery-1.11.3.min.js">
+							<Candidate type="Path">
+								<Value>Assets\www\js\jquery-1.11.3.min.js</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

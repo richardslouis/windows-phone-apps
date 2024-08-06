@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Finiup Mag", "Finiup Mag\Finiup Mag.vbproj", "{EBD8B0C4-2083-4913-92E1-B5C901353A6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBD8B0C4-2083-4913-92E1-B5C901353A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD8B0C4-2083-4913-92E1-B5C901353A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD8B0C4-2083-4913-92E1-B5C901353A6C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EBD8B0C4-2083-4913-92E1-B5C901353A6C}.Debug|ARM.ActiveCfg = Debug|ARM
+		{EBD8B0C4-2083-4913-92E1-B5C901353A6C}.Debug|ARM.Build.0 = Debug|ARM
+		{EBD8B0C4-2083-4913-92E1-B5C901353A6C}.Debug|ARM.Deploy.0 = Debug|ARM
+		{EBD8B0C4-2083-4913-92E1-B5C901353A6C}.Debug|x86.ActiveCfg = Debug|x86
+		{EBD8B0C4-2083-4913-92E1-B5C901353A6C}.Debug|x86.Build.0 = Debug|x86
+		{EBD8B0C4-2083-4913-92E1-B5C901353A6C}.Debug|x86.Deploy.0 = Debug|x86
+		{EBD8B0C4-2083-4913-92E1-B5C901353A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD8B0C4-2083-4913-92E1-B5C901353A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD8B0C4-2083-4913-92E1-B5C901353A6C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EBD8B0C4-2083-4913-92E1-B5C901353A6C}.Release|ARM.ActiveCfg = Release|ARM
+		{EBD8B0C4-2083-4913-92E1-B5C901353A6C}.Release|ARM.Build.0 = Release|ARM
+		{EBD8B0C4-2083-4913-92E1-B5C901353A6C}.Release|ARM.Deploy.0 = Release|ARM
+		{EBD8B0C4-2083-4913-92E1-B5C901353A6C}.Release|x86.ActiveCfg = Release|x86
+		{EBD8B0C4-2083-4913-92E1-B5C901353A6C}.Release|x86.Build.0 = Release|x86
+		{EBD8B0C4-2083-4913-92E1-B5C901353A6C}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

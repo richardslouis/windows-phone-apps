@@ -1,0 +1,71 @@
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\bin\Release\App.xbf
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\bin\Release\MainPage.xbf
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\bin\Release\0bc.xyz.xr.xml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\bin\Release\0bc.xyz.exe
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\bin\Release\0bc.xyz.pdb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\bin\Release\_0bc.xyz.xml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\bin\Release\resources.pri
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\bin\Release\AppxManifest.xml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\bin\Release\0bc.xyz.build.appxrecipe
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\bin\Release\Newtonsoft.Json.dll
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\0bc.xyz.vbprojResolveAssemblyReference.cache
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\App.g.i.vb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\App.g.vb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\MainPage.g.i.vb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\MainPage.g.vb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\XamlTypeInfo.g.vb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\App.xaml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\MainPage.xaml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\App.xbf
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\MainPage.xbf
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\XamlSaveStateFile.xml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\0bc.xyz.exe
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\_0bc.xyz.xml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\0bc.xyz.pdb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\0bc.xyz.vbproj.GenerateResource.Cache
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\priconfig.xml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\priconfig.xml.intermediate
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\layout.resfiles
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\layout.resfiles.intermediate
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\resources.resfiles
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\resources.resfiles.intermediate
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\pri.resfiles
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\pri.resfiles.intermediate
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\qualifiers.txt
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\qualifiers.txt.intermediate
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\MultipleQualifiersPerDimensionFound.txt
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\ProjectArchitectures.txt
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\bin\Release\App.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\bin\Release\MainPage.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\bin\Release\0bc.xyz.xr.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\bin\Release\0bc.xyz.exe
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\bin\Release\0bc.xyz.pdb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\bin\Release\_0bc.xyz.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\bin\Release\resources.pri
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\bin\Release\AppxManifest.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\bin\Release\0bc.xyz.build.appxrecipe
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\App.g.i.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\App.g.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\MainPage.g.i.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\MainPage.g.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\XamlTypeInfo.g.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\App.xaml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\MainPage.xaml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\App.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\MainPage.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\XamlSaveStateFile.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\0bc.xyz.exe
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\_0bc.xyz.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\0bc.xyz.pdb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\priconfig.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\priconfig.xml.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\layout.resfiles
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\layout.resfiles.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\resources.resfiles
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\resources.resfiles.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\pri.resfiles
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\pri.resfiles.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\qualifiers.txt
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\qualifiers.txt.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\0bc.xyz\0bc.xyz\obj\Release\ProjectArchitectures.txt

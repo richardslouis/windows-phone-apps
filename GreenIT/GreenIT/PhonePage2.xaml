@@ -1,0 +1,36 @@
+﻿<phone:PhoneApplicationPage 
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+	xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+	x:Class="GreenIT.PhonePage2"
+	FontFamily="{StaticResource PhoneFontFamilyNormal}"
+	FontSize="{StaticResource PhoneFontSizeNormal}"
+	Foreground="{StaticResource PhoneForegroundBrush}"
+	Orientation="Portrait"
+	shell:SystemTray.IsVisible="True">
+
+	<!--LayoutRoot is the root grid where all page content is placed-->
+	<Grid x:Name="LayoutRoot" Background="Transparent">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		
+		<!--TitlePanel contains the name of the application and page title-->
+		<StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+			<TextBlock x:Name="ApplicationTitle" Style="{StaticResource PhoneTextNormalStyle}"><Run Text="Green IT "/><Run Text="2.0"/></TextBlock>
+			<TextBlock x:Name="PageTitle" Text="Tips" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+		</StackPanel>
+
+		<!--ContentPanel - place additional content here-->
+		<Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0" ScrollViewer.VerticalScrollBarVisibility="Visible">
+			<ScrollViewer Margin="28,45,72,60" VerticalAlignment="Top">
+				<TextBlock TextWrapping="Wrap" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.VerticalScrollBarVisibility="Visible" Height="1464" Width="356"><Span><Run Text="# Recycling is the best process to preserve the environment and saving it from e-waste "/></Span><LineBreak/><Span><Run Text="# The use of plastic like materials can't be avoided but it can be reduced usage to save from health hazards "/></Span><LineBreak/><Span><Run Text="# Same materials which can be used again need not be wasted, as it will definitely help a little "/></Span><LineBreak/><Span><Run Text="# The systems and every electronic gadget release some heat , where switching it off when not in use can save us "/></Span><LineBreak/><Span><Run Text="# Air conditioners can be limited to places where and when needed "/></Span><LineBreak/><Span><Run Text="# Unleaded petrol do save us from the fatal respiratory problems which has much effect on children "/></Span><LineBreak/><Span><Run Text="# Compact fluorescent lights bulbs can be used instead of incandescent light "/></Span><LineBreak/><Span><Run Text="# Saving gasoline by driving when needed else take a walk, it adds value to your health "/></Span><LineBreak/><Span><Run Text="# Regular pollution check on your vehicles enhance better vehicle life and a nice environment "/></Span><LineBreak/><Span><Run Text="# keeping the tyre of your vehicle properly inflated will save your milage and money "/></Span><LineBreak/><Span><Run Text="# Switch to pollution free and energy efficient models of vehicles "/></Span><LineBreak/><Span><Run Text="# Reducing your households will help the minimal decomposition of carbon dioxide "/></Span><LineBreak/><Span><Run Text="# Manual dish wash and making it air dry will help in controlling emissions "/></Span><LineBreak/><Span><Run Text="# Water heaters are high power consumers where the best is to set to an average degree "/></Span><LineBreak/><Span><Run Text="# Switching off the gadgets we use when they are not in use .., save electricity and avoid warming "/></Span><LineBreak/><Span><Run Text="# Planting the trees around the house can help with handling the excessive carbon dioxide, thereby making it possible for a better environment "/></Span><LineBreak/><Span><Run Text="# Energy efficient upgrades can help with the possible ways of handling through the report card we can get from the organization you are working "/></Span><LineBreak/><Span><Run Text="# Encourage others in these ways so thereby making a better environment, as it the best possible solution where it needs a joint effort to protect our environment"/></Span></TextBlock>
+			</ScrollViewer>
+		</Grid>
+	</Grid>
+</phone:PhoneApplicationPage>

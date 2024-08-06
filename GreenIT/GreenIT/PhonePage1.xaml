@@ -1,0 +1,36 @@
+﻿<phone:PhoneApplicationPage 
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+	xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+	x:Class="GreenIT.PhonePage1"
+	FontFamily="{StaticResource PhoneFontFamilyNormal}"
+	FontSize="{StaticResource PhoneFontSizeNormal}"
+	Foreground="{StaticResource PhoneForegroundBrush}"
+	Orientation="Portrait"
+	shell:SystemTray.IsVisible="True">
+
+	<!--LayoutRoot is the root grid where all page content is placed-->
+	<Grid x:Name="LayoutRoot" Background="Transparent">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		
+		<!--TitlePanel contains the name of the application and page title-->
+		<StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+			<TextBlock x:Name="ApplicationTitle" Style="{StaticResource PhoneTextNormalStyle}"><Run Text="Green IT "/><Run Text="2"/><Run Text=".0"/></TextBlock>
+			<TextBlock x:Name="PageTitle" Text="Facts" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+		</StackPanel>
+
+		<!--ContentPanel - place additional content here-->
+		<Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0" ScrollViewer.VerticalScrollBarVisibility="Visible">
+			<ScrollViewer Margin="28,45,72,60" VerticalAlignment="Top">
+				<TextBlock TextWrapping="Wrap" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto" UseLayoutRounding="True" Height="1677" Width="356"><Span><Run Text="# There is much increase in the global carbon dioxide levels which may become an end for the mankind "/></Span><LineBreak/><Span><Run Text="# Arctic seasonal sea ice started melting more than the required levels which increases the sea level "/></Span><LineBreak/><Span><Run Text="# The opposite climate action is the next major concern where a lot of oil and coal companies are at risk "/></Span><LineBreak/><Span><Run Text="# Global warming is occurring and people are causing it according to the scientific consensus "/></Span><LineBreak/><Span><Run Text="# For 100 years there is a steep increase in the temperature of Earth which if still goes up, we ll be extinct "/></Span><LineBreak/><Span><Run Text="# Greenhouse gas emissions from the various human activities taking place may result in chopping of our Planet "/></Span><LineBreak/><Span><Run Text="# The extreme weather conditions are being recorded regularly which seems to be a fearing cause of why we need to take care "/></Span><LineBreak/><Span><Run Text="# Pollutions last for decades but have drastic changes to scientific improvements in vehicle and industries "/></Span><LineBreak/><Span><Run Text="# Ecosystem we are living in is the most dangerous and hazardous as there are a lot of loop holes we need to care "/></Span><LineBreak/><Span><Run Text="# Health is one of the main concerns which everyone should be aware of , which clearly is proportional to human activities "/></Span><LineBreak/><Span><Run Text="# Science must be used up on a positive side, where taking it to the other end makes it end up with sorrows "/></Span><LineBreak/><Span><Run Text="# Working spot is to be taken care where we spend most of time, where we can conserve energy through better technologies "/></Span><LineBreak/><Span><Run Text="# Worrisome impacts of floods and heat waves are something to be taken care of really "/></Span><LineBreak/><Span><Run Text="# Due to worst case scenarios of earthquakes, in the ring specific region, people find it hard to cover their homes "/></Span><LineBreak/><Span><Run Text="# Beetle invasion destroy the crops bringing out heath based hazards "/></Span><LineBreak/><Span><Run Text="# Bio inventions must be supporting to mankind where the wrong usage takes to be fatal "/></Span><LineBreak/><Span><Run Text="# Global food crisis where many people are dying out of hunger, needs to cultivate with better decisions "/></Span><LineBreak/><Span><Run Text="# The global temperature results up in a new problem called as Lyme disease which is caused by lyme in warm temperature "/></Span><LineBreak/><Span><Run Text="# Wildlife is on the brink where they are slowly losing their homes and now their life "/></Span><LineBreak/><Span><Run Text="# Weather disasters do end up with the maximum troubles even ending up in losing the loved ones"/></Span></TextBlock>
+			</ScrollViewer>
+		</Grid>
+	</Grid>
+</phone:PhoneApplicationPage>

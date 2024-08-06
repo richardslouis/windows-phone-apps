@@ -1,0 +1,76 @@
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\App.xbf
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\MainPage.xbf
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\InfiniteDam.xr.xml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\InfiniteDam.exe
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\InfiniteDam.pdb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\InfiniteDam.xml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\resources.pri
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\AppxManifest.xml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\InfiniteDam.build.appxrecipe
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\OneSignalSDK_WP_WNS.dll
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\Newtonsoft.Json.dll
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\InfiniteDam.vbprojResolveAssemblyReference.cache
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\App.g.i.vb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\App.g.vb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\MainPage.g.i.vb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\MainPage.g.vb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\XamlTypeInfo.g.vb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\App.xaml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\MainPage.xaml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\App.xbf
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\MainPage.xbf
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\XamlSaveStateFile.xml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\InfiniteDam.exe
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\InfiniteDam.xml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\InfiniteDam.pdb
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\InfiniteDam.vbproj.GenerateResource.Cache
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\priconfig.xml
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\priconfig.xml.intermediate
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\layout.resfiles
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\layout.resfiles.intermediate
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\resources.resfiles
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\resources.resfiles.intermediate
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\pri.resfiles
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\pri.resfiles.intermediate
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\qualifiers.txt
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\qualifiers.txt.intermediate
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\MultipleQualifiersPerDimensionFound.txt
+c:\users\charlesja\documents\visual studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\ProjectArchitectures.txt
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\App.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\MainPage.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\InfiniteDam.xr.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\InfiniteDam.exe
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\InfiniteDam.pdb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\InfiniteDam.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\resources.pri
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\AppxManifest.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\InfiniteDam.build.appxrecipe
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\OneSignalSDK_WP_WNS.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\bin\Release\Newtonsoft.Json.dll
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\InfiniteDam.vbprojResolveAssemblyReference.cache
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\App.g.i.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\App.g.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\MainPage.g.i.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\MainPage.g.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\XamlTypeInfo.g.vb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\App.xaml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\MainPage.xaml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\App.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\MainPage.xbf
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\XamlSaveStateFile.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\InfiniteDam.exe
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\InfiniteDam.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\InfiniteDam.pdb
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\InfiniteDam.vbproj.GenerateResource.Cache
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\priconfig.xml
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\priconfig.xml.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\layout.resfiles
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\layout.resfiles.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\resources.resfiles
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\resources.resfiles.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\pri.resfiles
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\pri.resfiles.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\qualifiers.txt
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\qualifiers.txt.intermediate
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\InfiniteDam\InfiniteDam\obj\Release\ProjectArchitectures.txt

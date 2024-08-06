@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-NQDOAVJ</Machine>
+    <WindowsUser>Richards Louis</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>ecd5b3d7-3a9a-4178-82fe-80fa51448127</PackageIdentityName>
+    <PackageIdentityPublisher>CN=BB7B72A7-44D7-4BE4-8610-6E59E2F1146B</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\obj\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\bin\Release\Magpoke.exe">
+      <PackagePath>Magpoke.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\Square71x71Logo.scale-140.png">
+      <PackagePath>Assets\Square71x71Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\WideLogo.scale-140.png">
+      <PackagePath>Assets\WideLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\images\slider\mobile.png">
+      <PackagePath>Assets\www\images\slider\mobile.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\assets\css\font-awesome.min.css">
+      <PackagePath>Assets\www\assets\css\font-awesome.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\assets\css\ie8.css">
+      <PackagePath>Assets\www\assets\css\ie8.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\assets\css\main.css">
+      <PackagePath>Assets\www\assets\css\main.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\css\bootstrap.css">
+      <PackagePath>Assets\www\css\bootstrap.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\css\bootstrap.min.css">
+      <PackagePath>Assets\www\css\bootstrap.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\css\font-awesome.css">
+      <PackagePath>Assets\www\css\font-awesome.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\css\jquery.fancybox.min.css">
+      <PackagePath>Assets\www\css\jquery.fancybox.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\css\owl.carousel.css">
+      <PackagePath>Assets\www\css\owl.carousel.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\css\owl.theme.css">
+      <PackagePath>Assets\www\css\owl.theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\css\style.css">
+      <PackagePath>Assets\www\css\style.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\css\swiper.min.css">
+      <PackagePath>Assets\www\css\swiper.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\assets\css\images\1bg102.jpg">
+      <PackagePath>Assets\www\assets\css\images\1bg102.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\assets\css\images\bg102.jpg">
+      <PackagePath>Assets\www\assets\css\images\bg102.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\images\bg102.jpg">
+      <PackagePath>Assets\www\images\bg102.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\images\pic01.jpg">
+      <PackagePath>Assets\www\images\pic01.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\images\pic02.jpg">
+      <PackagePath>Assets\www\images\pic02.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\images\pic03.jpg">
+      <PackagePath>Assets\www\images\pic03.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\images\slider\banner.jpg">
+      <PackagePath>Assets\www\images\slider\banner.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\assets\css\images\arrow.svg">
+      <PackagePath>Assets\www\assets\css\images\arrow.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\assets\fonts\fontawesome-webfont.svg">
+      <PackagePath>Assets\www\assets\fonts\fontawesome-webfont.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\fonts\fontawesome-webfont.svg">
+      <PackagePath>Assets\www\fonts\fontawesome-webfont.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\fonts\glyphicons-halflings-regular.svg">
+      <PackagePath>Assets\www\fonts\glyphicons-halflings-regular.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\assets\js\ie\backgroundsize.min.htc">
+      <PackagePath>Assets\www\assets\js\ie\backgroundsize.min.htc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\assets\js\ie\PIE.htc">
+      <PackagePath>Assets\www\assets\js\ie\PIE.htc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\assets\js\ie\html5shiv.js">
+      <PackagePath>Assets\www\assets\js\ie\html5shiv.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\assets\js\ie\respond.min.js">
+      <PackagePath>Assets\www\assets\js\ie\respond.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\assets\js\jquery.dropotron.min.js">
+      <PackagePath>Assets\www\assets\js\jquery.dropotron.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\assets\js\jquery.min.js">
+      <PackagePath>Assets\www\assets\js\jquery.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\assets\js\jquery.onvisible.min.js">
+      <PackagePath>Assets\www\assets\js\jquery.onvisible.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\assets\js\jquery.scrolly.min.js">
+      <PackagePath>Assets\www\assets\js\jquery.scrolly.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\assets\js\main.js">
+      <PackagePath>Assets\www\assets\js\main.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\assets\js\skel.min.js">
+      <PackagePath>Assets\www\assets\js\skel.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\assets\js\util.js">
+      <PackagePath>Assets\www\assets\js\util.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\js\bootstrap.js">
+      <PackagePath>Assets\www\js\bootstrap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\js\bootstrap.min.js">
+      <PackagePath>Assets\www\js\bootstrap.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\js\gmap.js">
+      <PackagePath>Assets\www\js\gmap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\js\jquery.fancybox.min.js">
+      <PackagePath>Assets\www\js\jquery.fancybox.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\js\jquery.js">
+      <PackagePath>Assets\www\js\jquery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\js\owl.carousel.js">
+      <PackagePath>Assets\www\js\owl.carousel.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\js\script.js">
+      <PackagePath>Assets\www\js\script.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\js\swiper.jquery.min.js">
+      <PackagePath>Assets\www\js\swiper.jquery.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\index.html">
+      <PackagePath>Assets\www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\offline.html">
+      <PackagePath>Assets\www\offline.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\proceed.html">
+      <PackagePath>Assets\www\proceed.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\assets\fonts\fontawesome-webfont.ttf">
+      <PackagePath>Assets\www\assets\fonts\fontawesome-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\fonts\fontawesome-webfont.ttf">
+      <PackagePath>Assets\www\fonts\fontawesome-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\fonts\glyphicons-halflings-regular.ttf">
+      <PackagePath>Assets\www\fonts\glyphicons-halflings-regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\assets\fonts\FontAwesome.otf">
+      <PackagePath>Assets\www\assets\fonts\FontAwesome.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\Assets\www\fonts\FontAwesome.otf">
+      <PackagePath>Assets\www\fonts\FontAwesome.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\bin\Release\Magpoke.xr.xml">
+      <PackagePath>Magpoke.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Richards Louis\Documents\Visual Studio 2015\Projects\Windowsphone\Magpoke\Magpoke\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
